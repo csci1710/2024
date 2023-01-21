@@ -10,7 +10,7 @@ function App() {
           Logic for Systems
         </h1>
         <h3 className="text-2xl p-2 text-neutral-700 ">
-          CSCI1710 Course Website
+          Brown Univeristy CSCI1710 Course Website
         </h3>
         <p className="p-2">
           Hi! You're a little early, check back soon for some cool logic for

@@ -76,6 +76,43 @@ export const importantLinks: Resource[] = [
   { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
+export const professor: staffMember = {
+  name: "Tim Nelson",
+  image: tim,
+  pronouns: "he/him/they/them",
+  bio: "I am a professor",
+  favorite_amphibian: "Frog",
+  // favorite_amphibian_image: "",
+};
+
+export const htas: staffMember[] = [
+  {
+    name: "David Fryd",
+    image: "",
+    pronouns: "he/him",
+    bio: "I am a TA",
+    favorite_amphibian: "Frog",
+  },
+  {
+    name: "David Fryd",
+    image: "",
+    pronouns: "he/him",
+    bio: "I am a TA",
+    favorite_amphibian: "Frog",
+  },
+  {
+    name: "David Fryd",
+    image: "",
+    pronouns: "he/him",
+    bio: "I am a TA",
+    favorite_amphibian: "Frog",
+  },
+];
+
+export const utas: staffMember[] = [];
+
+// Type definitions
+
 export type Resource = {
   name: string;
   href: string;
@@ -104,16 +141,7 @@ export type staffMember = {
   name: string;
   image: string;
   pronouns: string;
-  description: string;
+  bio: string;
   favorite_amphibian: string;
   // favorite_amphibian_image: string;
-};
-
-export const professor: staffMember = {
-  name: "Tim Nelson",
-  image: tim,
-  pronouns: "he/him/they/them",
-  description: "I am a professor",
-  favorite_amphibian: "Frog",
-  // favorite_amphibian_image: "",
 };

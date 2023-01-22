@@ -1,5 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
 import froggy from "./images/froggy.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -13,6 +11,8 @@ import {
   casestudyAssignments,
 } from "./SITE_DATA";
 import Staff from "./components/Staff";
+import { useInView } from "react-intersection-observer";
+import { useState, useEffect } from "react";
 
 // Helper function to join class names on ternary conditionals
 export function classNames(...classes: string[]) {
@@ -20,13 +20,55 @@ export function classNames(...classes: string[]) {
 }
 
 function App() {
+  // the index of the section currently in view (used for navbar purposes)
+  const [inViewSection, setInViewSection] = useState<undefined | number>(0);
+  const [aboutRef, aboutInView] = useInView();
+  const [assignmentsRef, assignmentsInView] = useInView();
+  const [lecturesRef, lecturesInView] = useInView();
+  const [resourcesRef, resourcesInView] = useInView();
+  const [staffRef, staffInView] = useInView();
+
+  // Detects the part of the page currently in view to the user
+  useEffect(() => {
+    [
+      aboutInView,
+      assignmentsInView,
+      lecturesInView,
+      resourcesInView,
+      staffInView,
+    ]
+      .reverse()
+      .forEach((val, index) => {
+        if (
+          !aboutInView &&
+          !assignmentsInView &&
+          !lecturesInView &&
+          !resourcesInView &&
+          !staffInView
+        ) {
+          setInViewSection(undefined);
+        }
+
+        if (val) {
+          setInViewSection(4 - index);
+          console.log(4 - index);
+        }
+      });
+  }, [
+    aboutInView,
+    assignmentsInView,
+    lecturesInView,
+    resourcesInView,
+    staffInView,
+  ]);
+
   return (
     <div className="">
       <header className="fixed top-0 z-50 w-full">
-        <Navbar />
+        <Navbar inView={inViewSection} />
       </header>
       <main>
-        <body className="mt-16">
+        <body className="">
           {/* <p>asdasdasda</p> */}
           <section
             id="intro"
@@ -46,9 +88,11 @@ function App() {
 
           <section
             id="about"
+            ref={aboutRef}
             className="text-center flex flex-col items-center justify-center "
           >
             <h2 className="text-6xl font-title">About</h2>
+            TODO: Navbar, Lecture infra, staff infra, All information fill-in
             <div className="p-4" />
             <p className=" w-5/6 lg:w-3/4">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
@@ -76,6 +120,7 @@ function App() {
 
           <section
             id="assignments"
+            ref={assignmentsRef}
             className="text-center flex flex-col items-center justify-center"
           >
             <h2 className="text-6xl font-title">Assignments</h2>
@@ -103,6 +148,7 @@ function App() {
 
           <section
             id="lectures"
+            ref={lecturesRef}
             className="text-center flex flex-col items-center justify-center"
           >
             <h2 className="text-6xl font-title">Lectures</h2>
@@ -127,6 +173,7 @@ function App() {
 
           <section
             id="resources"
+            ref={resourcesRef}
             className="text-center flex flex-col items-center justify-center"
           >
             <h2 className="text-6xl font-title">Resources</h2>
@@ -151,6 +198,7 @@ function App() {
 
           <section
             id="staff"
+            ref={staffRef}
             className="text-center flex flex-col items-center justify-center"
           >
             <h2 className="text-6xl font-title">Staff</h2>

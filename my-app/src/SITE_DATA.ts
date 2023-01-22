@@ -49,7 +49,7 @@ export const homeworkAssignments: Assignment[] = [
 export const labAssignments: Assignment[] = [
   {
     name: "Tic Tac Toe",
-    dateRange: "January 28, 2022 → Ffsdsdfsfadsfdfsasebruary 3, 2022",
+    dateRange: "January 28, 2022 → February 3, 2022",
     href: "https://www.google.com",
   },
 ];

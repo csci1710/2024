@@ -9,10 +9,13 @@ import {
   labAssignments,
   projectAssignments,
   casestudyAssignments,
+  lectureWeeks,
 } from "./SITE_DATA";
 import Staff from "./components/Staff";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
+import LecturesTable from "./components/LecturesTable";
+import Resources from "./components/Resources";
 
 // Helper function to join class names on ternary conditionals
 export function classNames(...classes: string[]) {
@@ -51,7 +54,7 @@ function App() {
 
         if (val) {
           setInViewSection(4 - index);
-          console.log(4 - index);
+          // console.log(4 - index);
         }
       });
   }, [
@@ -153,19 +156,7 @@ function App() {
           >
             <h2 className="text-6xl font-title">Lectures</h2>
             <div className="p-4" />
-            <p className=" w-5/6 lg:w-3/4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-              quibusdam omnis aliquid pariatur ullam! Molestiae, officiis velit
-              nisi adipisci temporibus natus! Tenetur, enim. Ad qui suscipit
-              itaque est tempore natus! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Eius corporis rerum eaque repudiandae debitis
-              nam doloremque voluptatem repellat in non odit labore, eum tempora
-              quas accusamus voluptatibus deleniti dolorum iusto? Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Obcaecati, asperiores
-              repellendus. Aliquam sed omnis ad corrupti quis praesentium
-              facilis dolores vitae aperiam ipsum dicta iure nemo nostrum eius,
-              maxime quibusdam!
-            </p>
+            <LecturesTable weeks={lectureWeeks} />
           </section>
 
           <div className="p-6" />
@@ -178,19 +169,7 @@ function App() {
           >
             <h2 className="text-6xl font-title">Resources</h2>
             <div className="p-4" />
-            <p className=" w-5/6 lg:w-3/4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-              quibusdam omnis aliquid pariatur ullam! Molestiae, officiis velit
-              nisi adipisci temporibus natus! Tenetur, enim. Ad qui suscipit
-              itaque est tempore natus! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Eius corporis rerum eaque repudiandae debitis
-              nam doloremque voluptatem repellat in non odit labore, eum tempora
-              quas accusamus voluptatibus deleniti dolorum iusto? Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Obcaecati, asperiores
-              repellendus. Aliquam sed omnis ad corrupti quis praesentium
-              facilis dolores vitae aperiam ipsum dicta iure nemo nostrum eius,
-              maxime quibusdam!
-            </p>
+            <Resources />
           </section>
 
           <div className="p-6" />

@@ -5,10 +5,7 @@ const pageTitle = "Homework";
 
 type AssignmentTableProps = {
   tablename: string;
-  assignments: (
-    | { name: string; dateRange: string; href: string }
-    | { name: string; dateRange: string; href?: undefined }
-  )[];
+  assignments: { name: string; dateRange: string; href?: string }[];
 };
 
 export default function AssignmentTable(props: AssignmentTableProps) {

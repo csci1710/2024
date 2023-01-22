@@ -43,7 +43,7 @@ export default function Navbar({ inView }: { inView: number | undefined }) {
             }}
             className={
               "transition-colors duration-200 " +
-              (inView === index && "text-white")
+              (inView === index && "text-white underline")
             }
           >
             {section.name}

@@ -1,3 +1,15 @@
+/*
+ Midgeto Not working! sad
+ Found from: https://www.fontspace.com/category/jungle
+@font-face {
+  font-family: "Midgeto";
+  src: local("Midgeto"), url(./fonts/MidgetodemoRegular-OV9DP.ttf);
+}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,3 +27,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+html {
+  background-color: #fafafa;
+}
+
+/* For the divider image sections (generic not working!*/
+/*
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+*/
+
+.blackstroke-lg {
+  -webkit-text-stroke: 3px #262626;
+}
+
+.blackstroke-sm {
+  -webkit-text-stroke: 1.5px #262626;
+}
+
+.herobackground {
+  background-image: url("./images/iStock-1249040981.svg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.herosvg {
+  background-image: url("./components/divider-images/hero-divider/new-layered-waves-haikei.svg");
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dividerA {
+  background-image: url("./components/divider-images/symmetrical-dividers/dividerA.svg");
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

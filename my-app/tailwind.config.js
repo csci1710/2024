@@ -1,3 +1,5 @@
+// Follow this guide to add more fonts: https://stackoverflow.com/a/60857229
+
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
 module.exports = {
@@ -6,6 +8,10 @@ module.exports = {
     extend: {
       colors: {
         primary: colors.lime,
+      },
+      fontFamily: {
+        title: ["Acme", "sans-serif"],
+        subtitle: ["Neucha", "sans-serif"],
       },
     },
   },

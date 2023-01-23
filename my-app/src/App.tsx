@@ -12,6 +12,7 @@ import {
   lectureWeeks,
   FAQLink,
   PUB,
+  calendarLink,
 } from "./SITE_DATA";
 import Staff from "./components/Staff";
 import { useInView } from "react-intersection-observer";
@@ -257,6 +258,13 @@ function App() {
             className="text-center flex flex-col items-center justify-center"
           >
             <h2 className="text-6xl font-title">Calendar</h2>
+            <div className="p-4" />
+            <a
+              href={calendarLink}
+              className="text-primary-500 font-bold underline text-2xl"
+            >
+              Calendar Link (Add to your GCal)
+            </a>
             <div className="p-4" />
             <iframe
               title="1710 Calendar"

@@ -215,7 +215,8 @@ export const professor: staffMember = {
   alt_objectPosition: "90% 50%",
   pronouns: "he/they",
   bio: 'I’m a first-generation college student who attended community college, a state college, the "college" of an industry job, and a STEM university. Now I teach at Brown. You might call this a collage of colleges, although not quite a universe of universities.',
-  favorite_amphibian: "Frog",
+  favorite_amphibian:
+    "Frog Puppet (who is unnamed and thus legally distinct from any Disney-owned IP)",
   role: "Professor",
   // favorite_amphibian_image: "",
 };
@@ -229,7 +230,7 @@ export const htas: staffMember[] = [
     alt_objectPosition: "80% 50%",
     pronouns: "he/him",
     bio: "Hey everyone! I'm David, and I'm a transfer first-semester senior studying CS. I love making music, photography, and SCUBA diving. (Aspiring Amphibian Aficionado). Really excited to meet you all! :) ",
-    favorite_amphibian: "Froggy the Forger",
+    favorite_amphibian: "Red-eyed Tree Frog",
     role: "HTA",
   },
   {
@@ -264,7 +265,7 @@ export const utas: staffMember[] = [
     alt_objectPosition: "center 25%",
     pronouns: "she/her",
     bio: "I'm a RUE student who studies math and plays Pokemon Go! Before that I graduated from a community college, developed software, and taught school. I love coffee, formal methods, cute dogs, and first order logic.",
-    favorite_amphibian: "Poison Dart Frog",
+    favorite_amphibian: "Frog and Toad (Arnold Lobel)",
     role: "UTA",
   },
   {
@@ -274,7 +275,7 @@ export const utas: staffMember[] = [
     alt_image: PUB + "/images/staff/kendra_frog.jpeg",
     pronouns: "she/her",
     bio: "Hi! I’m Kendra Lee, a Junior studying CS. I love food and coffee, so if you have any restaurant or cafe recs, let me know!",
-    favorite_amphibian: "The frog from Peppa Pig",
+    favorite_amphibian: "The Frog from Peppa Pig",
     role: "UTA",
   },
   {
@@ -327,6 +328,9 @@ export const gradtas: staffMember[] = [
     role: "Grad TA",
   },
 ];
+
+export const calendarLink =
+  "https://calendar.google.com/calendar/u/0?cid=Y18xNTEzZDg4ZWYyNDMzNDNjNmRhMDk1MzAyYWFkZjYxY2M2M2Y2ODJiNGM1NzRmODA2NjUxMDBiMDNmMDNmNGEyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20";
 
 // Type definitions
 

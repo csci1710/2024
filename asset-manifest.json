@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/2023/static/css/main.81414e6b.css",
-    "main.js": "/2023/static/js/main.9f1c2c86.js",
+    "main.css": "/2023/static/css/main.cca9de35.css",
+    "main.js": "/2023/static/js/main.3a9a7872.js",
     "static/js/787.2b6f9e78.chunk.js": "/2023/static/js/787.2b6f9e78.chunk.js",
     "static/media/iStock-1249040981.jpg": "/2023/static/media/iStock-1249040981.51d90ea4a80d2d1b09d3.jpg",
     "static/media/BranchD.svg": "/2023/static/media/BranchD.383126e92b5be22f06a4.svg",
     "static/media/dividerA.svg": "/2023/static/media/dividerA.a9896475a662d100672c.svg",
     "static/media/new-layered-waves-haikei.svg": "/2023/static/media/new-layered-waves-haikei.6650d32d6fa4a11a57ae.svg",
     "index.html": "/2023/index.html",
-    "main.81414e6b.css.map": "/2023/static/css/main.81414e6b.css.map",
-    "main.9f1c2c86.js.map": "/2023/static/js/main.9f1c2c86.js.map",
+    "main.cca9de35.css.map": "/2023/static/css/main.cca9de35.css.map",
+    "main.3a9a7872.js.map": "/2023/static/js/main.3a9a7872.js.map",
     "787.2b6f9e78.chunk.js.map": "/2023/static/js/787.2b6f9e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81414e6b.css",
-    "static/js/main.9f1c2c86.js"
+    "static/css/main.cca9de35.css",
+    "static/js/main.3a9a7872.js"
   ]
 }

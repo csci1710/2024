@@ -77,6 +77,14 @@ function StaffSection(props: { staff: staffMember[] }) {
                       <div className="text-lg">
                         <p className="text-gray-500">{member.bio}</p>
                       </div>
+                      <div className="text-sm text-gray-500">
+                        <p className="font-light">
+                          Favorite Amphibian:{" "}
+                          <span className="font-bold text-primary-600">
+                            {member.favorite_amphibian}
+                          </span>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

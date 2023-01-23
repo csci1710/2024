@@ -4,11 +4,6 @@
 // between course updates, this is the only file that needs to
 // be checked for updates
 
-// change font limit for title on mobile devices
-// add course calendar
-// TODO: Add siddatha, friend frog, and not listed frogs
-// fav amphibian shows
-
 // DON'T TOUCH THIS
 // Able to reference content in the public folder (PUB + "/...")
 export const PUB = process.env.PUBLIC_URL;
@@ -268,7 +263,7 @@ export const utas: staffMember[] = [
     alt_image: PUB + "/images/staff/conrad_frog.jpeg",
     alt_objectPosition: "center 25%",
     pronouns: "she/her",
-    bio: "I study math and CS and play Pokemon Go! I’m a RUE (Resumed Undergraduate Education) student, transferring to Brown after my community college, and before that I was a software developer and school teacher. I love coffee, formal methods, cute dogs, and first order logic.",
+    bio: "I'm a RUE student who studies math and plays Pokemon Go! Before that I graduated from a community college, developed software, and taught school. I love coffee, formal methods, cute dogs, and first order logic.",
     favorite_amphibian: "Poison Dart Frog",
     role: "UTA",
   },

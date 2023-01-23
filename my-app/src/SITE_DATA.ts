@@ -4,22 +4,6 @@
 // between course updates, this is the only file that needs to
 // be checked for updates
 
-// Staff images
-// import tim from "./images/staff/tim.jpeg";
-// import yihao from "./images/staff/yihao.jpg";
-// import yihao_frog from "./images/staff/yihao_frog.png";
-// import conrad from "./images/staff/conrad.jpg";
-// import conrad_frog from "./images/staff/conrad_frog.png";
-// import kendra from "./images/staff/kendra.png";
-// import ese from "./images/staff/ese.jpg";
-// import ezra from "./images/staff/ezra.jpg";
-// import megan from "./images/staff/megan.png";
-// import megan_frog from "./images/staff/megan_frog.png";
-// import david from "./images/staff/david.jpeg";
-// import david_frog from "./images/staff/david_frog.png";
-// import snoop from "./images/staff/froggy.png";
-// import snoop_alt from "./images/staff/frog_draw.png";
-
 // DON'T TOUCH THIS
 // Able to reference content in the public folder (PUB + "/...")
 export const PUB = process.env.PUBLIC_URL;
@@ -27,51 +11,51 @@ export const PUB = process.env.PUBLIC_URL;
 // Edit stuff below this line
 
 export const lectureWeeks: LectureWeek[] = [
-  // {
-  //   name: "Week 1",
-  //   dailyLectures: [
-  //     // {
-  //     //   name: "What is LFS?",
-  //     //   date: "Jan 25",
-  //     //   // notesLink: "https://www.google.com",
-  //     //   // recordingLink: "https://www.google.com",
-  //     //   // liveCodeLink: "https://www.google.com",
-  //     // },
-  //     // {
-  //     //   name: "what is lfs random  adssdfhg",
-  //     //   date: "Jan 28",
-  //     //   notesLink: "https://www.google.com",
-  //     //   recordingLink: "https://www.google.com",
-  //     //   liveCodeLink: "https://www.google.com",
-  //     // },
-  //     // {
-  //     //   name: "what is lfs random text adssdfhg",
-  //     //   date: "Jan 28",
-  //     //   notesLink: "https://www.google.com",
-  //     //   recordingLink: "https://www.google.com",
-  //     //   liveCodeLink: "https://www.google.com",
-  //     // },
-  //   ],
-  // },
-  // // {
-  // //   name: "Week 2",
-  // //   dailyLectures: [
-  // //     {
-  // //       name: "what is lfs text adssdfhg",
-  // //       date: "Jan 28",
-  // //       notesLink: "https://www.google.com",
-  // //       recordingLink: "https://www.google.com",
-  // //       liveCodeLink: "https://www.google.com",
-  // //     },
-  // //     {
-  // //       name: "what is lfs hg",
-  // //       date: "Jan 28",
-  // //       notesLink: "https://www.google.com",
-  // //       recordingLink: "https://www.google.com",
-  // //       liveCodeLink: "https://www.google.com",
-  // //     },
-  // //   ],
-  // // },
+  {
+    name: "Week 1",
+    dailyLectures: [
+      {
+        name: "What is LFS?",
+        date: "Jan 25",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "what is lfs random  adssdfhg",
+        date: "Jan 28",
+        notesLink: "https://www.google.com",
+        recordingLink: "https://www.google.com",
+        liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "what is lfs random text adssdfhg",
+        date: "Jan 28",
+        notesLink: "https://www.google.com",
+        recordingLink: "https://www.google.com",
+        liveCodeLink: "https://www.google.com",
+      },
+    ],
+  },
+  {
+    name: "Week 2",
+    dailyLectures: [
+      {
+        name: "what is lfs text adssdfhg",
+        date: "Jan 28",
+        notesLink: "https://www.google.com",
+        recordingLink: "https://www.google.com",
+        liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "what is lfs hg",
+        date: "Jan 28",
+        notesLink: "https://www.google.com",
+        recordingLink: "https://www.google.com",
+        liveCodeLink: "https://www.google.com",
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment
@@ -215,8 +199,8 @@ export const policies: Resource[] = [
 ];
 
 export const importantLinks: Resource[] = [
-  // { name: "Syllabus", href: "https://www.google.com" },
-  // { name: "Collaboration Policy", href: "https://www.google.com" },
+  { name: "Syllabus", href: "https://www.google.com" },
+  { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
 export const guides: Resource[] = [
@@ -227,6 +211,8 @@ export const guides: Resource[] = [
 export const professor: staffMember = {
   name: "Tim Nelson",
   image: PUB + "/images/staff/tim.jpeg",
+  alt_image: PUB + "/images/staff/tim_frog.jpeg",
+  alt_objectPosition: "90% 50%",
   pronouns: "he/they",
   bio: 'I’m a first-generation college student who attended community college, a state college, the "college" of an industry job, and a STEM university. Now I teach at Brown. You might call this a collage of colleges, although not quite a universe of universities.',
   favorite_amphibian: "Frog",
@@ -251,7 +237,6 @@ export const htas: staffMember[] = [
     image: PUB + "/images/staff/megan.jpeg",
     objectPosition: "center 65%",
     alt_image: PUB + "/images/staff/megan_frog.jpeg",
-
     pronouns: "she/her",
     bio: " I’m a Junior studying Math and CS. I’m a huge fan of cats, frisbee, and formal methods. Please AMA about these things :) Hope to see you in my hours!",
     favorite_amphibian: "Newt (Scamander)",
@@ -286,6 +271,7 @@ export const utas: staffMember[] = [
     name: "Kendra Lee",
     image: PUB + "/images/staff/kendra.jpeg",
     objectPosition: "center 35%",
+    alt_image: PUB + "/images/staff/kendra_frog.jpeg",
     pronouns: "she/her",
     bio: "Hi! I’m Kendra Lee, a Junior studying CS. I love food and coffee, so if you have any restaurant or cafe recs, let me know!",
     favorite_amphibian: "The frog from Peppa Pig",
@@ -295,6 +281,7 @@ export const utas: staffMember[] = [
     name: "Ese Ajueyitsi",
     image: PUB + "/images/staff/ese.jpg",
     pronouns: "he/him",
+    alt_image: PUB + "/images/staff/ese_frog.jpeg",
     bio: "Hey Guys! My name is Ese, and I am a senior studying Computer Science. Say hi if you see me flying around campus on my broom (E-Scooter).",
     favorite_amphibian: "Black Rain Frog",
     role: "UTA",
@@ -302,6 +289,7 @@ export const utas: staffMember[] = [
   {
     name: "Ezra Rocha",
     image: PUB + "/images/staff/ezra.jpg",
+    alt_image: PUB + "/images/staff/ezra_frog.jpeg",
     pronouns: "he/him",
     bio: "Hi! I'm a junior from Dallas concentrating in CS. In my free time I love watching sci-fi shows and playing board games.",
     favorite_amphibian: "Lavender Axolotl",

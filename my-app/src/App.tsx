@@ -81,7 +81,7 @@ function App() {
             className="herobackground flex flex-col h-[30rem] items-center justify-center bg-[#0B391B] text-neutral-50 "
           >
             <div className="backdrop-blur-md bg-neutral-800/30 rounded-2xl">
-              <h1 className="blackstroke-lg font-title text-8xl px-4 py-4 text-center ">
+              <h1 className="blackstroke-lg font-title text-6xl lg:text-8xl px-4 py-4 text-center ">
                 LOGIC FOR SYSTEMS
               </h1>
               <h3 className="blackstroke-sm font-title text-5xl pb-4 text-center">

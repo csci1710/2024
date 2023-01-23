@@ -302,9 +302,9 @@ export const utas: staffMember[] = [
   },
   {
     name: "Snoop Frogg",
-    image: PUB + "/images/staff/froggy.jpeg",
+    image: PUB + "/images/staff/snoop.jpg",
     objectPosition: "center 40%",
-    alt_image: PUB + "/images/staff/frog_draw.jpeg",
+    alt_image: PUB + "/images/staff/snoop_alt.jpg",
     pronouns: "he/they",
     bio: '"Rapper, producer, formal method and modeler."',
     favorite_amphibian: "Snoop Frogg, duh",
@@ -315,8 +315,9 @@ export const utas: staffMember[] = [
 export const gradtas: staffMember[] = [
   {
     name: "Siddhartha Prasad",
-    image: PUB + "/images/staff/siddhartha_frog.jpeg",
-    bio: "ChatGPT hater. Ask me about Danny Devito",
+    image: PUB + "/images/staff/siddhartha.jpg",
+    alt_image: PUB + "/images/staff/siddhartha_frog.jpeg",
+    bio: "ChatGPT hater. Ask me about Danny Devito.",
     pronouns: "he/him",
     favorite_amphibian: "Newt",
     role: "Grad TA",

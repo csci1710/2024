@@ -59,7 +59,8 @@ function App() {
         }
 
         if (val) {
-          setInViewSection(4 - index);
+          // If new sections are added, increase the number that you subtract from
+          setInViewSection(5 - index);
           // console.log(4 - index);
         }
       });
@@ -265,7 +266,8 @@ function App() {
               height="600"
               // frameborder="0"
               scrolling="no"
-            ></iframe>
+            />
+            <div className="p-4" />
           </section>
 
           <DividerA />

@@ -10,6 +10,7 @@ import {
   projectAssignments,
   casestudyAssignments,
   lectureWeeks,
+  FAQLink,
 } from "./SITE_DATA";
 import Staff from "./components/Staff";
 import { useInView } from "react-intersection-observer";
@@ -96,21 +97,77 @@ function App() {
             className="text-center flex flex-col items-center justify-center "
           >
             <h2 className="text-6xl font-title">About</h2>
-            TODO: Navbar, Lecture infra, staff infra, All information fill-in
+
             <div className="p-4" />
-            <p className=" w-5/6 lg:w-3/4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-              quibusdam omnis aliquid pariatur ullam! Molestiae, officiis velit
-              nisi adipisci temporibus natus! Tenetur, enim. Ad qui suscipit
-              itaque est tempore natus! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Eius corporis rerum eaque repudiandae debitis
-              nam doloremque voluptatem repellat in non odit labore, eum tempora
-              quas accusamus voluptatibus deleniti dolorum iusto? Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Obcaecati, asperiores
-              repellendus. Aliquam sed omnis ad corrupti quis praesentium
-              facilis dolores vitae aperiam ipsum dicta iure nemo nostrum eius,
-              maxime quibusdam!
-            </p>
+            <h4 className="font-bold pb-6 text-2xl">“What do you want?” </h4>
+            <div className=" w-5/6 lg:w-3/4 text-lg">
+              <p>
+                This question is perilous, yet indispensable in life. And it
+                remains vital in designing, understanding, and building systems.
+                How will you check that you’ve achieved your goal? What is the
+                cost, and which assumptions are you making along the way? Do you
+                really want what you think you do, and will your code (or other
+                artifact) actually work?
+              </p>
+              <div className="p-3" />
+              <p>
+                These questions matter, whether you’re crafting a new data
+                structure, finishing up a programming assignment, designing a
+                processor, or arguing over the rules of Monopoly with your
+                family. In this course, you’ll use concrete software tools
+                (e.g., model checkers and SAT solvers) to bring the power of
+                automated reasoning to bear on these and other quandaries in,
+                and outside of, computer science.
+              </p>
+              <div className="p-3" />
+              <p className="flex flex-col items-center justify-center font-semibold">
+                Logic for Systems is built on three broad learning categories:
+                <ul className="list-disc pt-2 font-normal w-fit text-md flex flex-col text-left items-center justify-center">
+                  <li className="w-3/4">
+                    Modeling systems and making good abstraction choices;
+                  </li>
+                  <li className="w-3/4">
+                    Reasoning about systems automatically using logic; and
+                  </li>
+                  <li className="w-3/4">
+                    The foundational algorithms behind the tools used both in
+                    this class and in industry.
+                  </li>
+                </ul>
+              </p>
+              <div className="p-3" />
+              <p>
+                The course culminates in a student-proposed, staff-mentored
+                project that applies to a real-world system. Past projects have
+                involved everything from distributed hash-tables to baseball
+                games!
+              </p>
+              <div className="p-3" />
+              <p>
+                Prerequisite:{" "}
+                <i>
+                  <b>Any intro sequence!</b>
+                </i>{" "}
+                (CSCI 0160, CSCI 0180, CSCI 0190, or CSCI0200).
+              </p>
+              <div className="p-3" />
+              <p className="italic text-neutral-500">
+                Check back soon for the course syllabus!
+              </p>
+              <div className="p-3" />
+              <p className="">
+                If you're unsure about whether this is the right course for you,
+                check out our{" "}
+                <a
+                  className="text-primary-500 underline font-bold"
+                  href={FAQLink}
+                >
+                  FAQ
+                </a>
+                !
+              </p>
+              <div className="p-3" />
+            </div>
             {/* add the frog image from the images folder */}
             <img
               src={froggy}
@@ -129,17 +186,21 @@ function App() {
           >
             <h2 className="text-6xl font-title">Assignments</h2>
             <div className="p-4" />
+            <p className="italic text-neutral-500">
+              (Unreleased assignments shown for more info during shopping
+              period)
+            </p>
+            <div className="p-4" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
               <AssignmentTable
                 tablename="Homeworks"
                 assignments={homeworkAssignments}
               />
-
+              <AssignmentTable tablename="Labs" assignments={labAssignments} />
               <AssignmentTable
                 tablename="Projects"
                 assignments={projectAssignments}
               />
-              <AssignmentTable tablename="Labs" assignments={labAssignments} />
               <AssignmentTable
                 tablename="Case Studies"
                 assignments={casestudyAssignments}
@@ -157,6 +218,11 @@ function App() {
           >
             <h2 className="text-6xl font-title">Lectures</h2>
             <div className="p-4" />
+            {lectureWeeks.length === 0 && (
+              <p className="text-neutral-500">
+                Nothing here yet! See you in class :)
+              </p>
+            )}
             <LecturesTable weeks={lectureWeeks} />
           </section>
 

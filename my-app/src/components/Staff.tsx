@@ -37,13 +37,28 @@ function StaffSection(props: { staff: staffMember[] }) {
                 className={props.staff.length === 1 ? "col-span-2" : ""}
               >
                 <div className="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
-                  <div className="aspect-w-3 aspect-h-2 h-0 sm:aspect-w-3 sm:aspect-h-4">
+                  <div className="aspect-w-3 aspect-h-2 h-0 sm:aspect-w-3 sm:aspect-h-4 group relative  shadow-lg">
+                    {/* If the alt portrait doesn't exist, just show the regular image */}
                     <img
-                      className="rounded-lg object-cover shadow-lg"
+                      className="absolute rounded-lg object-cover"
+                      src={member.alt_image ? member.alt_image : member.image}
+                      // Fix image alignment if necessary
+                      style={{
+                        objectPosition: member.alt_image
+                          ? member.alt_objectPosition
+                          : member.objectPosition,
+                      }}
+                      alt={"Alternate portrait of " + member.name}
+                    />
+
+                    <img
+                      className={
+                        "group-hover:hidden absolute rounded-lg object-cover "
+                      }
                       src={member.image}
                       // Fix image alignment if necessary
                       style={{ objectPosition: member.objectPosition }}
-                      alt=""
+                      alt="Staff portrait of {member.name}"
                     />
                   </div>
                   <div className="sm:col-span-2">

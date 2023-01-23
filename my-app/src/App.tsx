@@ -78,7 +78,7 @@ function App() {
           {/* <p>asdasdasda</p> */}
           <section
             id="intro"
-            className="herobackground flex flex-col h-[30rem] items-center justify-center bg-[#CDE18F] text-neutral-50 "
+            className="herobackground flex flex-col h-[30rem] items-center justify-center bg-[#0B391B] text-neutral-50 "
           >
             <div className="backdrop-blur-md bg-neutral-800/30 rounded-2xl">
               <h1 className="blackstroke-lg font-title text-8xl px-4 py-4 text-center ">

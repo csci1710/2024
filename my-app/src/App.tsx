@@ -16,6 +16,7 @@ import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import LecturesTable from "./components/LecturesTable";
 import Resources from "./components/Resources";
+import FooterDivider from "./components/divider-images/hero-divider/FooterDivider";
 
 // Helper function to join class names on ternary conditionals
 export function classNames(...classes: string[]) {
@@ -195,6 +196,7 @@ function App() {
             Brown University
           </a>
         </p>
+        <FooterDivider />
       </main>
     </div>
   );

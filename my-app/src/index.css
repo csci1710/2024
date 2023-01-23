@@ -67,6 +67,15 @@ html {
   background-size: cover;
 }
 
+.footersvg {
+  background-image: url("./components/divider-images/hero-divider/BranchD.svg");
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .dividerA {
   background-image: url("./components/divider-images/symmetrical-dividers/dividerA.svg");
   aspect-ratio: 960/200;

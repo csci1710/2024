@@ -34,21 +34,26 @@ function StaffSection(props: { staff: staffMember[] }) {
             {props.staff.map((member: staffMember) => (
               <li
                 key={member.name}
-                className={props.staff.length == 1 ? "col-span-2" : ""}
+                className={props.staff.length === 1 ? "col-span-2" : ""}
               >
                 <div className="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
                   <div className="aspect-w-3 aspect-h-2 h-0 sm:aspect-w-3 sm:aspect-h-4">
                     <img
                       className="rounded-lg object-cover shadow-lg"
                       src={member.image}
+                      // Fix image alignment if necessary
+                      style={{ objectPosition: member.objectPosition }}
                       alt=""
                     />
                   </div>
                   <div className="sm:col-span-2">
                     <div className="space-y-4">
                       <div className="space-y-1 text-lg font-medium leading-6">
-                        <h3>{member.name}</h3>
-                        <p className="text-indigo-600">{member.name}</p>
+                        <h3 className="text-4xl font-subtitle">
+                          {member.name}
+                        </h3>
+                        <h4 className="text-neutral-500">{member.pronouns}</h4>
+                        {/* <p className="text-primary-600">{member.role}</p> */}
                       </div>
                       <div className="text-lg">
                         <p className="text-gray-500">{member.bio}</p>

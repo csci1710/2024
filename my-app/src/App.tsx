@@ -196,7 +196,10 @@ function App() {
                 tablename="Homeworks"
                 assignments={homeworkAssignments}
               />
-              <AssignmentTable tablename="Labs" assignments={labAssignments} />
+              <AssignmentTable
+                tablename="Labs (In-Person)"
+                assignments={labAssignments}
+              />
               <AssignmentTable
                 tablename="Projects"
                 assignments={projectAssignments}

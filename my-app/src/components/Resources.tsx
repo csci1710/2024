@@ -1,6 +1,6 @@
 import {
-  forgeDocsLink,
-  EdStemLink,
+  // forgeDocsLink,
+  // EdStemLink,
   policies,
   guides,
   importantLinks,
@@ -12,21 +12,31 @@ export default function Resources() {
       <div>
         <ResourceTitle name="Policies" />
         <div className="p-2" />
+        {policies.length === 0 && (
+          <p className="text-neutral-500 italic">Check back soon!</p>
+        )}
         {policies.map((policy) => (
+          <Resource title={policy.name} href={policy.href} />
+        ))}
+      </div>
+
+      <div>
+        <ResourceTitle name="Important Links" />
+        <div className="p-2" />
+        {importantLinks.length === 0 && (
+          <p className="text-neutral-500 italic">Check back soon!</p>
+        )}
+        {importantLinks.map((policy) => (
           <Resource title={policy.name} href={policy.href} />
         ))}
       </div>
       <div>
         <ResourceTitle name="Guides" />
         <div className="p-2" />
+        {guides.length === 0 && (
+          <p className="text-neutral-500 italic">Check back soon!</p>
+        )}
         {guides.map((policy) => (
-          <Resource title={policy.name} href={policy.href} />
-        ))}
-      </div>
-      <div>
-        <ResourceTitle name="Important Links" />
-        <div className="p-2" />
-        {importantLinks.map((policy) => (
           <Resource title={policy.name} href={policy.href} />
         ))}
       </div>

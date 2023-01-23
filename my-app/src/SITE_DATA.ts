@@ -7,14 +7,18 @@
 // Staff images
 import tim from "./images/staff/tim.jpeg";
 import yihao from "./images/staff/yihao.jpg";
+import yihao_frog from "./images/staff/yihao_frog.png";
 import conrad from "./images/staff/conrad.jpg";
+import conrad_frog from "./images/staff/conrad_frog.png";
 import kendra from "./images/staff/kendra.png";
 import ese from "./images/staff/ese.jpg";
 import ezra from "./images/staff/ezra.jpg";
 import megan from "./images/staff/megan.png";
+import megan_frog from "./images/staff/megan_frog.png";
 import david from "./images/staff/david.jpeg";
 import david_frog from "./images/staff/david_frog.png";
 import snoop from "./images/staff/froggy.png";
+import snoop_alt from "./images/staff/frog_draw.png";
 
 export const lectureWeeks: LectureWeek[] = [
   // {
@@ -71,16 +75,56 @@ export const homeworkAssignments: Assignment[] = [
     dateRange: "Jan 27 → Feb 2, 2023",
     // href: "https://www.google.com",
   },
-  // {
-  //   name: "Forge 1",
-  //   dateRange: "Some Date, -> Some Other Date",
-  //   // href: "https://www.google.com",
-  // },
   {
-    name: "...",
-    dateRange: "...",
+    name: "Forge 1",
+    dateRange: "Feb 3 → Feb 9, 2023",
+    // href: "https://www.google.com",
   },
-  // ...
+  {
+    name: "Forge 2",
+    dateRange: "Feb 10 → Feb 16, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "Forge 3",
+    dateRange: "Mar 3 → Mar 9, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "Model Checking 1: Stack/Ring",
+    dateRange: "Mar 10 → Mar 16, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "Model Checking 2: Elevator Critique",
+    dateRange: "Mar 17 → Mar 23, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "SAT 1",
+    dateRange: "Apr 7 → Apr 13, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "SAT 1",
+    dateRange: "Apr 7 → Apr 13, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "SMT",
+    dateRange: "Apr 14 → Apr 20, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "SAT 2",
+    dateRange: "Apr 21 → Apr 27, 2023",
+    // href: "https://www.google.com",
+  },
+  // {
+  //   name: "...",
+  //   dateRange: "...",
+  // },
+  // // ...
 ];
 
 export const labAssignments: Assignment[] = [
@@ -158,25 +202,25 @@ export const casestudyAssignments: Assignment[] = [
   },
 ];
 
-export const forgeDocsLink: string = "";
-export const EdStemLink: string = "";
+// export const forgeDocsLink: string = "";
+// export const EdStemLink: string = "";
 
 export const FAQLink: string =
   "https://docs.google.com/document/d/e/2PACX-1vQek5FgRtgmr7rdxOnq5qzTIaRoVcc0dN4dERg5qu4oJ4hTCAmWJkrBbNWUdm_zsMRtQOmzpG17fWQK/pub";
 
 export const policies: Resource[] = [
-  { name: "Syllabus", href: "https://www.google.com" },
-  { name: "Collaboration Policy", href: "https://www.google.com" },
+  // { name: "Syllabus", href: "https://www.google.com" },
+  // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
 export const guides: Resource[] = [
-  { name: "Syllabus", href: "https://www.google.com" },
-  { name: "Collaboration Policy", href: "https://www.google.com" },
+  // { name: "Syllabus", href: "https://www.google.com" },
+  // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
 export const importantLinks: Resource[] = [
-  { name: "Syllabus", href: "https://www.google.com" },
-  { name: "Collaboration Policy", href: "https://www.google.com" },
+  // { name: "Syllabus", href: "https://www.google.com" },
+  // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
 export const professor: staffMember = {
@@ -205,6 +249,8 @@ export const htas: staffMember[] = [
     name: "Megan Frisella",
     image: megan,
     objectPosition: "center 65%",
+    alt_image: megan_frog,
+
     pronouns: "she/her",
     bio: " I’m a Junior studying Math and CS. I’m a huge fan of cats, frisbee, and formal methods. Please AMA about these things :) Hope to see you in my hours!",
     favorite_amphibian: "Newt (Scamander)",
@@ -216,6 +262,8 @@ export const utas: staffMember[] = [
   {
     name: "Yi Hao",
     image: yihao,
+    alt_image: yihao_frog,
+    alt_objectPosition: "center 65%",
     pronouns: "he/him",
     bio: "Hi! My name is Yi Hao and I'm a Sophomore from Singapore studying Computer Science. In my free time, I enjoy going on walks or watching shows.",
     favorite_amphibian: "Poison Dart Frog",
@@ -226,6 +274,8 @@ export const utas: staffMember[] = [
     name: "Conrad Zimmerman",
     image: conrad,
     objectPosition: "center 15%",
+    alt_image: conrad_frog,
+    alt_objectPosition: "center 25%",
     pronouns: "she/her",
     bio: "I study math and CS and play Pokemon Go! I’m a RUE (Resumed Undergraduate Education) student, transferring to Brown after my community college, and before that I was a software developer and school teacher. I love coffee, formal methods, cute dogs, and first order logic.",
     favorite_amphibian: "Poison Dart Frog",
@@ -260,6 +310,8 @@ export const utas: staffMember[] = [
     name: "Snoop Frogg",
     image: snoop,
     objectPosition: "center 40%",
+    alt_image: snoop_alt,
+
     pronouns: "he/they",
     bio: '"Rapper, producer, formal method and modeler."',
     favorite_amphibian: "Snoop Frogg",

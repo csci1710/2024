@@ -1,4 +1,4 @@
-import { professor, htas, utas, staffMember } from "../SITE_DATA";
+import { professor, htas, utas, gradtas, staffMember } from "../SITE_DATA";
 import StaffMember from "./StaffCard/StaffMember";
 
 export default function Staff() {
@@ -20,6 +20,10 @@ export default function Staff() {
           UTAs
         </h2>
         <StaffSection staff={utas} />
+        <h2 className="mb-2 text-3xl font-bold font-title tracking-tight sm:text-4xl">
+          Grad TAs
+        </h2>
+        <StaffSection staff={gradtas} />
       </div>
     </div>
   );

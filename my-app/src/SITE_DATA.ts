@@ -4,6 +4,11 @@
 // between course updates, this is the only file that needs to
 // be checked for updates
 
+// change font limit for title on mobile devices
+// add course calendar
+// TODO: Add siddatha, friend frog, and not listed frogs
+// fav amphibian shows
+
 // DON'T TOUCH THIS
 // Able to reference content in the public folder (PUB + "/...")
 export const PUB = process.env.PUBLIC_URL;
@@ -300,11 +305,21 @@ export const utas: staffMember[] = [
     image: PUB + "/images/staff/froggy.jpeg",
     objectPosition: "center 40%",
     alt_image: PUB + "/images/staff/frog_draw.jpeg",
-
     pronouns: "he/they",
     bio: '"Rapper, producer, formal method and modeler."',
     favorite_amphibian: "Snoop Frogg",
     role: "UTA",
+  },
+];
+
+export const gradtas: staffMember[] = [
+  {
+    name: "Siddhartha Prasad",
+    image: PUB + "/images/staff/siddhartha_frog.jpeg",
+    bio: "ChatGPT hater. Ask me about Danny Devito",
+    pronouns: "he/him",
+    favorite_amphibian: "Newt",
+    role: "Grad TA",
   },
 ];
 

@@ -20,6 +20,7 @@ export default function Navbar({ inView }: { inView: number | undefined }) {
     { id: "#assignments", name: "Assignments" },
     { id: "#lectures", name: "Lectures" },
     { id: "#resources", name: "Resources" },
+    { id: "#calendar", name: "Calendar" },
     { id: "#staff", name: "Staff" },
   ];
 

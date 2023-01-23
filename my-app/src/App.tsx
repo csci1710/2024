@@ -32,6 +32,7 @@ function App() {
   const [assignmentsRef, assignmentsInView] = useInView();
   const [lecturesRef, lecturesInView] = useInView();
   const [resourcesRef, resourcesInView] = useInView();
+  const [calendarRef, calendarInView] = useInView();
   const [staffRef, staffInView] = useInView();
 
   // Detects the part of the page currently in view to the user
@@ -41,6 +42,7 @@ function App() {
       assignmentsInView,
       lecturesInView,
       resourcesInView,
+      calendarInView,
       staffInView,
     ]
       .reverse()
@@ -50,6 +52,7 @@ function App() {
           !assignmentsInView &&
           !lecturesInView &&
           !resourcesInView &&
+          !calendarInView &&
           !staffInView
         ) {
           setInViewSection(undefined);
@@ -65,6 +68,7 @@ function App() {
     assignmentsInView,
     lecturesInView,
     resourcesInView,
+    calendarInView,
     staffInView,
   ]);
 
@@ -244,6 +248,26 @@ function App() {
           </section>
 
           <div className="p-6" />
+          <DividerA />
+
+          <section
+            id="calendar"
+            ref={calendarRef}
+            className="text-center flex flex-col items-center justify-center"
+          >
+            <h2 className="text-6xl font-title">Calendar</h2>
+            <div className="p-4" />
+            <iframe
+              title="1710 Calendar"
+              src="https://calendar.google.com/calendar/embed?src=c_1513d88ef243343c6da095302aadf61cc63f682b4c574f80665100b03f03f4a2%40group.calendar.google.com&ctz=America%2FNew_York"
+              // style="border: 0"
+              width="800"
+              height="600"
+              // frameborder="0"
+              scrolling="no"
+            ></iframe>
+          </section>
+
           <DividerA />
 
           <section

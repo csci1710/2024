@@ -63,6 +63,7 @@ html {
   background-image: url("./svg/divider-images/hero-divider/new-layered-waves-haikei.svg");
   aspect-ratio: 960/200;
   width: 100%;
+  transform: translateY(-0.5px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

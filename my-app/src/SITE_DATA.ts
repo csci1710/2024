@@ -5,20 +5,26 @@
 // be checked for updates
 
 // Staff images
-import tim from "./images/staff/tim.jpeg";
-import yihao from "./images/staff/yihao.jpg";
-import yihao_frog from "./images/staff/yihao_frog.png";
-import conrad from "./images/staff/conrad.jpg";
-import conrad_frog from "./images/staff/conrad_frog.png";
-import kendra from "./images/staff/kendra.png";
-import ese from "./images/staff/ese.jpg";
-import ezra from "./images/staff/ezra.jpg";
-import megan from "./images/staff/megan.png";
-import megan_frog from "./images/staff/megan_frog.png";
-import david from "./images/staff/david.jpeg";
-import david_frog from "./images/staff/david_frog.png";
-import snoop from "./images/staff/froggy.png";
-import snoop_alt from "./images/staff/frog_draw.png";
+// import tim from "./images/staff/tim.jpeg";
+// import yihao from "./images/staff/yihao.jpg";
+// import yihao_frog from "./images/staff/yihao_frog.png";
+// import conrad from "./images/staff/conrad.jpg";
+// import conrad_frog from "./images/staff/conrad_frog.png";
+// import kendra from "./images/staff/kendra.png";
+// import ese from "./images/staff/ese.jpg";
+// import ezra from "./images/staff/ezra.jpg";
+// import megan from "./images/staff/megan.png";
+// import megan_frog from "./images/staff/megan_frog.png";
+// import david from "./images/staff/david.jpeg";
+// import david_frog from "./images/staff/david_frog.png";
+// import snoop from "./images/staff/froggy.png";
+// import snoop_alt from "./images/staff/frog_draw.png";
+
+// DON'T TOUCH THIS
+// Able to reference content in the public folder (PUB + "/...")
+export const PUB = process.env.PUBLIC_URL;
+
+// Edit stuff below this line
 
 export const lectureWeeks: LectureWeek[] = [
   // {
@@ -98,11 +104,6 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Model Checking 2: Elevator Critique",
     dateRange: "Mar 17 → Mar 23, 2023",
-    // href: "https://www.google.com",
-  },
-  {
-    name: "SAT 1",
-    dateRange: "Apr 7 → Apr 13, 2023",
     // href: "https://www.google.com",
   },
   {
@@ -213,19 +214,19 @@ export const policies: Resource[] = [
   // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
-export const guides: Resource[] = [
+export const importantLinks: Resource[] = [
   // { name: "Syllabus", href: "https://www.google.com" },
   // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
-export const importantLinks: Resource[] = [
+export const guides: Resource[] = [
   // { name: "Syllabus", href: "https://www.google.com" },
   // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
 export const professor: staffMember = {
   name: "Tim Nelson",
-  image: tim,
+  image: PUB + "/images/staff/tim.jpeg",
   pronouns: "he/they",
   bio: "Aspiring Amphibian Aficionado",
   favorite_amphibian: "Frog",
@@ -236,9 +237,9 @@ export const professor: staffMember = {
 export const htas: staffMember[] = [
   {
     name: "David Fryd",
-    image: david,
+    image: PUB + "/images/staff/david.jpeg",
     objectPosition: "center 35%",
-    alt_image: david_frog,
+    alt_image: PUB + "/images/staff/david_frog.png",
     alt_objectPosition: "80% 50%",
     pronouns: "he/him",
     bio: "Hey everyone! I'm David, and I'm a transfer first-semester senior studying CS. I love making music, photography, and SCUBA diving. Really excited to meet you all! :) ",
@@ -247,9 +248,9 @@ export const htas: staffMember[] = [
   },
   {
     name: "Megan Frisella",
-    image: megan,
+    image: PUB + "/images/staff/megan.png",
     objectPosition: "center 65%",
-    alt_image: megan_frog,
+    alt_image: PUB + "/images/staff/megan_frog.png",
 
     pronouns: "she/her",
     bio: " I’m a Junior studying Math and CS. I’m a huge fan of cats, frisbee, and formal methods. Please AMA about these things :) Hope to see you in my hours!",
@@ -261,8 +262,8 @@ export const htas: staffMember[] = [
 export const utas: staffMember[] = [
   {
     name: "Yi Hao",
-    image: yihao,
-    alt_image: yihao_frog,
+    image: PUB + "/images/staff/yihao.jpg",
+    alt_image: PUB + "/images/staff/yihao_frog.png",
     alt_objectPosition: "center 65%",
     pronouns: "he/him",
     bio: "Hi! My name is Yi Hao and I'm a Sophomore from Singapore studying Computer Science. In my free time, I enjoy going on walks or watching shows.",
@@ -272,9 +273,9 @@ export const utas: staffMember[] = [
 
   {
     name: "Conrad Zimmerman",
-    image: conrad,
+    image: PUB + "/images/staff/conrad.jpg",
     objectPosition: "center 15%",
-    alt_image: conrad_frog,
+    alt_image: PUB + "/images/staff/conrad_frog.png",
     alt_objectPosition: "center 25%",
     pronouns: "she/her",
     bio: "I study math and CS and play Pokemon Go! I’m a RUE (Resumed Undergraduate Education) student, transferring to Brown after my community college, and before that I was a software developer and school teacher. I love coffee, formal methods, cute dogs, and first order logic.",
@@ -283,7 +284,7 @@ export const utas: staffMember[] = [
   },
   {
     name: "Kendra Lee",
-    image: kendra,
+    image: PUB + "/images/staff/kendra.png",
     objectPosition: "center 35%",
     pronouns: "she/her",
     bio: "Hi! I’m Kendra Lee, a Junior studying CS. I love food and coffee, so if you have any restaurant or cafe recs, let me know!",
@@ -292,7 +293,7 @@ export const utas: staffMember[] = [
   },
   {
     name: "Ese Ajueyitsi",
-    image: ese,
+    image: PUB + "/images/staff/ese.jpg",
     pronouns: "he/him",
     bio: "Hey Guys! My name is Ese, and I am a senior studying Computer Science. Say hi if you see me flying around campus on my broom (E-Scooter).",
     favorite_amphibian: "Black Rain Frog",
@@ -300,7 +301,7 @@ export const utas: staffMember[] = [
   },
   {
     name: "Ezra Rocha",
-    image: ezra,
+    image: PUB + "/images/staff/ezra.jpg",
     pronouns: "he/him",
     bio: "Hi! I'm a junior from Dallas concentrating in CS. In my free time I love watching sci-fi shows and playing board games.",
     favorite_amphibian: "Lavender Axolotl",
@@ -308,9 +309,9 @@ export const utas: staffMember[] = [
   },
   {
     name: "Snoop Frogg",
-    image: snoop,
+    image: PUB + "/images/staff/froggy.png",
     objectPosition: "center 40%",
-    alt_image: snoop_alt,
+    alt_image: PUB + "/images/staff/frog_draw.png",
 
     pronouns: "he/they",
     bio: '"Rapper, producer, formal method and modeler."',

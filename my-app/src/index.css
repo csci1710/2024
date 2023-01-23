@@ -52,14 +52,14 @@ html {
 }
 
 .herobackground {
-  background-image: url("./images/iStock-1249040981.svg");
+  background-image: url("./svg/iStock-1249040981.svg");
   width: 100%;
   background-position: center;
   background-size: cover;
 }
 
 .herosvg {
-  background-image: url("./components/divider-images/hero-divider/new-layered-waves-haikei.svg");
+  background-image: url("./svg/divider-images/hero-divider/new-layered-waves-haikei.svg");
   aspect-ratio: 960/200;
   width: 100%;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ html {
 }
 
 .footersvg {
-  background-image: url("./components/divider-images/hero-divider/BranchD.svg");
+  background-image: url("./svg/divider-images/hero-divider/BranchD.svg");
   aspect-ratio: 960/200;
   width: 100%;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ html {
 }
 
 .dividerA {
-  background-image: url("./components/divider-images/symmetrical-dividers/dividerA.svg");
+  background-image: url("./svg/divider-images/symmetrical-dividers/dividerA.svg");
   aspect-ratio: 960/200;
   width: 100%;
   background-repeat: no-repeat;

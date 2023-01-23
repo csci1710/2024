@@ -1,4 +1,4 @@
-import froggy from "./images/froggy.png";
+// import froggy from process.env.PUBLIC_URL+ "../public/froggy.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import HeroDivider from "./components/divider-images/hero-divider/HeroDivider";
@@ -11,6 +11,7 @@ import {
   casestudyAssignments,
   lectureWeeks,
   FAQLink,
+  PUB,
 } from "./SITE_DATA";
 import Staff from "./components/Staff";
 import { useInView } from "react-intersection-observer";
@@ -170,7 +171,7 @@ function App() {
             </div>
             {/* add the frog image from the images folder */}
             <img
-              src={froggy}
+              src={PUB + "/images/froggy.png"}
               alt="The class froggy logo"
               className="min-w-40 w-1/6"
             />

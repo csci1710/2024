@@ -1,4 +1,5 @@
-import froggy from "../images/froggy.png";
+// import froggy from "../images/froggy.png";
+import { PUB } from "../SITE_DATA";
 
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -29,7 +30,7 @@ export default function Navbar({ inView }: { inView: number | undefined }) {
         className="hidden md:flex items-center space-x-1 w-20 lg:w-32"
       >
         <img
-          src={froggy}
+          src={PUB + "/images/froggy.png"}
           alt="Home Button Froggy"
           className="h-20 2xl:w-32 2xl:h-32"
         />

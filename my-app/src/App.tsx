@@ -275,6 +275,10 @@ function App() {
               // frameborder="0"
               scrolling="no"
             />
+            <p className="text-neutral-500 italic pt-2">
+              *You must be signed in to your Brown Google Account to see this
+              calendar
+            </p>
             <div className="p-4" />
           </section>
 

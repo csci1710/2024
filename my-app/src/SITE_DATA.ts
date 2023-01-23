@@ -11,51 +11,51 @@ export const PUB = process.env.PUBLIC_URL;
 // Edit stuff below this line
 
 export const lectureWeeks: LectureWeek[] = [
-  {
-    name: "Week 1",
-    dailyLectures: [
-      {
-        name: "What is LFS?",
-        date: "Jan 25",
-        // notesLink: "https://www.google.com",
-        // recordingLink: "https://www.google.com",
-        // liveCodeLink: "https://www.google.com",
-      },
-      {
-        name: "what is lfs random  adssdfhg",
-        date: "Jan 28",
-        notesLink: "https://www.google.com",
-        recordingLink: "https://www.google.com",
-        liveCodeLink: "https://www.google.com",
-      },
-      {
-        name: "what is lfs random text adssdfhg",
-        date: "Jan 28",
-        notesLink: "https://www.google.com",
-        recordingLink: "https://www.google.com",
-        liveCodeLink: "https://www.google.com",
-      },
-    ],
-  },
-  {
-    name: "Week 2",
-    dailyLectures: [
-      {
-        name: "what is lfs text adssdfhg",
-        date: "Jan 28",
-        notesLink: "https://www.google.com",
-        recordingLink: "https://www.google.com",
-        liveCodeLink: "https://www.google.com",
-      },
-      {
-        name: "what is lfs hg",
-        date: "Jan 28",
-        notesLink: "https://www.google.com",
-        recordingLink: "https://www.google.com",
-        liveCodeLink: "https://www.google.com",
-      },
-    ],
-  },
+  // {
+  //   name: "Week 1",
+  //   dailyLectures: [
+  //     {
+  //       name: "What is LFS?",
+  //       date: "Jan 25",
+  //       // notesLink: "https://www.google.com",
+  //       // recordingLink: "https://www.google.com",
+  //       // liveCodeLink: "https://www.google.com",
+  //     },
+  //     {
+  //       name: "what is lfs random  adssdfhg",
+  //       date: "Jan 28",
+  //       notesLink: "https://www.google.com",
+  //       recordingLink: "https://www.google.com",
+  //       liveCodeLink: "https://www.google.com",
+  //     },
+  //     {
+  //       name: "what is lfs random text adssdfhg",
+  //       date: "Jan 28",
+  //       notesLink: "https://www.google.com",
+  //       recordingLink: "https://www.google.com",
+  //       liveCodeLink: "https://www.google.com",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Week 2",
+  //   dailyLectures: [
+  //     {
+  //       name: "what is lfs text adssdfhg",
+  //       date: "Jan 28",
+  //       notesLink: "https://www.google.com",
+  //       recordingLink: "https://www.google.com",
+  //       liveCodeLink: "https://www.google.com",
+  //     },
+  //     {
+  //       name: "what is lfs hg",
+  //       date: "Jan 28",
+  //       notesLink: "https://www.google.com",
+  //       recordingLink: "https://www.google.com",
+  //       liveCodeLink: "https://www.google.com",
+  //     },
+  //   ],
+  // },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment
@@ -199,8 +199,8 @@ export const policies: Resource[] = [
 ];
 
 export const importantLinks: Resource[] = [
-  { name: "Syllabus", href: "https://www.google.com" },
-  { name: "Collaboration Policy", href: "https://www.google.com" },
+  // { name: "Syllabus", href: "https://www.google.com" },
+  // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
 export const guides: Resource[] = [

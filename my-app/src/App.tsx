@@ -193,10 +193,10 @@ function App() {
           >
             <h2 className="text-6xl font-title">Assignments</h2>
             <div className="p-4" />
-            <p className="italic text-neutral-500">
+            {/* <p className="italic text-neutral-500">
               (Unreleased assignments shown for more info during shopping
               period)
-            </p>
+            </p> */}
             <div className="p-4" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
               <AssignmentTable

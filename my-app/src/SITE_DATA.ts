@@ -307,7 +307,7 @@ export const utas: staffMember[] = [
     alt_image: PUB + "/images/staff/frog_draw.jpeg",
     pronouns: "he/they",
     bio: '"Rapper, producer, formal method and modeler."',
-    favorite_amphibian: "Snoop Frogg",
+    favorite_amphibian: "Snoop Frogg, duh",
     role: "UTA",
   },
 ];
@@ -319,6 +319,15 @@ export const gradtas: staffMember[] = [
     bio: "ChatGPT hater. Ask me about Danny Devito",
     pronouns: "he/him",
     favorite_amphibian: "Newt",
+    role: "Grad TA",
+  },
+  {
+    name: "Algo-ribbit",
+    image: PUB + "/images/staff/algo_ribbit.jpeg",
+    alt_image: PUB + "/images/staff/algo_ribbit_alt.jpeg",
+    bio: "What's up! I'm Algo-ribbit, a computer science nerd and TA for a logic course. When I'm not teaching, I love to get outside and explore the world around me. I'm a big fan of nature and enjoy taking photos of the beautiful scenery. I also like to travel and discover new cultures. I'm always looking to learn more and improve my skills. And, I'm excited to see where this journey will take me!",
+    pronouns: "she/her",
+    favorite_amphibian: "(me, obviously)",
     role: "Grad TA",
   },
 ];

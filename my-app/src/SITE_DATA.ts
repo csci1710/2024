@@ -239,7 +239,7 @@ export const htas: staffMember[] = [
     name: "David Fryd",
     image: PUB + "/images/staff/david.jpeg",
     objectPosition: "center 35%",
-    alt_image: PUB + "/images/staff/david_frog.png",
+    alt_image: PUB + "/images/staff/david_frog.jpeg",
     alt_objectPosition: "80% 50%",
     pronouns: "he/him",
     bio: "Hey everyone! I'm David, and I'm a transfer first-semester senior studying CS. I love making music, photography, and SCUBA diving. Really excited to meet you all! :) ",
@@ -248,9 +248,9 @@ export const htas: staffMember[] = [
   },
   {
     name: "Megan Frisella",
-    image: PUB + "/images/staff/megan.png",
+    image: PUB + "/images/staff/megan.jpeg",
     objectPosition: "center 65%",
-    alt_image: PUB + "/images/staff/megan_frog.png",
+    alt_image: PUB + "/images/staff/megan_frog.jpeg",
 
     pronouns: "she/her",
     bio: " I’m a Junior studying Math and CS. I’m a huge fan of cats, frisbee, and formal methods. Please AMA about these things :) Hope to see you in my hours!",
@@ -263,7 +263,7 @@ export const utas: staffMember[] = [
   {
     name: "Yi Hao",
     image: PUB + "/images/staff/yihao.jpg",
-    alt_image: PUB + "/images/staff/yihao_frog.png",
+    alt_image: PUB + "/images/staff/yihao_frog.jpeg",
     alt_objectPosition: "center 65%",
     pronouns: "he/him",
     bio: "Hi! My name is Yi Hao and I'm a Sophomore from Singapore studying Computer Science. In my free time, I enjoy going on walks or watching shows.",
@@ -275,7 +275,7 @@ export const utas: staffMember[] = [
     name: "Conrad Zimmerman",
     image: PUB + "/images/staff/conrad.jpg",
     objectPosition: "center 15%",
-    alt_image: PUB + "/images/staff/conrad_frog.png",
+    alt_image: PUB + "/images/staff/conrad_frog.jpeg",
     alt_objectPosition: "center 25%",
     pronouns: "she/her",
     bio: "I study math and CS and play Pokemon Go! I’m a RUE (Resumed Undergraduate Education) student, transferring to Brown after my community college, and before that I was a software developer and school teacher. I love coffee, formal methods, cute dogs, and first order logic.",
@@ -284,7 +284,7 @@ export const utas: staffMember[] = [
   },
   {
     name: "Kendra Lee",
-    image: PUB + "/images/staff/kendra.png",
+    image: PUB + "/images/staff/kendra.jpeg",
     objectPosition: "center 35%",
     pronouns: "she/her",
     bio: "Hi! I’m Kendra Lee, a Junior studying CS. I love food and coffee, so if you have any restaurant or cafe recs, let me know!",
@@ -309,9 +309,9 @@ export const utas: staffMember[] = [
   },
   {
     name: "Snoop Frogg",
-    image: PUB + "/images/staff/froggy.png",
+    image: PUB + "/images/staff/froggy.jpeg",
     objectPosition: "center 40%",
-    alt_image: PUB + "/images/staff/frog_draw.png",
+    alt_image: PUB + "/images/staff/frog_draw.jpeg",
 
     pronouns: "he/they",
     bio: '"Rapper, producer, formal method and modeler."',

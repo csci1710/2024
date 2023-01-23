@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# local original high quality images
+/public/images/staff/original_deprecated
+
 # testing
 /coverage
 

@@ -105,6 +105,12 @@ export const homeworkAssignments: Assignment[] = [
     dateRange: "Apr 21 → Apr 27, 2023",
     // href: "https://www.google.com",
   },
+  {
+    // Rickroll ;)
+    name: "Hardest Assignment Ever...",
+    dateRange: "Oct 25 → Oct 26, 2009",
+    href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+  },
   // {
   //   name: "...",
   //   dateRange: "...",

@@ -10,7 +10,7 @@ function scrollIntoView(id: string) {
   console.log("called!");
   if (window.matchMedia("(max-width: 768px)").matches) {
     // On smaller devices, move the section bar up a little further
-    yOffset = -100;
+    yOffset = -60;
     // console.log("small screen!");
   }
 

@@ -6,7 +6,15 @@ function scrollToTop() {
 }
 
 function scrollIntoView(id: string) {
-  const yOffset = -150;
+  let yOffset = -150;
+  console.log("called!");
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    // On smaller devices, move the section bar up a little further
+    yOffset = -100;
+    console.log("small screen!");
+  }
+
+  // -100 for sm/md
   const element = document.querySelector(id);
   if (element != null) {
     const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
@@ -36,7 +44,7 @@ export default function Navbar({ inView }: { inView: number | undefined }) {
           className="h-20 2xl:w-32 2xl:h-32"
         />
       </button>
-      <div className="text-neutral-400 text-lg font-title w-full flex justify-around items-center">
+      <div className="text-neutral-400 text-sm  sm:text-lg font-title w-full flex justify-around items-center">
         {sections.map((section, index) => (
           <button
             key={index}

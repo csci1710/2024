@@ -159,7 +159,7 @@ function App() {
               </p>
               <div className="p-3" />
               <p className="italic text-neutral-500">
-                Check back soon for the course syllabus!
+                See the "Resources" section for the course syllabus!
               </p>
               <div className="p-3" />
               <p className="">

@@ -11,33 +11,33 @@ export const PUB = process.env.PUBLIC_URL;
 // Edit stuff below this line
 
 export const lectureWeeks: LectureWeek[] = [
-  // {
-  //   name: "Week 1",
-  //   dailyLectures: [
-  //     {
-  //       name: "What is LFS?",
-  //       date: "Jan 25",
-  //       // notesLink: "https://www.google.com",
-  //       // recordingLink: "https://www.google.com",
-  //       // liveCodeLink: "https://www.google.com",
-  //     },
-  //     {
-  //       name: "what is lfs random  adssdfhg",
-  //       date: "Jan 28",
-  //       notesLink: "https://www.google.com",
-  //       recordingLink: "https://www.google.com",
-  //       liveCodeLink: "https://www.google.com",
-  //     },
-  //     {
-  //       name: "what is lfs random text adssdfhg",
-  //       date: "Jan 28",
-  //       notesLink: "https://www.google.com",
-  //       recordingLink: "https://www.google.com",
-  //       liveCodeLink: "https://www.google.com",
-  //     },
-  //   ],
-  // },
-  // {
+  {
+    name: "Week 1",
+    dailyLectures: [
+      {
+        name: "What is LfS?",
+        date: "Jan 25",
+        notesLink: "https://hackmd.io/@lfs/rJMz6s0os",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "Property-Based Testing",
+        date: "Jan 27",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "Modeling Systems in Forge",
+        date: "Jan 30",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+    ],
+  },
+  //{
   //   name: "Week 2",
   //   dailyLectures: [
   //     {

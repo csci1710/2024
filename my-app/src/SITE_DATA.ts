@@ -11,33 +11,33 @@ export const PUB = process.env.PUBLIC_URL;
 // Edit stuff below this line
 
 export const lectureWeeks: LectureWeek[] = [
-  // {
-  //   name: "Week 1",
-  //   dailyLectures: [
-  //     {
-  //       name: "What is LFS?",
-  //       date: "Jan 25",
-  //       // notesLink: "https://www.google.com",
-  //       // recordingLink: "https://www.google.com",
-  //       // liveCodeLink: "https://www.google.com",
-  //     },
-  //     {
-  //       name: "what is lfs random  adssdfhg",
-  //       date: "Jan 28",
-  //       notesLink: "https://www.google.com",
-  //       recordingLink: "https://www.google.com",
-  //       liveCodeLink: "https://www.google.com",
-  //     },
-  //     {
-  //       name: "what is lfs random text adssdfhg",
-  //       date: "Jan 28",
-  //       notesLink: "https://www.google.com",
-  //       recordingLink: "https://www.google.com",
-  //       liveCodeLink: "https://www.google.com",
-  //     },
-  //   ],
-  // },
-  // {
+  {
+    name: "Week 1",
+    dailyLectures: [
+      {
+        name: "What is LfS?",
+        date: "Jan 25",
+        notesLink: "https://hackmd.io/@lfs/rJMz6s0os",
+        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72c885e8-f244-4211-998e-af850163ddae",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "Property-Based Testing",
+        date: "Jan 27",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "Modeling Systems in Forge",
+        date: "Jan 30",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+    ],
+  },
+  //{
   //   name: "Week 2",
   //   dailyLectures: [
   //     {
@@ -200,7 +200,7 @@ export const FAQLink: string =
   "https://docs.google.com/document/d/e/2PACX-1vQek5FgRtgmr7rdxOnq5qzTIaRoVcc0dN4dERg5qu4oJ4hTCAmWJkrBbNWUdm_zsMRtQOmzpG17fWQK/pub";
 
 export const policies: Resource[] = [
-  // { name: "Syllabus", href: "https://www.google.com" },
+  { name: "Syllabus", href: "https://docs.google.com/document/d/1dol5vJem0Rzvbk0QTJ77z7eQCQTClxZuXWG6VGreajE/edit?usp=sharing" },
   // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
@@ -209,8 +209,7 @@ export const importantLinks: Resource[] = [
   // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 
-export const guides: Resource[] = [
-  // { name: "Syllabus", href: "https://www.google.com" },
+export const guides: Resource[] = [   
   // { name: "Collaboration Policy", href: "https://www.google.com" },
 ];
 

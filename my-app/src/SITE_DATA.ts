@@ -18,7 +18,7 @@ export const lectureWeeks: LectureWeek[] = [
         name: "What is LfS?",
         date: "Jan 25",
         notesLink: "https://hackmd.io/@lfs/rJMz6s0os",
-        // recordingLink: "https://www.google.com",
+        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72c885e8-f244-4211-998e-af850163ddae",
         // liveCodeLink: "https://www.google.com",
       },
       {

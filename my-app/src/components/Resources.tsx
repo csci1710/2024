@@ -48,9 +48,13 @@ function Resource(props: { title: string; href: string }) {
   return (
     <div className=" p-1 text-left">
       <li>
-        <a href={props.href} className="text-lg underline text-primary-500">
-          {props.title}
-        </a>
+        {props.href.length !== 0 ? (
+          <a href={props.href} className="text-lg underline text-primary-500">
+            {props.title}
+          </a>
+        ) : (
+          <span className="text-lg text-neutral-400">{props.title}</span>
+        )}
       </li>
     </div>
   );

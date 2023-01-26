@@ -221,16 +221,14 @@ export const importantLinks: Resource[] = [
 ];
 
 export const guides: Resource[] = [
-  // TODO:
-  // Setup & Installation Guide
   {
     name: "Setup & Installation",
     href: "",
   },
-  // Goes live later
   {
+    // Goes live later in semester
     name: "Python Z3",
-    href: "",
+    href: "", // Greyed out for now
     // href: "https://docs.google.com/document/d/1ri_-SadZ-IWqrg3ZNY6tJRB_0OSDdwJRYNtdHkSehuc/preview",
   },
 ];

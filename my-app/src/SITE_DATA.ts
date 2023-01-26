@@ -18,7 +18,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "What is LfS?",
         date: "Jan 25",
         notesLink: "https://hackmd.io/@lfs/rJMz6s0os",
-        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72c885e8-f244-4211-998e-af850163ddae",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72c885e8-f244-4211-998e-af850163ddae",
         // liveCodeLink: "https://www.google.com",
       },
       {
@@ -200,17 +201,38 @@ export const FAQLink: string =
   "https://docs.google.com/document/d/e/2PACX-1vQek5FgRtgmr7rdxOnq5qzTIaRoVcc0dN4dERg5qu4oJ4hTCAmWJkrBbNWUdm_zsMRtQOmzpG17fWQK/pub";
 
 export const policies: Resource[] = [
-  { name: "Syllabus", href: "https://docs.google.com/document/d/1dol5vJem0Rzvbk0QTJ77z7eQCQTClxZuXWG6VGreajE/edit?usp=sharing" },
-  // { name: "Collaboration Policy", href: "https://www.google.com" },
+  {
+    name: "Syllabus",
+    href: "https://docs.google.com/document/d/1dol5vJem0Rzvbk0QTJ77z7eQCQTClxZuXWG6VGreajE/edit?usp=sharing",
+  },
+  { name: "Collaboration Policy", href: "" },
 ];
 
 export const importantLinks: Resource[] = [
-  // { name: "Syllabus", href: "https://www.google.com" },
-  // { name: "Collaboration Policy", href: "https://www.google.com" },
+  {
+    name: "EdStem",
+    href: "https://edstem.org/us/courses/31922/discussion/",
+  },
+  { name: "Hours", href: "https://hours.cs.brown.edu/login" },
+  {
+    name: "Brown CS Health and Wellness",
+    href: "https://browncs-health-and-wellness.github.io/",
+  },
 ];
 
-export const guides: Resource[] = [   
-  // { name: "Collaboration Policy", href: "https://www.google.com" },
+export const guides: Resource[] = [
+  // TODO:
+  // Setup & Installation Guide
+  {
+    name: "Setup & Installation",
+    href: "",
+  },
+  // Goes live later
+  {
+    name: "Python Z3",
+    href: "",
+    // href: "https://docs.google.com/document/d/1ri_-SadZ-IWqrg3ZNY6tJRB_0OSDdwJRYNtdHkSehuc/preview",
+  },
 ];
 
 export const professor: staffMember = {

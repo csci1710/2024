@@ -122,7 +122,7 @@ export const homeworkAssignments: Assignment[] = [
 export const labAssignments: Assignment[] = [
   {
     name: "(Optional) Async Python",
-    dateRange: "Jan 25 → Jan 26, 2023",
+    dateRange: "Jan 27, 2023",
     // href: "https://www.google.com",
   },
   {

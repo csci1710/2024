@@ -36,7 +36,7 @@ export const announcementInfo = {
   buttonText: "Sign Up",
   buttonLink: "https://forms.gle/bvmoMFaEU2iRkras5",
   // Set & Forget tools:
-  autoReleaseDate: "Jan 27, 2023 10:00:00 EST", // Automatically shows announcement on this date/time EST
+  autoReleaseDate: "Jan 27, 2023 09:45:00 EST", // Automatically shows announcement on this date/time EST
   autoDismissDate: "Jan 29, 2023 23:59:59 EST", // Automatically removes announcement on this date/time EST
   // Announcement will be shown on page load and manually dismissable between the above two dates
 };
@@ -95,7 +95,8 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "PBT",
     dateRange: "Jan 27 → Feb 2, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/19K2zyhEqgFYEv1V1YyitYoAARJUr08cEogHFAtbSVEQ/pub",
+    autoReleaseDate: "Jan 27, 2023 09:45:00 EST",
   },
   {
     name: "Forge 1",
@@ -142,10 +143,12 @@ export const homeworkAssignments: Assignment[] = [
     name: "Hardest Assignment Ever...",
     dateRange: "Oct 25 → Oct 26, 2009",
     href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+    autoReleaseDate: "Jan 26, 2023 21:28:59 EST",
   },
   // {
   //   name: "...",
   //   dateRange: "...",
+  //   autoReleaseDate: "Jan 26, 2023 23:59:59 EST",
   // },
   // // ...
 ];
@@ -154,7 +157,8 @@ export const labAssignments: Assignment[] = [
   {
     name: "(Optional) Async Python",
     dateRange: "Jan 27, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/1EGadVobeA058JGtPxED5iRpzNwoSi39TPKU0MjWf26Q/pub",
+    autoReleaseDate: "Jan 27, 2023 09:45:00 EST",
   },
   {
     name: "Tic Tac Toe",
@@ -236,7 +240,7 @@ export const policies: Resource[] = [
     name: "Syllabus",
     href: "https://docs.google.com/document/d/1dol5vJem0Rzvbk0QTJ77z7eQCQTClxZuXWG6VGreajE/edit?usp=sharing",
   },
-  { name: "Collaboration Policy", href: "" },
+  // { name: "Collaboration Policy", href: "" },
 ];
 
 export const importantLinks: Resource[] = [
@@ -254,7 +258,7 @@ export const importantLinks: Resource[] = [
 export const guides: Resource[] = [
   {
     name: "Setup & Installation",
-    href: "",
+    href: "https://docs.google.com/document/d/1EBlnRyujtkrfrYBhRRl88bMzgrSiF_NEtDU1Mcfvsh0/pub",
   },
   {
     // Goes live later in semester
@@ -412,6 +416,7 @@ export type Assignment = {
   name: string;
   dateRange: string;
   href?: string; // If left blank, assignment appears as disabled
+  autoReleaseDate?: string; // Will treat href as "blank" until this date/time (EST)
 };
 
 export type staffMember = {

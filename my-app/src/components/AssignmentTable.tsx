@@ -1,12 +1,32 @@
-import { homeworkAssignments } from "../SITE_DATA";
+import { Assignment, homeworkAssignments } from "../SITE_DATA";
 import { classNames } from "../App";
-
-const pageTitle = "Homework";
 
 type AssignmentTableProps = {
   tablename: string;
   assignments: { name: string; dateRange: string; href?: string }[];
 };
+
+/**
+ * Returns whether or not <assignment> should appear as released yet
+ * @param assignment the assignment that should or should not be released
+ * @return true if "now" is after/on the release date, false otherwise
+ */
+function shouldRelease(assignment: Assignment): boolean {
+  if (assignment.autoReleaseDate === undefined) {
+    return true; // If no defined release date, treat it as released if it has an href
+  }
+
+  const now = new Date();
+
+  // Convert now into EST, if it isn't already
+  const nowEST = new Date(
+    now.toLocaleString("en-US", {
+      timeZone: "America/New_York",
+    })
+  );
+
+  return nowEST > new Date(assignment.autoReleaseDate);
+}
 
 export default function AssignmentTable(props: AssignmentTableProps) {
   return (
@@ -35,7 +55,7 @@ export default function AssignmentTable(props: AssignmentTableProps) {
               <tbody className="divide-y divide-gray-200 bg-white">
                 {props.assignments.map((assignment) => (
                   <tr key={assignment.name}>
-                    {assignment.href ? (
+                    {assignment.href && shouldRelease(assignment) ? (
                       <td>
                         <a
                           href={assignment.href}

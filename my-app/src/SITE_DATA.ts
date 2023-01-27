@@ -8,7 +8,19 @@
 // Able to reference content in the public folder (PUB + "/...")
 export const PUB = process.env.PUBLIC_URL;
 
-// Edit stuff below this line
+// ------ EDIT STUFF BELOW THIS LINE ------
+
+export const announcementInfo = {
+  // Appears at the top of the screen attached to navbar,
+  // if an announcement exists
+  message: "Sign up for a lab section!",
+  buttonText: "Sign Up",
+  buttonLink: "https://forms.gle/bvmoMFaEU2iRkras5",
+  // Set & Forget tools:
+  autoReleaseDate: "Jan 27, 2023 10:00:00 EST", // Automatically shows announcement on this date/time EST
+  autoDismissDate: "Jan 29, 2023 23:59:59 EST", // Automatically removes announcement on this date/time EST
+  // Announcement will be shown on page load and manually dismissable between the above two dates
+};
 
 export const lectureWeeks: LectureWeek[] = [
   {

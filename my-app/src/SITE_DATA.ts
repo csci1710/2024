@@ -4,6 +4,25 @@
 // between course updates, this is the only file that needs to
 // be checked for updates
 
+// SECURITY NOTE:
+/* 
+This entire file is sent to the client,
+Any links that appear here (even if commented
+out or set to "go live" later) are technically
+accessible to people who care to look for them.
+
+If you happen to be one of the savvy students that
+has discovered this "treasure trove" of unreleased
+material, congratulations! Neat find ;) However, please
+be aware that even if an unreleased link exists here, it's probably
+not live for a reason, and you probably shouldn't use anything
+that we didn't intend for you to use yet. 
+
+This is a tradeoff we make by choosing to simplify hosting of
+the website with no significant backend logic. Now, go take
+a security class!
+*/
+
 // DON'T TOUCH THIS
 // Able to reference content in the public folder (PUB + "/...")
 export const PUB = process.env.PUBLIC_URL;

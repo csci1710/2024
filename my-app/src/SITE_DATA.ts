@@ -56,7 +56,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Property-Based Testing",
         date: "Jan 27",
-        // notesLink: "https://www.google.com",
+        notesLink: "https://hackmd.io/@lfs/SJX6Or-2i",
         // recordingLink: "https://www.google.com",
         // liveCodeLink: "https://www.google.com",
       },

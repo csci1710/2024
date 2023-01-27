@@ -54,40 +54,40 @@ export const lectureWeeks: LectureWeek[] = [
         // liveCodeLink: "https://www.google.com",
       },
       {
-        name: "Property-Based Testing",
+        name: "From Test-Cases to Properties",
         date: "Jan 27",
         notesLink: "https://hackmd.io/@lfs/SJX6Or-2i",
         recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4dfc8183-c365-498e-9821-af850163ddee",
         liveCodeLink: process.env.PUBLIC_URL+"/livecode/test_jan27_hypothesis.py",
       },
+    ],
+  },
+  {
+    name: "Week 2",
+    dailyLectures: [
       {
-        name: "Modeling Systems in Forge",
+        name: "Intro to Modeling Systems (1)",
         date: "Jan 30",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "Intro to Modeling Systems (2), Using GPT-3 in 1710",
+        date: "Feb 01",
+        // notesLink: "https://www.google.com",
+        // recordingLink: "https://www.google.com",
+        // liveCodeLink: "https://www.google.com",
+      },
+      {
+        name: "Intro to Modeling Systems with State, Properties and Testing",
+        date: "Feb 03",
         // notesLink: "https://www.google.com",
         // recordingLink: "https://www.google.com",
         // liveCodeLink: "https://www.google.com",
       },
     ],
   },
-  //{
-  //   name: "Week 2",
-  //   dailyLectures: [
-  //     {
-  //       name: "what is lfs text adssdfhg",
-  //       date: "Jan 28",
-  //       notesLink: "https://www.google.com",
-  //       recordingLink: "https://www.google.com",
-  //       liveCodeLink: "https://www.google.com",
-  //     },
-  //     {
-  //       name: "what is lfs hg",
-  //       date: "Jan 28",
-  //       notesLink: "https://www.google.com",
-  //       recordingLink: "https://www.google.com",
-  //       liveCodeLink: "https://www.google.com",
-  //     },
-  //   ],
-  // },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

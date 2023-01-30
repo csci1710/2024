@@ -68,7 +68,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Intro to Modeling Systems (1)",
         date: "Jan 30",
-        // notesLink: "https://www.google.com",
+        notesLink: "https://hackmd.io/@lfs/HJu2XHr2o",
         // recordingLink: "https://www.google.com",
         // liveCodeLink: "https://www.google.com",
       },

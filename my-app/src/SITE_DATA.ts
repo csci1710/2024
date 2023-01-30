@@ -57,8 +57,10 @@ export const lectureWeeks: LectureWeek[] = [
         name: "From Test-Cases to Properties",
         date: "Jan 27",
         notesLink: "https://hackmd.io/@lfs/SJX6Or-2i",
-        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4dfc8183-c365-498e-9821-af850163ddee",
-        liveCodeLink: process.env.PUBLIC_URL+"/livecode/test_jan27_hypothesis.py",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4dfc8183-c365-498e-9821-af850163ddee",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/test_jan27_hypothesis.py",
       },
     ],
   },
@@ -249,6 +251,10 @@ export const importantLinks: Resource[] = [
     href: "https://edstem.org/us/courses/31922/discussion/",
   },
   { name: "Hours", href: "https://hours.cs.brown.edu/login" },
+  {
+    name: "Anonymous Feedback Form",
+    href: "https://docs.google.com/forms/d/1KreaxonPm0yHkpdu0Pg9bagNk3ygip3K7fcQNIsajhQ/viewform?edit_requested=true",
+  },
   {
     name: "Brown CS Health and Wellness",
     href: "https://browncs-health-and-wellness.github.io/",

@@ -78,9 +78,8 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Intro to Modeling Systems (2), Using GPT-3 in 1710",
         date: "Feb 01",
-        // notesLink: "https://www.google.com",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
+        notesLink: "https://hackmd.io/@lfs/HJcvwQunj",
+        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
       },
       {

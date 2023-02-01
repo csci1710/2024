@@ -71,14 +71,16 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Intro to Modeling Systems (1)",
         date: "Jan 30",
         notesLink: "https://hackmd.io/@lfs/HJu2XHr2o",
-        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0638390-2a9f-4136-a7f5-af850163de09",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0638390-2a9f-4136-a7f5-af850163de09",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/jan30_ttt.frg",
       },
       {
         name: "Intro to Modeling Systems (2), Using GPT-3 in 1710",
         date: "Feb 01",
         // notesLink: "https://www.google.com",
-        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
       },
       {
@@ -265,6 +267,10 @@ export const guides: Resource[] = [
   {
     name: "Setup & Installation",
     href: "https://docs.google.com/document/d/1EBlnRyujtkrfrYBhRRl88bMzgrSiF_NEtDU1Mcfvsh0/pub",
+  },
+  {
+    name: "Forge Documentation",
+    href: "https://csci1710.github.io/forge-documentation/",
   },
   {
     // Goes live later in semester

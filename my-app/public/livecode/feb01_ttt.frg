@@ -24,11 +24,6 @@ pred wellformed[b: Board] {
 //     some b: Board | wellformed[b]
 // } for exactly 1 Board
 
-pred starting[b: Board] {
-    all row, col: Int | 
-        no b.board[row][col]
-}
-
 pred Xturn[b: Board] {
     -- same number of X and O on board
     #{row, col: Int | b.board[row][col] = X} = 
@@ -75,6 +70,36 @@ pred winner[b: Board, p: Player] {
     }
 }
 
-run {
-    all b: Board | wellformed[b] and winner[b, X] and balanced[b]
-} 
+// run {    
+//     all b: Board | {
+//         -- X has won, and the board looks OK
+//         wellformed[b]
+//         winner[b, X]
+//         balanced[b]
+//         -- X started in the middle
+//         b.board[1][1] = X
+//     }
+// } for exactly 2 Board
+
+-------------------------------------------------
+-- Games
+
+pred starting[b: Board] {
+    all row, col: Int | 
+        no b.board[row][col]
+}
+
+pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
+    -- GUARD (what needs to hold about the pre-state?)
+    no pre.board[row][col] 
+    -- no winner yet?
+    -- row and col are within [0,2]
+    -- correct player's turn
+
+    -- ACTION (what does the post-state then look like?)
+}
+
+/*
+  Note: the lab stencil for this week shows *one way* to possibly
+  fill in the move predicate based on the English above.
+*/

@@ -132,6 +132,7 @@ pred winningPreservedCounterexample {
     not winner[post, X]
   }
 }
+-- Unsatisfiable: winning is preserved
 run {
   all s: Board | wellformed[s]
   winningPreservedCounterexample
@@ -146,6 +147,15 @@ pred starting[s: Board] {
     no s.board[row][col]
 }
 
+pred gameOver[s: Board] {
+  some p: Player | winner[s, p]
+}
+
+pred doNothing[pre: Board, post: Board] {
+	gameOver[pre] -- guard of the transition
+    pre.board = post.board -- effect of the transition
+}
+
 
 -- Assert this predicate to ask Alloy for a trace
 pred traces {
@@ -155,10 +165,38 @@ pred traces {
     all s: Board | some s.next implies {
       some row, col: Int, p: Player |
         move[s, row, col, p, s.next]
-    }
+        or doNothing[s, s.next]
+    } 
 }
 
 -- 10 states is just enough for a full game
-run { traces } for 10 Board 
+run { traces } for 10 Board, 3 Int 
+
+pred cheating[s: Board] {
+  not XTurn[s]
+  not OTurn[s]
+}
+
+
+-- Unsatisfiable (the game doesn't permit cheating)
+run {
+  all b: Board | wellformed[b]
+  traces
+  some bad: Board | cheating[bad]
+} for exactly 10 Board, 3 Int
+
+-- Satisfiable (conjecture doesn't hold)
+run {
+  all b: Board | wellformed[b]
+  traces
+  -- "let" just lets us locally define an expression
+  --  good for clarity in the model!
+  -- here we say that X first moved in the middle
+  let second = first.next |
+    second.board[1][1] = X
+  -- ...but X didn't win
+  all s: Board | not winner[s, X]
+} for exactly 10 Board, 3 Int
+
 
 

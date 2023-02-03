@@ -99,9 +99,81 @@ pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
 
     -- ACTION (what does the post-state then look like?)
     post.board[row][col] = p
-    all row2: Int, col2: Int | (row!=row2 and col!=col2) implies {                
+    all row2: Int, col2: Int | (row!=row2 or col!=col2) implies {                
         post.board[row2][col2] = pre.board[row2][col2]     
     }  
 }
+/*
+
+  *and* 
+  moving at 1,1
+
+  00   unchanged!
+  01   UNCONSTRAINED (row diff, col same)
+  02   ...
+  10
+  11    (changed -- intentionally)
+  12
+  20
+  21
+  22
+
+*/
 
 // Is there a potential issue in this move predicate? Write a 'run' to find it!
+// run {
+//     -- only show me moves involving well-formed boards
+//     all b: Board | wellformed[b]
+
+//     some pre, post: Board | {
+//       some row, col: Int, p: Player | {
+//         move[pre, post, row, col, p]
+//       }
+//     }
+// } for 2 Board
+
+// run {
+//     some pre, post: Board | {
+//       wellformed[pre]
+//       not wellformed[post]
+//       some row, col: Int, p: Player | {
+//         move[pre, post, row, col, p]
+//       }
+//     }
+// } for 2 Board
+
+-- Does TTT fail to preserve "X has won"
+// run {
+//     some pre, post: Board | {
+//       winner[pre, X]
+//       not winner[post, X]
+//       some row, col: Int, p: Player | {
+//         move[pre, post, row, col, p]
+//       }
+//     }
+// } for 2 Board
+
+-----------------
+-- GAMES
+
+one sig Game {
+  initialState: one Board,
+  next: pfunc Board -> Board
+}
+
+pred traces {
+    starting[Game.initialState]
+    all b: Board | some Game.next[b] implies {
+        some row, col: Int, p: Player | 
+            move[b, Game.next[b], row, col, p]
+    }
+    --- last board?
+
+    --- do we need to say that initialState is the first state in "next"
+}
+
+run {
+    all b: Board | wellformed[b]
+    traces
+} for exactly 10 Board, 3 Int for  {next is linear}
+

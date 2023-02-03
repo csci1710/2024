@@ -88,7 +88,7 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Intro to Modeling Systems (3): Traces, Examples",
         date: "Feb 03",
         notesLink: "https://hackmd.io/@lfs/rkXCRYq2i",
-        recordingLink: 
+        recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=454dc37b-ac45-47f1-a208-af850163de3c",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb03_ttt.frg",
         otherLinks: [
@@ -117,7 +117,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Forge 1",
     dateRange: "Feb 3 → Feb 9, 2023",
-    //href: "https://docs.google.com/document/d/e/2PACX-1vTRRDmcHhvWn17OxcnFRk3o7R2atjYalwU_TX0kpR-HQ_nEy8zHgDHZq-vr0BrizjYdJlOz2SFGjUC7/pub",
+    href: "https://docs.google.com/document/d/e/2PACX-1vTRRDmcHhvWn17OxcnFRk3o7R2atjYalwU_TX0kpR-HQ_nEy8zHgDHZq-vr0BrizjYdJlOz2SFGjUC7/pub",
     autoReleaseDate: "Feb 3, 2023 13:00:00 EST",
   },
   {

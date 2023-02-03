@@ -88,14 +88,19 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Intro to Modeling Systems (3): Traces, Examples",
         date: "Feb 03",
         notesLink: "https://hackmd.io/@lfs/rkXCRYq2i",
-        // recordingLink: "https://www.google.com",
+        recordingLink: 
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=454dc37b-ac45-47f1-a208-af850163de3c",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb03_ttt.frg",
-        // otherLinks: [
-        //   {
-        //     name: "OtherLink",
-        //     link: "https://www.google.com",
-        //   },
-        // ],
+        otherLinks: [
+          {
+            name: "Viz Script",
+            link: process.env.PUBLIC_URL + "/livecode/feb03_ttt.js",
+          },
+          {
+            name: "Tests",
+            link: process.env.PUBLIC_URL + "/livecode/feb03_ttt.tests.frg",
+          },
+        ],
       },
     ],
   },

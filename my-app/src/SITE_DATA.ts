@@ -169,7 +169,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Tic Tac Toe",
     dateRange: "Feb 1 → Feb 2, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vQ-_1lGqhtI64z8EjjTXtjb2bgVFVciiv08U9f4gtPoG3_fZCmgLxRN0COOOXbIy_wZJoprTmpxIH9_/pub",
   },
   {
     name: "Ring Election",

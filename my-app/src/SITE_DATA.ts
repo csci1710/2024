@@ -106,8 +106,8 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Forge 1",
     dateRange: "Feb 3 → Feb 9, 2023",
-    href: "https://docs.google.com/document/d/e/2PACX-1vTRRDmcHhvWn17OxcnFRk3o7R2atjYalwU_TX0kpR-HQ_nEy8zHgDHZq-vr0BrizjYdJlOz2SFGjUC7/pub",
-    autoReleaseDate: "Feb 3, 2023 10:00:00 EST",
+    //href: "https://docs.google.com/document/d/e/2PACX-1vTRRDmcHhvWn17OxcnFRk3o7R2atjYalwU_TX0kpR-HQ_nEy8zHgDHZq-vr0BrizjYdJlOz2SFGjUC7/pub",
+    autoReleaseDate: "Feb 3, 2023 13:00:00 EST",
   },
   {
     name: "Forge 2",

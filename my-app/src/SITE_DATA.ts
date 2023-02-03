@@ -32,12 +32,13 @@ export const PUB = process.env.PUBLIC_URL;
 export const announcementInfo = {
   // Appears at the top of the screen attached to navbar,
   // if an announcement exists
-  message: "Sign up for a lab section!",
-  buttonText: "Sign Up",
-  buttonLink: "https://forms.gle/bvmoMFaEU2iRkras5",
+  message: "We'd love to hear what you think, submit anonymous feedback!",
+  buttonText: "Give Feedback",
+  buttonLink:
+    "https://docs.google.com/forms/d/1KreaxonPm0yHkpdu0Pg9bagNk3ygip3K7fcQNIsajhQ/viewform?edit_requested=true",
   // Set & Forget tools:
-  autoReleaseDate: "Jan 27, 2023 09:45:00 EST", // Automatically shows announcement on this date/time EST
-  autoDismissDate: "Jan 29, 2023 23:59:59 EST", // Automatically removes announcement on this date/time EST
+  autoReleaseDate: "Feb 3, 2023 09:45:00 EST", // Automatically shows announcement on this date/time EST
+  autoDismissDate: "Feb 4, 2023 09:00:00 EST", // Automatically removes announcement on this date/time EST
   // Announcement will be shown on page load and manually dismissable between the above two dates
 };
 
@@ -79,7 +80,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Intro to Modeling Systems (2), Using GPT-3 in 1710",
         date: "Feb 01",
         notesLink: "https://hackmd.io/@lfs/HJcvwQunj",
-        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
       },
       {
@@ -104,7 +106,8 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Forge 1",
     dateRange: "Feb 3 → Feb 9, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vTRRDmcHhvWn17OxcnFRk3o7R2atjYalwU_TX0kpR-HQ_nEy8zHgDHZq-vr0BrizjYdJlOz2SFGjUC7/pub",
+    autoReleaseDate: "Feb 3, 2023 10:00:00 EST",
   },
   {
     name: "Forge 2",

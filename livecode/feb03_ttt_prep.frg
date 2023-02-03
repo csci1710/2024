@@ -99,9 +99,52 @@ pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
 
     -- ACTION (what does the post-state then look like?)
     post.board[row][col] = p
-    all row2: Int, col2: Int | (row!=row2 and col!=col2) implies {                
+    --all row2: Int, col2: Int | (row!=row2 and col!=col2) implies {        
+        all row2: Int, col2: Int | (row!=row2 or col!=col2) implies {        
         post.board[row2][col2] = pre.board[row2][col2]     
     }  
 }
 
-// Is there a potential issue in this move predicate? Write a 'run' to find it!
+/*
+  Note: the lab stencil for this week shows *one way* to possibly
+  fill in the move predicate based on the English above.
+*/
+
+-- Note: error can be strange if you get the argument order wrong
+--   (This is one of the things we're doing updates for!)
+pred winningPreservedCounterexample {
+  some pre, post: Board | {
+    some row, col: Int, p: Player | 
+      move[pre, post, row, col, p]
+    winner[pre, X]
+    not winner[post, X]
+  }
+}
+// run {
+//   all s: Board | wellformed[s]
+//   winningPreservedCounterexample
+// }
+
+---------------------------------------------------------------
+-- Full games / traces 
+
+one sig Game {
+  initialState: one Board,
+  next: pfunc Board -> Board
+}
+
+pred traces {
+    -- The trace starts with an initial state
+    starting[Game.initialState]
+    no sprev: Board | Game.next[sprev] = Game.initialState
+    -- Every transition is a valid move
+    all s: Board | some Game.next[s] implies {
+      some row, col: Int, p: Player |
+        move[s, Game.next[s], row, col, p]
+    }
+}
+
+run {  
+  all b: Board | wellformed[b]
+  traces
+} for exactly 10 Board for {next is linear}

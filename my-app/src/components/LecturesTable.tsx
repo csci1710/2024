@@ -67,6 +67,11 @@ function LectureDay(props: { lecture: Lecture }) {
             Livecode
           </a>
         )}
+        {props.lecture.otherLinks?.map((otherLink) => (
+          <a href={otherLink.link} className="text-primary-500 underline">
+            {otherLink.name}
+          </a>
+        ))}
       </div>
     </div>
   );

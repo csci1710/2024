@@ -90,6 +90,12 @@ export const lectureWeeks: LectureWeek[] = [
         notesLink: "https://hackmd.io/@lfs/rkXCRYq2i",
         // recordingLink: "https://www.google.com",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb03_ttt.frg",
+        // otherLinks: [
+        //   {
+        //     name: "OtherLink",
+        //     link: "https://www.google.com",
+        //   },
+        // ],
       },
     ],
   },
@@ -419,6 +425,8 @@ export type Lecture = {
   notesLink?: string;
   recordingLink?: string;
   liveCodeLink?: string;
+  // Arbitrary links with arbitrary names:
+  otherLinks?: { name: string; link: string }[]; // NOTE: Nothing preventing name conflict between notes/recording/livecode name
 };
 
 export type LectureWeek = {

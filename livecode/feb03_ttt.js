@@ -33,7 +33,7 @@ function printState(stateAtom, yoffset) {
 
 var offset = 0
 for(b = 0; b <= 10; b++) {  
-  if(State.atom("Board"+b) != null)
-    printState(State.atom("Board"+b), offset)  
+  if(Board.atom("Board"+b) != null)
+    printState(Board.atom("Board"+b), offset)  
   offset = offset + 55
 }

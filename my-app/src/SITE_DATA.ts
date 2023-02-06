@@ -104,6 +104,32 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 3",
+    dailyLectures: [
+      {
+        name: "Testing Models and Frequent Questions",
+        date: "Feb 06",
+        notesLink: "https://hackmd.io/@lfs/rkboXnp2o",
+        //recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0638390-2a9f-4136-a7f5-af850163de09",
+        //liveCodeLink: process.env.PUBLIC_URL + "/livecode/jan30_ttt.frg",
+      },
+      {
+        name: "Modeling with Traces",
+        date: "Feb 08",
+        //notesLink: "https://hackmd.io/@lfs/HJcvwQunj",
+        //recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
+        //liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
+      },
+      {
+        name: "Problems with Traces",
+        date: "Feb 10",
+        //notesLink: "https://hackmd.io/@lfs/rkXCRYq2i",
+        //recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=454dc37b-ac45-47f1-a208-af850163de3c",
+        //liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb03_ttt.frg",
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

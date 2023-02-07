@@ -94,9 +94,11 @@ pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
     no pre.board[row][col] -- no move already there
     p = X implies Xturn[pre] -- appropriate turn
     p = O implies Oturn[pre]  
-    -- Added Feb 6:
-    row >= 0 and row <= 2 
-    col >= 0 and col <= 2
+    row <= 2 and row >= 0 
+    col <= 2 and col >= 0
+
+
+
     -- TODO(?): no winner yet?
     
 
@@ -105,6 +107,7 @@ pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
     all row2: Int, col2: Int | (row!=row2 or col!=col2) implies {                
         post.board[row2][col2] = pre.board[row2][col2]     
     }  
+
 }
 /*
 

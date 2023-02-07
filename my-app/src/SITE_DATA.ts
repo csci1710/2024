@@ -111,8 +111,15 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Testing Models and Frequent Questions",
         date: "Feb 06",
         notesLink: "https://hackmd.io/@lfs/rkboXnp2o",
-        //recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0638390-2a9f-4136-a7f5-af850163de09",
-        //liveCodeLink: process.env.PUBLIC_URL + "/livecode/jan30_ttt.frg",
+        recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e51c6a5-8fb3-4ae9-8af9-af850163de50",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb06_ttt.frg",
+        otherLinks: [
+          {
+            name: "Tests",
+            link: process.env.PUBLIC_URL + "/livecode/feb06_ttt.tests.frg",
+          },
+        ],
+
       },
       {
         name: "Modeling with Traces",

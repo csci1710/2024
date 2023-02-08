@@ -108,7 +108,7 @@ export const lectureWeeks: LectureWeek[] = [
     name: "Week 3",
     dailyLectures: [
       {
-        name: "Testing Models and Frequent Questions",
+        name: "Testing Models",
         date: "Feb 06",
         notesLink: "https://hackmd.io/@lfs/rkboXnp2o",
         recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e51c6a5-8fb3-4ae9-8af9-af850163de50",
@@ -122,9 +122,9 @@ export const lectureWeeks: LectureWeek[] = [
 
       },
       {
-        name: "Modeling with Traces",
+        name: "Frequent Questions, Modeling with Traces",
         date: "Feb 08",
-        //notesLink: "https://hackmd.io/@lfs/HJcvwQunj",
+        notesLink: "https://hackmd.io/@lfs/BJZZPX-Ts",
         //recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
         //liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
       },

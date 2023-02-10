@@ -2,7 +2,7 @@
 
 /*
   Tic-tac-toe boards, moves, and games
-  Feb 08 Livecode
+  Feb 10 Livecode
 */
 
 abstract sig Player {}
@@ -88,6 +88,17 @@ pred starting[b: Board] {
         no b.board[row][col]
 }
 
+pred doNothing[pre: Board, post: Board] {
+    -- GUARD
+    some p: Player | winner[pre, p]
+
+    -- ACTION
+    -- TN: notes TODO
+    all row2: Int, col2: Int | 
+        post.board[row2][col2] = pre.board[row2][col2]
+
+}
+
 pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
     -- GUARD (what needs to hold about the pre-state?)
     no pre.board[row][col] -- no move already there
@@ -95,8 +106,8 @@ pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
     p = O implies Oturn[pre]  
     row <= 2 and row >= 0 
     col <= 2 and col >= 0
-
-    -- TODO(?): no winner yet?
+    -- No winner yet (guard)
+    all p: Player | not winner[pre, p]
     
 
     -- ACTION (what does the post-state then look like?)
@@ -151,16 +162,21 @@ one sig Game {
 pred traces {
     starting[Game.initialState]
     all b: Board | some Game.next[b] implies {
-        some row, col: Int, p: Player | 
-            move[b, Game.next[b], row, col, p]
+        some row, col: Int, p: Player | {
+            move[b, Game.next[b], row, col, p]            
+        }
+        or
+            doNothing[b, Game.next[b]]
     }
-    --- last board?
+    
 
+    --- ? 
     --- do we need to say that initialState is the first state in "next"
 }
 
 run {
     all b: Board | wellformed[b]
     traces
-} for exactly 10 Board, 3 Int for  {next is linear}
+-- } for 6 Board, 3 Int for {next is linear}
+} for 10 Board, 3 Int for {next is linear}
 

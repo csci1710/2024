@@ -158,7 +158,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Forge 2",
     dateRange: "Feb 10 → Feb 16, 2023",
-    href: "https://docs.google.com/document/d/e/2PACX-1vRvocYtZqW7radvSC2CBVUOEOLsbC9qm5GdqmPOcnITv_SSCpHNAadQhXXwFVpD75UhcZhJ6hfE56dA/pub",
+    // href: "https://docs.google.com/document/d/e/2PACX-1vRvocYtZqW7radvSC2CBVUOEOLsbC9qm5GdqmPOcnITv_SSCpHNAadQhXXwFVpD75UhcZhJ6hfE56dA/pub",
   },
   {
     name: "Forge 3",
@@ -277,7 +277,7 @@ export const projectAssignments: Assignment[] = [
 export const casestudyAssignments: Assignment[] = [
   {
     name: "Hotel Locking",
-    dateRange: "Feb 10 → Mar 2, 2023",
+    dateRange: "TBD",
   },
 ];
 

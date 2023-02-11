@@ -220,7 +220,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Ring Election",
     dateRange: "Feb 8 → Feb 9, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vQggXOEX__YRulZMhzTSDxpYTp-qLPt6T4Tkj1mZBuQVZJmWjX3An8Q9h23J37_pYajssupeT4M8toQ/pub",
   },
   {
     name: "N Queens",

@@ -111,7 +111,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Testing Models",
         date: "Feb 06",
         notesLink: "https://hackmd.io/@lfs/rkboXnp2o",
-        recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e51c6a5-8fb3-4ae9-8af9-af850163de50",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e51c6a5-8fb3-4ae9-8af9-af850163de50",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb06_ttt.frg",
         otherLinks: [
           {
@@ -119,20 +120,21 @@ export const lectureWeeks: LectureWeek[] = [
             link: process.env.PUBLIC_URL + "/livecode/feb06_ttt.tests.frg",
           },
         ],
-
       },
       {
         name: "Frequent Questions, Modeling with Traces",
         date: "Feb 08",
         notesLink: "https://hackmd.io/@lfs/BJZZPX-Ts",
-        recordingLink:"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=279ddca0-4628-4aeb-bd88-af850163de69",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=279ddca0-4628-4aeb-bd88-af850163de69",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb08_ttt.frg",
       },
       {
         name: "Wheats, Doing Nothing (Productively)",
         date: "Feb 10",
         notesLink: "https://hackmd.io/@lfs/SJDRo3Qpj",
-        recordingLink: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e309483-7c40-4585-879f-af850163de7e",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e309483-7c40-4585-879f-af850163de7e",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb10_ttt.frg",
       },
     ],
@@ -156,7 +158,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Forge 2",
     dateRange: "Feb 10 → Feb 16, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vRvocYtZqW7radvSC2CBVUOEOLsbC9qm5GdqmPOcnITv_SSCpHNAadQhXXwFVpD75UhcZhJ6hfE56dA/pub",
   },
   {
     name: "Forge 3",

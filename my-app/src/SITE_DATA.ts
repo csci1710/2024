@@ -139,6 +139,35 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 4",
+    dailyLectures: [
+      {
+        name: "Forge 1, and the Problem with Traces",
+        date: "Feb 13",
+        notesLink: "https://hackmd.io/@lfs/BymP9hv6o",
+        recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b548aae3-b80d-4654-bddf-af850163de94",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb13_ttt.frg",
+      },
+      {
+        name: "Counterexamples to Induction",
+        date: "Feb 15",
+        // notesLink: "",
+        // recordingLink:
+        //   "",
+        // liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_ttt.frg",
+      },
+      {
+        name: "Curiosity Modeling, more Induction",
+        date: "Feb 17",
+        // notesLink: "",
+        // recordingLink:
+        //   "",
+        // liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb10_ttt.frg",
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

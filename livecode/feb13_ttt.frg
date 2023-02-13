@@ -130,16 +130,6 @@ pred move[pre: Board, post: Board, row: Int, col: Int, p: Player] {
 //     }
 // } for 2 Board
 
-// run {
-//     some pre, post: Board | {
-//       wellformed[pre]
-//       not wellformed[post]
-//       some row, col: Int, p: Player | {
-//         move[pre, post, row, col, p]
-//       }
-//     }
-// } for 2 Board
-
 -- Does TTT fail to preserve "X has won"
 // run {
 //     some pre, post: Board | {
@@ -181,3 +171,23 @@ pred traces {
 
 ---------------------
 -- Feb 13, 2023
+
+-- Prove 5-year-old Tim wrong!
+run {
+    traces
+    (Game.next[Game.initialState]).board[1][1] = X
+    -- We could also say:
+    --move[Game.initialState, Game.next[Game.initialState], 1, 1, X]
+    all b: Board | not winner[b, X]
+} for 10 Board, 3 Int for {next is linear}
+
+-- It only requires 2 states to confirm that move _preserves_ wellformedness.
+run {
+    some pre, post: Board | {
+      wellformed[pre]
+      not wellformed[post]
+      some row, col: Int, p: Player | {
+        move[pre, post, row, col, p]
+      }
+    }
+} for 2 Board

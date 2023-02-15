@@ -153,10 +153,10 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Counterexamples to Induction",
         date: "Feb 15",
-        // notesLink: "",
+        notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
         // recordingLink:
         //   "",
-        // liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_ttt.frg",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
       },
       {
         name: "Curiosity Modeling, more Induction",

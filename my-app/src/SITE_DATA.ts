@@ -147,7 +147,7 @@ export const lectureWeeks: LectureWeek[] = [
         date: "Feb 13",
         notesLink: "https://hackmd.io/@lfs/BymP9hv6o",
         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b548aae3-b80d-4654-bddf-af850163de94",
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b548aae3-b80d-4654-bddf-af850163de94",
         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb13_ttt.frg",
       },
       {
@@ -156,7 +156,8 @@ export const lectureWeeks: LectureWeek[] = [
         notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
         // recordingLink:
         //   "",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
       },
       {
         name: "Curiosity Modeling, more Induction",
@@ -186,7 +187,7 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "Forge 2",
-    dateRange: "Feb 10 → Feb 16, 2023",
+    dateRange: "Feb 10 → Feb 17, 2023",
     href: "https://docs.google.com/document/d/e/2PACX-1vRvocYtZqW7radvSC2CBVUOEOLsbC9qm5GdqmPOcnITv_SSCpHNAadQhXXwFVpD75UhcZhJ6hfE56dA/pub",
   },
   {
@@ -305,8 +306,16 @@ export const projectAssignments: Assignment[] = [
 
 export const casestudyAssignments: Assignment[] = [
   {
-    name: "Hotel Locking",
-    dateRange: "TBD",
+    name: "Hotel Locking Chckpt. 1",
+    dateRange: "Feb 22 → Feb 27, 2023",
+  },
+  {
+    name: "Hotel Locking Chckpt. 2",
+    dateRange: "Mar 3 → Mar 9, 2023",
+  },
+  {
+    name: "Hotel Locking Chckpt. 3",
+    dateRange: "Mar 10 → Mar 16",
   },
 ];
 

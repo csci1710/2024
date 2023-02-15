@@ -22,7 +22,7 @@ pred validArray[arr: IntArray] {
     -- if there's an element, either i=0 or there's something at i=1
     -- also the array is sorted:
     all i: Int | some arr.elements[i] implies {
-        i = 0 or some arr.elements[subtract[i, 1]]        
+        i = 0 or some arr.elements[subtract[i, 1]]
         arr.elements[i] >= arr.elements[subtract[i, 1]]
     }
     -- size variable reflects actual size of array    
@@ -171,24 +171,25 @@ pred bsearchInvariant[s: State] {
 //////////////////////
 // EXERCISE 1
 //////////////////////
-test expect {
-    initStep: {
-        // FILL: what describes the check that init states must satisfy the invariant?
-    } for exactly 1 IntArray, exactly 1 SearchState
-    is unsat
+// test expect {
+//     initStep: {
+//         // FILL: what describes the check that init states must satisfy the invariant?
+//     } for exactly 1 IntArray, exactly 1 SearchState
+//     is unsat
 
-    inductiveStep: {
-        // FILL: what describes the check that transitions always satisfy the invariant?
-    } for exactly 1 IntArray, exactly 2 SearchState
-    is unsat
-
-}
+//     inductiveStep: {
+//         // FILL: what describes the check that transitions always satisfy the invariant?
+//     } for exactly 1 IntArray, exactly 2 SearchState
+//     is unsat
+//
+//}
 
 -- Visual check: show a first transition of any type
-// run {
-//     some s1,s2: SearchState | { 
-//         init[s1]
-//         safeArraySize[s1.arr]        
-//         anyTransition[s1, s2]
-//     }
-// } for exactly 1 IntArray, exactly 2 SearchState
+run {
+    some s1,s2: SearchState | { 
+        init[s1]
+        safeArraySize[s1.arr]        
+        anyTransition[s1, s2]
+    }
+} for exactly 1 IntArray, exactly 2 SearchState
+

@@ -154,8 +154,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Counterexamples to Induction",
         date: "Feb 15",
         notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
-        // recordingLink:
-        //   "",
+        recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0c6888d-502a-44ee-ab14-af850163deaa",
         liveCodeLink:
           process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
       },
@@ -165,7 +165,7 @@ export const lectureWeeks: LectureWeek[] = [
         // notesLink: "",
         // recordingLink:
         //   "",
-        // liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb10_ttt.frg",
+         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
       },
     ],
   },

@@ -1,3 +1,5 @@
+#lang forge/bsl 
+
 sig Node {
     next: lone Node
 }
@@ -10,3 +12,4 @@ sig LinkedList {
 -- How can we AVOID the trace-based approach?
 -- What's an analogue in the TTT example? 
 --   Answer: we checked that `move` *preserved* wellformedness. That only required 2 states...
+

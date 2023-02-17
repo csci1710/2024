@@ -155,7 +155,7 @@ export const lectureWeeks: LectureWeek[] = [
         date: "Feb 15",
         notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0c6888d-502a-44ee-ab14-af850163deaa",
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0c6888d-502a-44ee-ab14-af850163deaa",
         liveCodeLink:
           process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
       },
@@ -164,12 +164,14 @@ export const lectureWeeks: LectureWeek[] = [
         date: "Feb 17",
         notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
         otherLinks: [
           {
             name: "Completed Exercise",
-            link: process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+            link:
+              process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
           },
         ],
       },
@@ -299,6 +301,7 @@ export const projectAssignments: Assignment[] = [
   {
     name: "Curiosity Modeling",
     dateRange: "Feb 17 → Mar 2, 2023",
+    href: "https://docs.google.com/document/d/e/2PACX-1vRvpsSR2qXtBdF0jtcmN-z5T7DlyT-uFNbDd9Wa83pyj5xn9yuMV9d59cn0-grpINGh9yNPP5haF60q/pub",
   },
   {
     name: "Final Project (Proposal)",

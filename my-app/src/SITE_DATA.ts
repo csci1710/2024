@@ -160,12 +160,18 @@ export const lectureWeeks: LectureWeek[] = [
           process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
       },
       {
-        name: "Curiosity Modeling, more Induction",
+        name: "Counterexamples to Induction (Part 2)",
         date: "Feb 17",
-        // notesLink: "",
-        // recordingLink:
-        //   "",
-         liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+        notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
+        recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+        otherLinks: [
+          {
+            name: "Completed Exercise",
+            link: process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+          },
+        ],
       },
     ],
   },

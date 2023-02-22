@@ -19,6 +19,10 @@ pred wellformed[b: Board] {
     }
 }
 
+// run {
+//     some b: Board | wellformed[b]
+// } for exactly 1 Board
+
 pred Xturn[b: Board] {
     -- same number of X and O on board
     #{row, col: Int | b.board[row][col] = X} = 

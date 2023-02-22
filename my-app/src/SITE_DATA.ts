@@ -177,6 +177,36 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 5",
+    dailyLectures: [
+      {
+        name: "Forge 2 Review, Modeling Boolean Logic (syntax), inst",
+        date: "Feb 22",
+        notesLink: "https://hackmd.io/@lfs/BJOLSiXRs",
+         recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=157bce7f-f82a-45e7-a90d-af850163deed",
+         liveCodeLink:
+           process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+      },
+      {
+        name: "Modeling Boolean Logic (semantics)",
+        date: "Feb 24",
+        // notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
+        // recordingLink:
+        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
+        // liveCodeLink:
+        //   process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+        // otherLinks: [
+        //   {
+        //     name: "Completed Exercise",
+        //     link:
+        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+        //   },
+        // ],
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

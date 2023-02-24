@@ -193,10 +193,10 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Modeling Boolean Logic (semantics)",
         date: "Feb 24",
         notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
-        // recordingLink:
-        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
-        // liveCodeLink:
-        //   process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+         recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=446878ef-b312-462d-8ca9-af850163df07",
+         liveCodeLink:
+           process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [
         //   {
         //     name: "Completed Exercise",

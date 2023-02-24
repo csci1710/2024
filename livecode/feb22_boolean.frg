@@ -1,4 +1,4 @@
-#lang forge/bsl
+#lang forge/bsl "in_class" "tim_nelson@brown.edu"
 /*
   Boolean Logic (Feb 22)
 

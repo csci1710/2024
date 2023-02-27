@@ -207,6 +207,60 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 6",
+    dailyLectures: [
+      {
+        name: "Sets in Forge: Reachability",
+        date: "Feb 27",
+        notesLink: "https://hackmd.io/@lfs/S1fkYQcRs",
+         recordingLink:
+           "",
+         //liveCodeLink:
+         //  process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+                 // otherLinks: [
+          otherLinks: [{
+            name: "Starter",
+            link:
+              process.env.PUBLIC_URL + "/livecode/feb27_starter.frg",
+          },
+        ],
+      },
+      {
+        name: "More Sets: Modeling Mutexes",
+        date: "Mar 1",
+        //notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
+        //  recordingLink:
+        //    "",
+        //  liveCodeLink:
+        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+        // otherLinks: [
+        //   {
+        //     name: "Completed Exercise",
+        //     link:
+        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+        //   },
+        // ],
+      },
+      {
+        name: "Beyond Assertions and Preservation",
+        date: "Mar 3",
+        //notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
+        //  recordingLink:
+        //    "",
+        //  liveCodeLink:
+        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+        // otherLinks: [
+        //   {
+        //     name: "Completed Exercise",
+        //     link:
+        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+        //   },
+        // ],
+      },
+
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

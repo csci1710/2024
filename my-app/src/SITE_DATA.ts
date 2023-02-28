@@ -184,19 +184,17 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Forge 2 Review, Modeling Boolean Logic (syntax), inst",
         date: "Feb 22",
         notesLink: "https://hackmd.io/@lfs/BJOLSiXRs",
-         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=157bce7f-f82a-45e7-a90d-af850163deed",
-         liveCodeLink:
-           process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=157bce7f-f82a-45e7-a90d-af850163deed",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
       },
       {
         name: "Modeling Boolean Logic (semantics)",
         date: "Feb 24",
         notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
-         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=446878ef-b312-462d-8ca9-af850163df07",
-         liveCodeLink:
-           process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=446878ef-b312-462d-8ca9-af850163df07",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [
         //   {
         //     name: "Completed Exercise",
@@ -214,15 +212,15 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Sets in Forge: Reachability",
         date: "Feb 27",
         notesLink: "https://hackmd.io/@lfs/S1fkYQcRs",
-         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3563ed68-aceb-401d-8fb3-af850163df1f",
-         //liveCodeLink:
-         //  process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
-                 // otherLinks: [
-          otherLinks: [{
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3563ed68-aceb-401d-8fb3-af850163df1f",
+        //liveCodeLink:
+        //  process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+        // otherLinks: [
+        otherLinks: [
+          {
             name: "Starter",
-            link:
-              process.env.PUBLIC_URL + "/livecode/feb27_starter.frg",
+            link: process.env.PUBLIC_URL + "/livecode/feb27_starter.frg",
           },
         ],
       },
@@ -258,7 +256,6 @@ export const lectureWeeks: LectureWeek[] = [
         //   },
         // ],
       },
-
     ],
   },
 ];
@@ -347,7 +344,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "N Queens",
     dateRange: "Feb 22 → Feb 23, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vSE6uflAlsbaKiz9P4IU5WxoqBI8bgF_riKjYsWzhIivKCKTaXoSEI8hR9yHKYCfOMnWU8TF15ROIZM/pub",
   },
   {
     name: "Memory Management",

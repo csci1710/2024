@@ -228,10 +228,10 @@ export const lectureWeeks: LectureWeek[] = [
         name: "More Sets: Modeling Mutexes",
         date: "Mar 1",
         notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
-        //  recordingLink:
-        //    "",
-        //  liveCodeLink:
-        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+          recordingLink:
+            "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
+          liveCodeLink:
+            process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
         // otherLinks: [
         //   {
         //     name: "Completed Exercise",

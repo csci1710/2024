@@ -227,7 +227,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "More Sets: Modeling Mutexes",
         date: "Mar 1",
-        //notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
+        notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
         //  recordingLink:
         //    "",
         //  liveCodeLink:

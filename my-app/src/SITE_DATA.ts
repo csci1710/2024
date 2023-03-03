@@ -281,7 +281,8 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Forge 3",
     dateRange: "Mar 3 → Mar 9, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vSYfwV8tpCncqMopwfGqcBCsejp3JqNEbv2qpHp1p8s0Njo3TdQrF7IwW60e6Q8EIVfFX48-IK2OZts/pub",
+    autoReleaseDate: "Mar 3, 2023 11:00:00 EST",
   },
   {
     name: "Model Checking 1: Stack/Ring",

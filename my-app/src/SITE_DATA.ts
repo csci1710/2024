@@ -403,6 +403,7 @@ export const casestudyAssignments: Assignment[] = [
   {
     name: "Hotel Locking Chckpt. 2",
     dateRange: "Mar 3 → Mar 9, 2023",
+    href: "https://docs.google.com/document/d/e/2PACX-1vTdztZUbNhvzwfaB9ZxOsZd6gsRfAwPgKkrn-Mv9HjTtHK4ukK0NRJ9zYiQGSkAOfE_RzoaOwM-QFVX/pub",
   },
   {
     name: "Hotel Locking Chckpt. 3",

@@ -243,8 +243,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Beyond Assertions and Preservation",
         date: "Mar 3",
         notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
-        //  recordingLink:
-        //    "",
+          recordingLink:
+            "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
         //  liveCodeLink:
         //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [

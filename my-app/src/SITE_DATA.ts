@@ -228,10 +228,9 @@ export const lectureWeeks: LectureWeek[] = [
         name: "More Sets: Modeling Mutexes",
         date: "Mar 1",
         notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
-          recordingLink:
-            "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
-          liveCodeLink:
-            process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
         // otherLinks: [
         //   {
         //     name: "Completed Exercise",
@@ -349,7 +348,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Memory Management",
     dateRange: "Mar 1 → Mar 2, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vQo6ctFWibVmsgME5zHF_lH3T1w8vGtcarTQHntoerscwll4t6k8k0RhE96mS2SDC8ipbCXjdFn2ms5/pub",
   },
   {
     name: "Model Checking (Trash)",

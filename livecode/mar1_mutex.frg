@@ -77,7 +77,9 @@ test expect {
 -- Mutual exclusion
 
 pred good[s: State] {
+    -- Original
     #{p: Process | s.loc[p] = InCS} <= 1
+    -- Enrichment
     all p: Process | {
         s.loc[p] = InCS implies p in s.flags
         s.loc[p] = Waiting implies p in s.flags

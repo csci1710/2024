@@ -242,7 +242,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Beyond Assertions and Preservation",
         date: "Mar 3",
-        //notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
+        notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
         //  recordingLink:
         //    "",
         //  liveCodeLink:

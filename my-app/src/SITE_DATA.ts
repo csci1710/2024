@@ -264,8 +264,21 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Join and Liveness",
         date: "Mar 06",
         notesLink: "https://hackmd.io/@lfs/HJ42ID712",
-        // recordingLink:
-        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3563ed68-aceb-401d-8fb3-af850163df1f",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar6_mutex_liveness.frg",
+        recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2ffa862-3ff8-4431-b097-af850163df82",
+        otherLinks: [
+          {
+            name: "Join Example (Social Network)",
+            link:
+              process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
+          },
+          {
+            name: "Join Example (Weighted Graph)",
+            link:
+              process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
+          },
+        ],
       },
       {
         name: "Temporal Forge",

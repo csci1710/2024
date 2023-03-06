@@ -257,6 +257,49 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 7",
+    dailyLectures: [
+      {
+        name: "Join and Liveness",
+        date: "Mar 06",
+        notesLink: "https://hackmd.io/@lfs/HJ42ID712",
+        // recordingLink:
+        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3563ed68-aceb-401d-8fb3-af850163df1f",
+      },
+      {
+        name: "Temporal Forge",
+        date: "Mar 08",
+        // notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
+        // recordingLink:
+        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
+        // liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
+        // otherLinks: [
+        //   {
+        //     name: "Completed Exercise",
+        //     link:
+        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+        //   },
+        // ],
+      },
+      {
+        name: "More Temporal Forge",
+        date: "Mar 10",
+        // notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
+        //   recordingLink:
+        //     "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
+        //  liveCodeLink:
+        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+        // otherLinks: [
+        //   {
+        //     name: "Completed Exercise",
+        //     link:
+        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+        //   },
+        // ],
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

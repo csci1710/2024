@@ -284,16 +284,16 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Temporal Forge",
         date: "Mar 08",
         notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
-        // recordingLink:
-        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
-        // liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
-        // otherLinks: [
-        //   {
-        //     name: "Completed Exercise",
-        //     link:
-        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-        //   },
-        // ],
+         recordingLink:
+           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
+         liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
+        otherLinks: [
+          {
+            name: "Counter Example",
+            link:
+              process.env.PUBLIC_URL + "/livecode/mar8_count.frg",
+          },
+        ],
       },
       {
         name: "More Temporal Forge",

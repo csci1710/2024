@@ -113,30 +113,21 @@ test expect {
 --   Dis/0/W/1
 --   Dis/0/InCS/1
 --   Dis/0/Dis/0
+--
+-- Doing this _without a Trace sig_ via temporal mode
 ---------------------------------------------------------------------
 
-one sig Trace {
-    initialState: one State,
-    nextState: pfunc State -> State
-}
+-- enable the temporal solver
+option problem_type temporal
+-- set maximum trace length (default: 5)
+option max_tracelength 10
+-- set minimum trace length (default: 1)
+-- (The solver does iterative deepening, so a longer minimum length 
+--  can sometimes, but not always, speed things up.)
+option min_tracelength 1
 
-pred trace {
-    -- example! see notes
-    no Trace.initialState.~(Trace.nextState)
-    init[Trace.initialState]
-    all s: State | some Trace.nextState[s] => {
-        delta[s, Trace.nextState[s]]
-    }
-}
+-- TODO: var fields
+-- TODO: edit predicates
+-- TODO: shape of run; warning about 'example'
+-- TODO: shape of visualization
 
--- because we may need to take a few transitions before
--- we hit the cycle!
-pred lasso {
-    trace    
-    all s: State | some Trace.nextState[s]
-}
-
-test expect {
-    lassoVacuity: {lasso} is sat
-    lasso2: {lasso} for 2 State is unsat
-}

@@ -283,7 +283,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Temporal Forge",
         date: "Mar 08",
-        // notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
+        notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
         // recordingLink:
         //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
         // liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",

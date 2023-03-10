@@ -290,7 +290,7 @@ export const lectureWeeks: LectureWeek[] = [
         otherLinks: [
           {
             name: "Counter Example",
-            link: process.env.PUBLIC_URL + "/livecode/mar8_count.frg",
+            link: process.env.PUBLIC_URL + "/livecode/mar8_counter.frg",
           },
         ],
       },
@@ -298,8 +298,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "More Temporal Forge",
         date: "Mar 10",
          notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
-        //   recordingLink:
-        //     "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
+           recordingLink:
+             "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
         //  liveCodeLink:
         //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [

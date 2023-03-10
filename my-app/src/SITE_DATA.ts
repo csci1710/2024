@@ -297,7 +297,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "More Temporal Forge",
         date: "Mar 10",
-        // notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
+         notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
         //   recordingLink:
         //     "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
         //  liveCodeLink:

@@ -243,8 +243,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Beyond Assertions and Preservation",
         date: "Mar 3",
         notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
-          recordingLink:
-            "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
         //  liveCodeLink:
         //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [
@@ -264,19 +264,18 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Join and Liveness",
         date: "Mar 06",
         notesLink: "https://hackmd.io/@lfs/HJ42ID712",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar6_mutex_liveness.frg",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar6_mutex_liveness.frg",
         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2ffa862-3ff8-4431-b097-af850163df82",
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2ffa862-3ff8-4431-b097-af850163df82",
         otherLinks: [
           {
             name: "Join Example (Social Network)",
-            link:
-              process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
+            link: process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
           },
           {
             name: "Join Example (Weighted Graph)",
-            link:
-              process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
+            link: process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
           },
         ],
       },
@@ -284,14 +283,14 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Temporal Forge",
         date: "Mar 08",
         notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
-         recordingLink:
-           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
-         liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
         otherLinks: [
           {
             name: "Counter Example",
-            link:
-              process.env.PUBLIC_URL + "/livecode/mar8_count.frg",
+            link: process.env.PUBLIC_URL + "/livecode/mar8_count.frg",
           },
         ],
       },
@@ -343,7 +342,8 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Model Checking 1: Stack/Ring",
     dateRange: "Mar 10 → Mar 16, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vSjEbk4oJTvNxgxKWxcSgSKLnmNDsM6fZkkN10n_UD4JOlraUMzMDoFH_lWcm377smn_hmkjdVI4OZP/pub",
+    autoReleaseDate: "Mar 10, 2023 11:00:00 EST",
   },
   {
     name: "Model Checking 2: Elevator Critique",
@@ -410,7 +410,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Model Checking (Trash)",
     dateRange: "Mar 8 → Mar 9, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vT_i_NDguugtgsMDyiYTu39-rk3sGwBfOYipNo-ZTmAGRE6Dta0DOQ61qB6rh4iqC5NZpbPltdwje0w/pub",
   },
   {
     name: "Dining Blacksmiths",
@@ -464,6 +464,8 @@ export const casestudyAssignments: Assignment[] = [
   {
     name: "Hotel Locking Chckpt. 3",
     dateRange: "Mar 10 → Mar 16",
+    href: "https://docs.google.com/document/d/e/2PACX-1vSiR6Y-8MG-3-J4YdRArTMLJax5jnB_ifUCuc_LACDhTLm3C3v42cZqwYRFWWJDvEb1VGTjxcUHivww/pub",
+    autoReleaseDate: "Mar 10, 2023 11:00:00 EST",
   },
 ];
 

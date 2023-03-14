@@ -312,6 +312,61 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 8",
+    dailyLectures: [
+      {
+        name: "Lassos and Obligations",
+        date: "Mar 13",
+        notesLink: "https://hackmd.io/@lfs/S1Tezch1h",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar13_mutex_donothing.frg",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=238f04c6-0d29-4a3c-947e-af850163e005",
+        otherLinks: [
+          {
+            name: "Join Example (Social Network)",
+            link: process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
+          },
+          {
+            name: "Join Example (Weighted Graph)",
+            link: process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
+          },
+        ],
+      },
+      {
+        name: "Temporal Forge",
+        date: "Mar 08",
+        notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
+        otherLinks: [
+          {
+            name: "Counter Example",
+            link: process.env.PUBLIC_URL + "/livecode/mar8_counter.frg",
+          },
+        ],
+      },
+      {
+        name: "More Temporal Forge",
+        date: "Mar 10",
+         notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
+           recordingLink:
+             "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
+        //  liveCodeLink:
+        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+        // otherLinks: [
+        //   {
+        //     name: "Completed Exercise",
+        //     link:
+        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+        //   },
+        // ],
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

@@ -13,6 +13,14 @@ option min_tracelength 1
 /*
   Model of a mutual-exclusion protocol
 
+  // run by 2 different processes
+  while(true) {
+    this.flag = true
+    while(other.flag == true) {}
+    // take our turn 
+    this.flag = false
+  }
+
   What do we _want_ from the protocol?
     - mutual exclusion: at most one thread is in the 
       critical-section at any time
@@ -96,8 +104,7 @@ pred doNothing {
     -- no! this would not limit doNothing at all; it says that 
     --   no other transition predicate _ran_, not _could run_
     --all p: Process | not raise[p] and not enter[p] and not leave[p]
-
-    -- ??? How do I use the 'enabled' predicates in the guard here?
+    
     all p: Process | {
         not raiseEnabled[p] and not enterEnabled[p] and not leaveEnabled[p]
     }
@@ -120,17 +127,6 @@ pred delta {
     }
 }
 
-test expect {
-    canEnter: {
-        -- take enter IN FIRST STATE
-        some p: Process | enter[p]
-    } is sat
-    -- TODO: fill in for other transitions, init
-
-    -- TODO: check that transitions are disjoint...
-    --  ... etc.
-}
-
 ----------------
 -- Mutual exclusion
 
@@ -143,6 +139,72 @@ pred good {
         p.loc = Waiting implies some p.flag
     }
 }
+
+-- A test for the SYSTEM (think of as a "public test": assuming we've
+--   modeled the system well, if this passes or fails, it tells us something
+--   about the SYSTEM, and we can use that knowledge outside the model. E.g.,
+--   if this failed, it would mean the algorithm was broken in this way!)
+test expect {
+    checkSafetyInTemporalMode_counterexample: {
+        init
+        always delta
+        not always good -- at some point, mutual-exclusion fails
+    } is unsat -- if no counterexamples, then our property holds OF THE SYSTEM
+}
+-- But "assuming we've modeled the system well" is a terrifying assumption!
+--   If it fails, and we overly trust the result of such a SYSTEM check, 
+--   we could cause a lot of harm in the real world. So we should test
+--   the *model itself* in some other way(s). These are a sort of _private_
+--   test suite.
+test expect {
+    -- this isn't about the _algorithm_; it's about our model.
+    initSatisfiable: { init } is sat
+    tracesSatisfiable: { init and always delta} is sat
+    -- ...but bugs aren't always that straightforward
+    canEnterInitially: {
+        -- take enter IN FIRST STATE
+        -- assuming init in first state
+        init
+        some p: Process | enter[p]
+    } is unsat
+    canRaiseInitially: {
+        some p: Process | raise[p]
+    } is sat
+    singleLoopInitially: {
+        init
+        always delta 
+        -- ^ these 2 lines aren't strictly necessary, 
+        -- but they widen the chance to fail
+        some p: Process | {
+            raise[p]
+            next_state enter[p]
+            next_state next_state leave[p]
+        }
+    } is sat
+    
+    -- VERY SPECIFIC EXAMPLES (still testing the model though)
+    -- it would be reasonable to write these first, if you knew about the problem
+    --  even without a wheat! but you wouldn't be able to run them
+    testDeadlockScenario_sat: {
+        init
+        always delta 
+
+        raise[ProcessA]
+        next_state raise[ProcessB]
+        next_state next_state doNothing -- ...
+    } is sat
+    testDeadlockScenario_unsat: {
+        init
+        always delta 
+
+        raise[ProcessA]
+        next_state raise[ProcessB]
+        next_state next_state enter[ProcessA] -- can't do this, we're stuck
+    } is unsat
+
+
+}
+
 
 // test expect {
 //     baseCase: {
@@ -171,12 +233,6 @@ pred good {
 --
 -- Doing this _without a Trace sig_ via temporal mode
 ---------------------------------------------------------------------
-
--- TODO: shape of run; warning about 'example'
--- TODO: shape of visualization
-
--- TODO: add doNothing safely
--- TODO: check for deadlock 
 
 // run {
 //     init
@@ -209,7 +265,7 @@ test expect {
         always delta
         eventually doNothing
     } is sat
-    testDoNothing_canHappen: {
+    testDoNothing_cantHappenFirst: {
         init
         always delta
         doNothing -- in the first state!

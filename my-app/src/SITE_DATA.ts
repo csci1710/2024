@@ -335,26 +335,20 @@ export const lectureWeeks: LectureWeek[] = [
         ],
       },
       {
-        name: "Temporal Forge",
-        date: "Mar 08",
-        notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
+        name: "Testing vs. the Model or System, Temporal Debugging",
+        date: "Mar 15",
+        // notesLink: "",
         recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fff477ea-f2bb-4031-b91b-af850163e022",
         liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
-        otherLinks: [
-          {
-            name: "Counter Example",
-            link: process.env.PUBLIC_URL + "/livecode/mar8_counter.frg",
-          },
-        ],
+          process.env.PUBLIC_URL + "/livecode/mar15_mutex_testing.frg",
       },
       {
-        name: "More Temporal Forge",
-        date: "Mar 10",
-         notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
-           recordingLink:
-             "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
+        name: "TBD",
+        date: "Mar 17",
+        //  notesLink: "",
+        //    recordingLink:
+        //      "",
         //  liveCodeLink:
         //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [

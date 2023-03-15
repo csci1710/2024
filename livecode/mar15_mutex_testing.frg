@@ -15,9 +15,12 @@ option min_tracelength 1
 
   // run by 2 different processes
   while(true) {
+    [DISINTERESTED]
     this.flag = true
+    [WAITING]
     while(other.flag == true) {}
     // take our turn 
+    [IN_CS]
     this.flag = false
   }
 
@@ -140,6 +143,8 @@ pred good {
     }
 }
 
+// MARCH 15
+
 -- A test for the SYSTEM (think of as a "public test": assuming we've
 --   modeled the system well, if this passes or fails, it tells us something
 --   about the SYSTEM, and we can use that knowledge outside the model. E.g.,
@@ -148,9 +153,14 @@ test expect {
     checkSafetyInTemporalMode_counterexample: {
         init
         always delta
-        not always good -- at some point, mutual-exclusion fails
+        eventually not good
     } is unsat -- if no counterexamples, then our property holds OF THE SYSTEM
 }
+
+
+
+// MARCH 15
+
 -- But "assuming we've modeled the system well" is a terrifying assumption!
 --   If it fails, and we overly trust the result of such a SYSTEM check, 
 --   we could cause a lot of harm in the real world. So we should test
@@ -158,66 +168,75 @@ test expect {
 --   test suite.
 test expect {
     -- this isn't about the _algorithm_; it's about our model.
-    initSatisfiable: { init } is sat
-    tracesSatisfiable: { init and always delta} is sat
-    -- ...but bugs aren't always that straightforward
-    canEnterInitially: {
-        -- take enter IN FIRST STATE
-        -- assuming init in first state
-        init
-        some p: Process | enter[p]
-    } is unsat
-    canRaiseInitially: {
-        some p: Process | raise[p]
-    } is sat
-    singleLoopInitially: {
-        init
-        always delta 
-        -- ^ these 2 lines aren't strictly necessary, 
-        -- but they widen the chance to fail
-        some p: Process | {
-            raise[p]
-            next_state enter[p]
-            next_state next_state leave[p]
-        }
-    } is sat
     
     -- VERY SPECIFIC EXAMPLES (still testing the model though)
     -- it would be reasonable to write these first, if you knew about the problem
     --  even without a wheat! but you wouldn't be able to run them
-    testDeadlockScenario_sat: {
+    processALoops: {
         init
-        always delta 
-
         raise[ProcessA]
-        next_state raise[ProcessB]
-        next_state next_state doNothing -- ...
+        next_state enter[ProcessA]
+        next_state next_state leave[ProcessA]
+        // could even add (as an extra check...)
+        // flags = flags'''
+        // loc = loc'''
     } is sat
-    testDeadlockScenario_unsat: {
+    processALoops: {
         init
-        always delta 
-
-        raise[ProcessA]
-        next_state raise[ProcessB]
-        next_state next_state enter[ProcessA] -- can't do this, we're stuck
+        always delta
+        -- only in first state...        
+        // raise[ProcessA]
+        // enter[ProcessA]        
+        -- more powerful:
+        // eventually {
+        //     raise[ProcessA]
+        //     enter[ProcessA]        
+        // }
+        -- even better
+        some p: Process | 
+        eventually {
+            (raise[p] and enter[p]) or
+            (raise[p] and leave[p]) or
+            (leave[p] and enter[p])
+        }
     } is unsat
 
+    -- debugging: GET CONCRETE!!!
+    deadlockRegression: {
+        init
+        -- too abstract
+        --always delta        
+
+        -- get concrete:
+        raise[ProcessA]
+        --next_state raise[ProcessB]
+    } is sat
+
+
+    -- MORE GENERAL CHECKS OF PROPERTIES (still testing the model)
+    lassoSat: { init and always delta } is sat
+    onlyOneProcess_counterexample: { 
+        init 
+        always delta
+        eventually {
+            some disj p1, p2: Process | {
+                // could write raise[p1] or ... 
+                // could also write (assumes that loc changes always)
+                p1.loc != p1.loc' and p2.loc != p2.loc'
+            }
+        }
+    } is unsat
+    raiseFirst: {
+        init
+        some p: Process | raise[p]
+    } is sat
+    leaveFirst_counterexample: {
+        init
+        some p: Process | leave[p]
+    } is unsat
 
 }
 
-
-// test expect {
-//     baseCase: {
-//         some s: State | init[s] and not good[s]
-//     } for exactly 1 State is unsat
-//     inductiveCase: {
-//         some pre, post: State | {
-//             delta[pre, post]
-//             good[pre]
-//             not good[post]
-//         }
-//     } for exactly 2 State is unsat
-// }
 
 ---------------------------------------------------------------------
 -- Liveness: how do we find violations of the property:

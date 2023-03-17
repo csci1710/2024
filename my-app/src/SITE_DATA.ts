@@ -297,9 +297,9 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "More Temporal Forge",
         date: "Mar 10",
-         notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
-           recordingLink:
-             "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
+        notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
         //  liveCodeLink:
         //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
         // otherLinks: [
@@ -397,7 +397,8 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "Model Checking 2: Elevator Critique",
     dateRange: "Mar 17 → Mar 23, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vRPM8MieAl8L8OOMFnTNK9MdaM0thI8-hPgaBnjk70w0MY4rIVi6zY_KDJImLD4LxUkw70la608i5az/pub",
+    autoReleaseDate: "Mar 17, 2023 11:00:00 EST",
   },
   {
     name: "SAT 1",

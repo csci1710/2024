@@ -347,8 +347,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Peterson Lock, Fairness",
         date: "Mar 17",
           notesLink: "https://hackmd.io/@lfs/BJgN-kGg3",
-        //    recordingLink:
-        //      "",
+            recordingLink:
+              "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14e36d7d-9f27-4a44-8526-af850163e03d",
           liveCodeLink:
             process.env.PUBLIC_URL + "/livecode/mar17_peterson_fairness.frg",
         // otherLinks: [

@@ -236,6 +236,7 @@ test expect {
     --  The presence of _any_ doNothing means something is broken, now.    
     deadlockRegression_better: {
         init
+        always delta -- BUG
         eventually doNothing
     } is unsat
 

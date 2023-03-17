@@ -344,13 +344,13 @@ export const lectureWeeks: LectureWeek[] = [
           process.env.PUBLIC_URL + "/livecode/mar15_mutex_testing.frg",
       },
       {
-        name: "TBD",
+        name: "Peterson Lock, Fairness",
         date: "Mar 17",
-        //  notesLink: "",
+          notesLink: "https://hackmd.io/@lfs/BJgN-kGg3",
         //    recordingLink:
         //      "",
-        //  liveCodeLink:
-        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+          liveCodeLink:
+            process.env.PUBLIC_URL + "/livecode/mar17_peterson_fairness.frg",
         // otherLinks: [
         //   {
         //     name: "Completed Exercise",

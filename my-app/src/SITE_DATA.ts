@@ -346,11 +346,11 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Peterson Lock, Fairness",
         date: "Mar 17",
-          notesLink: "https://hackmd.io/@lfs/BJgN-kGg3",
-            recordingLink:
-              "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14e36d7d-9f27-4a44-8526-af850163e03d",
-          liveCodeLink:
-            process.env.PUBLIC_URL + "/livecode/mar17_peterson_fairness.frg",
+        notesLink: "https://hackmd.io/@lfs/BJgN-kGg3",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14e36d7d-9f27-4a44-8526-af850163e03d",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar17_peterson_fairness.frg",
         // otherLinks: [
         //   {
         //     name: "Completed Exercise",
@@ -465,7 +465,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Dining Blacksmiths",
     dateRange: "Mar 15 → Mar 16, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vQfTgitoumjzcCHeIgQl3gnKqw3rnaEnT0x8yZukVGaPtrLal88tE-rpDTsvvz4dGSsI-55LL3KVLux/pub",
   },
   {
     name: "SAT prep (col-lab)",

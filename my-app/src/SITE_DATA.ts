@@ -423,7 +423,7 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "Model Checking 2: Elevator Critique",
-    dateRange: "Mar 20 → Mar 25, 2023",
+    dateRange: "Mar 20 → Mar 24, 2023",
     href: "https://docs.google.com/document/d/e/2PACX-1vRPM8MieAl8L8OOMFnTNK9MdaM0thI8-hPgaBnjk70w0MY4rIVi6zY_KDJImLD4LxUkw70la608i5az/pub",
     // autoReleaseDate: "Mar 20, 2023 11:00:00 EST",
   },

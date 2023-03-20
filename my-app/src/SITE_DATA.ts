@@ -368,9 +368,10 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Bounds and Booleans: How Forge Works",
         date: "Mar 20",
         notesLink: "https://hackmd.io/@lfs/BJw6v0Be3",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
-        // recordingLink:
-        //   "",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63beb6c0-c3cb-4a66-91a4-af850163e059",
         otherLinks: [
           {
             name: "DIMACS CNF for 4 queens",

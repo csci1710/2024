@@ -368,8 +368,7 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Bounds and Booleans: How Forge Works",
         date: "Mar 20",
         notesLink: "https://hackmd.io/@lfs/BJw6v0Be3",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
         // recordingLink:
         //   "",
         otherLinks: [
@@ -381,11 +380,11 @@ export const lectureWeeks: LectureWeek[] = [
       },
       {
         name: "Case-Study Reviews (No Class)",
-        date: "Mar 22",        
+        date: "Mar 22",
       },
       {
         name: "Case-Study Reviews (No Class)",
-        date: "Mar 24", 
+        date: "Mar 24",
       },
     ],
   },
@@ -424,9 +423,9 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "Model Checking 2: Elevator Critique",
-    dateRange: "Mar 20 → Mar 24, 2023",
+    dateRange: "Mar 20 → Mar 25, 2023",
     href: "https://docs.google.com/document/d/e/2PACX-1vRPM8MieAl8L8OOMFnTNK9MdaM0thI8-hPgaBnjk70w0MY4rIVi6zY_KDJImLD4LxUkw70la608i5az/pub",
-    autoReleaseDate: "Mar 20, 2023 11:00:00 EST",
+    // autoReleaseDate: "Mar 20, 2023 11:00:00 EST",
   },
   {
     name: "SAT 1",

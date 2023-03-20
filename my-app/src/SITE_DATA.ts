@@ -361,6 +361,34 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 9",
+    dailyLectures: [
+      {
+        name: "Bounds and Booleans: How Forge Works",
+        date: "Mar 20",
+        notesLink: "https://hackmd.io/@lfs/BJw6v0Be3",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+        // recordingLink:
+        //   "",
+        otherLinks: [
+          {
+            name: "DIMACS CNF for 4 queens",
+            link: process.env.PUBLIC_URL + "/livecode/4queens.cnf",
+          },
+        ],
+      },
+      {
+        name: "Case-Study Reviews (No Class)",
+        date: "Mar 22",        
+      },
+      {
+        name: "Case-Study Reviews (No Class)",
+        date: "Mar 24", 
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

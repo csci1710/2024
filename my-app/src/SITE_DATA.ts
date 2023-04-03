@@ -398,8 +398,8 @@ export const lectureWeeks: LectureWeek[] = [
         notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
         // liveCodeLink:
         //   process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
-        // recordingLink:
-        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63beb6c0-c3cb-4a66-91a4-af850163e059",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91b11a3-fca8-4eb0-96fd-af850163e0ef",
         // otherLinks: [
         //   {
         //     name: "DIMACS CNF for 4 queens",

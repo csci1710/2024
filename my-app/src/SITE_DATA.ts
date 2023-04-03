@@ -389,6 +389,34 @@ export const lectureWeeks: LectureWeek[] = [
       },
     ],
   },
+  {
+    name: "Week 10",
+    dailyLectures: [
+      {
+        name: "Solving Boolean Satisfiability (1)",
+        date: "Apr 03",
+        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
+        // liveCodeLink:
+        //   process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+        // recordingLink:
+        //   "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63beb6c0-c3cb-4a66-91a4-af850163e059",
+        // otherLinks: [
+        //   {
+        //     name: "DIMACS CNF for 4 queens",
+        //     link: process.env.PUBLIC_URL + "/livecode/4queens.cnf",
+        //   },
+        // ],
+      },
+      {
+        name: "Solving Boolean Satisfiability (2)",
+        date: "Apr 05",
+      },
+      {
+        name: "Review, Project Q&A",
+        date: "Apr 07",
+      },
+    ],
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

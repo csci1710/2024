@@ -368,8 +368,7 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Bounds and Booleans: How Forge Works",
         date: "Mar 20",
         notesLink: "https://hackmd.io/@lfs/BJw6v0Be3",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63beb6c0-c3cb-4a66-91a4-af850163e059",
         otherLinks: [
@@ -395,7 +394,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Solving Boolean Satisfiability (1)",
         date: "Apr 03",
-        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",        
+        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91b11a3-fca8-4eb0-96fd-af850163e0ef",
         // otherLinks: [
@@ -411,8 +410,7 @@ export const lectureWeeks: LectureWeek[] = [
         notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d03dc083-7ca9-4560-87cf-af850163e105",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/dpll.txt",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/dpll.txt",
       },
       {
         name: "DPLL (3), Project Q&A",
@@ -527,18 +525,19 @@ export const labAssignments: Assignment[] = [
     href: "https://docs.google.com/document/d/e/2PACX-1vQfTgitoumjzcCHeIgQl3gnKqw3rnaEnT0x8yZukVGaPtrLal88tE-rpDTsvvz4dGSsI-55LL3KVLux/pub",
   },
   {
-    name: "SAT prep (col-lab)",
-    dateRange: "Apr 5 → Apr 6, 2023",
-    // href: "https://www.google.com",
-  },
-  {
-    name: "SMT prep (col-lab)",
+    name: "SAT col-lab",
     dateRange: "Apr 12 → Apr 13, 2023",
     // href: "https://www.google.com",
   },
   {
-    name: "SAT 2 prep (col-lab)",
+    name: "SMT col-lab",
+
     dateRange: "Apr 19 → Apr 20, 2023",
+    // href: "https://www.google.com",
+  },
+  {
+    name: "SAT 2 col-lab",
+    dateRange: "Apr 26 → Apr 27, 2023",
     // href: "https://www.google.com",
   },
 ];

@@ -395,9 +395,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Solving Boolean Satisfiability (1)",
         date: "Apr 03",
-        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
-        // liveCodeLink:
-        //   process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",        
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91b11a3-fca8-4eb0-96fd-af850163e0ef",
         // otherLinks: [
@@ -410,9 +408,14 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Solving Boolean Satisfiability (2)",
         date: "Apr 05",
+        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d03dc083-7ca9-4560-87cf-af850163e105",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/dpll.txt",
       },
       {
-        name: "Review, Project Q&A",
+        name: "DPLL (3), Project Q&A",
         date: "Apr 07",
       },
     ],

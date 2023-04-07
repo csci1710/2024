@@ -415,9 +415,117 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "DPLL (3), Project Q&A",
         date: "Apr 07",
+        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12e55d4b-d9cd-4ad2-a7d2-af850163e128",        
       },
     ],
   },
+  {
+    name: "Week 11 (Prospective)",
+    dailyLectures: [
+      {
+        name: "Satisfiability Modulo Theories (1)",
+        date: "Apr 10",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "Satisfiability Modulo Theories (2)",
+        date: "Apr 12",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "CEGIS and Synthesis",
+        date: "Apr 14",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+    ],
+  },
+  {
+    name: "Week 12 (Prospective)",
+    dailyLectures: [
+      {
+        name: "Optional: The Future of 1710, Project Q&A",
+        date: "Apr 17",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "Resolution (1)",
+        date: "Apr 19",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "Resolution (2)",
+        date: "Apr 21",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+    ],
+  },
+  {
+    name: "Week 13 (Prospective)",
+    dailyLectures: [
+      {
+        name: "Guest Lecture: Alexa VanHattum (Wellesley)",
+        date: "Apr 24",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "Guest Lecture: Conrad Zimmerman",
+        date: "Apr 26",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "Guest Lecture: Megan Frisella",
+        date: "Apr 28",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+    ],
+  },
+  {
+    name: "Week 14 (Prospective)",
+    dailyLectures: [
+      {
+        name: "Guest Lecture: Anjali Pal (U. Washington)",
+        date: "May 01",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "Closing Lecture, Project Q&A",
+        date: "May 03",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+      {
+        name: "No Class",
+        date: "May 05",
+        // notesLink: "",
+        // recordingLink:
+          // "",
+      },
+    ],
+  },
+
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment

@@ -551,6 +551,7 @@ export const projectAssignments: Assignment[] = [
   {
     name: "Final Project (Proposal)",
     dateRange: "Apr 7, 2023",
+    href: "https://docs.google.com/document/d/e/2PACX-1vT-SHnIrJmlZ-0Kw0xMSmZh8gowqE76b5VKKf5K1H4KSVzY-MxPEPidCIEA3rx6LZu5cAzyn1xn8pzW/pub",
   },
   {
     name: "Final Project",

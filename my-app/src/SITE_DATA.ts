@@ -427,7 +427,7 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Satisfiability Modulo Theories (1)",
         date: "Apr 10",
-        // notesLink: "",
+        notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
         // recordingLink:
         // "",
       },

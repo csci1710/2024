@@ -422,19 +422,19 @@ export const lectureWeeks: LectureWeek[] = [
     ],
   },
   {
-    name: "Week 11 (Prospective)",
+    name: "Week 11",
     dailyLectures: [
       {
         name: "Satisfiability Modulo Theories (1)",
         date: "Apr 10",
         notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
-        // recordingLink:
-        // "",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ddb2b5-99de-48c8-903b-af850163e148",
       },
       {
         name: "Satisfiability Modulo Theories (2)",
         date: "Apr 12",
-        // notesLink: "",
+        notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
         // recordingLink:
         // "",
       },

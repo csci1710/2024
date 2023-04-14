@@ -442,8 +442,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "CEGIS and Synthesis",
         date: "Apr 14",
         notesLink: "https://hackmd.io/@lfs/HJ_UwaIfh",
-        // recordingLink:
-        // "",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a86931f9-f826-49e5-9c0a-af850163e1c5",
       },
     ],
   },

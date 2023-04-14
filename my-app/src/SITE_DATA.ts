@@ -572,7 +572,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "SMT",
     dateRange: "Apr 14 → Apr 20, 2023",
-    // href: "https://www.google.com",
+    href: "https://docs.google.com/document/d/e/2PACX-1vTggWSpqnpuh1-EefVab9g_nw13I-zWHGi9RaVowpjEGLSDs9Nz1ejUKu4QBp8l-ZoR9TfSfx0zHcvV/pub",
   },
   {
     name: "SAT 2",

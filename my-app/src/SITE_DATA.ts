@@ -448,14 +448,14 @@ export const lectureWeeks: LectureWeek[] = [
     ],
   },
   {
-    name: "Week 12 (Prospective)",
+    name: "Week 12",
     dailyLectures: [
       {
         name: "Optional: The Future of 1710, Project Q&A",
         date: "Apr 17",
         // notesLink: "",
-        // recordingLink:
-        // "",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04b16b03-0fd9-4dd6-a076-af850163e1e0",
       },
       {
         name: "Resolution (1)",
@@ -510,7 +510,7 @@ export const lectureWeeks: LectureWeek[] = [
         // "",
       },
       {
-        name: "Closing Lecture, Project Q&A",
+        name: "Closing Lecture, Project Q&A (or no class, TBD)",
         date: "May 03",
         // notesLink: "",
         // recordingLink:

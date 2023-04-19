@@ -461,8 +461,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Resolution (1)",
         date: "Apr 19",
         notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
-        // recordingLink:
-        // "",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cb86332-f28e-488c-806d-af850163e1fc",
       },
       {
         name: "Resolution (2)",

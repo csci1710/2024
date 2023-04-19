@@ -460,14 +460,14 @@ export const lectureWeeks: LectureWeek[] = [
       {
         name: "Resolution (1)",
         date: "Apr 19",
-        // notesLink: "",
+        notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
         // recordingLink:
         // "",
       },
       {
         name: "Resolution (2)",
         date: "Apr 21",
-        // notesLink: "",
+        notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
         // recordingLink:
         // "",
       },

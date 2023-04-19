@@ -428,6 +428,7 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Satisfiability Modulo Theories (1)",
         date: "Apr 10",
         notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.frg",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ddb2b5-99de-48c8-903b-af850163e148",
       },
@@ -461,6 +462,7 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Resolution (1)",
         date: "Apr 19",
         notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
+        liveCodeLink: process.env.PUBLIC_URL + "/livecode/apr19_cores.frg",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cb86332-f28e-488c-806d-af850163e1fc",
       },

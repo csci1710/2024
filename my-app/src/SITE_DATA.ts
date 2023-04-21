@@ -428,7 +428,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Satisfiability Modulo Theories (1)",
         date: "Apr 10",
         notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.frg",
+        liveCodeLink:
+          process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.frg",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ddb2b5-99de-48c8-903b-af850163e148",
       },
@@ -868,6 +869,7 @@ export type Resource = {
 export type Lecture = {
   name: string;
   date: string; // Jan 28
+  description?: string; // Short 1-2 sentence lecture description, optional
   notesLink?: string;
   recordingLink?: string;
   liveCodeLink?: string;

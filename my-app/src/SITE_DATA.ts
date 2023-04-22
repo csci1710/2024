@@ -579,8 +579,8 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "SAT 2",
-    dateRange: "Apr 21 → Apr 27, 2023",
-    // href: "https://www.google.com",
+    dateRange: "Apr 22 → Apr 28, 2023",
+    href: "https://docs.google.com/document/d/e/2PACX-1vSPPmytCSBO8f7REjf9S-r3JEtRNBOV2MMMlj8jg1lUdu00MhuZg8-9-8yKMb7XH2LKZYjz3CwV4kco/pub",
   },
   {
     // Rickroll ;)

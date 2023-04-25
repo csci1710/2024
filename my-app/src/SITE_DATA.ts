@@ -429,7 +429,7 @@ export const lectureWeeks: LectureWeek[] = [
         date: "Apr 10",
         notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
         liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.frg",
+          process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.py",
         recordingLink:
           "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ddb2b5-99de-48c8-903b-af850163e148",
       },

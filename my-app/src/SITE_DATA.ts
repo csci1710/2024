@@ -490,8 +490,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Guest Lecture: Conrad Zimmerman",
         date: "Apr 26",
         // notesLink: "",
-        // recordingLink:
-        // "",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9442816f-1a34-4bab-8323-af850163e268",
       },
       {
         name: "Guest Lecture: Megan Frisella",

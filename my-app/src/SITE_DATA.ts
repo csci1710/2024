@@ -509,8 +509,8 @@ export const lectureWeeks: LectureWeek[] = [
         name: "Guest Lecture: Anjali Pal (U. Washington)",
         date: "May 01",
         // notesLink: "",
-        // recordingLink:
-        // "",
+        recordingLink:
+          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b932ea69-5245-4ac2-a174-af850163e2af",
       },
       {
         name: "No Class (reading period)",

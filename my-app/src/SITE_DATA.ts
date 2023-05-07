@@ -665,7 +665,7 @@ export const projectAssignments: Assignment[] = [
   },
   {
     name: "Final Project",
-    dateRange: "Apr 11 → May 13, 2023",
+    dateRange: "Apr 11 → May 12, 2023",
   },
 ];
 

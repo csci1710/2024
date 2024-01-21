@@ -42,491 +42,420 @@ export const announcementInfo = {
   // Announcement will be shown on page load and manually dismissable between the above two dates
 };
 
-export const lectureWeeks: LectureWeek[] = [
+export const lectures: Lecture[] = [
   {
-    name: "Week 1",
-    dailyLectures: [
+    name: "What is LfS?",
+    date: "Jan 25",
+    notesLink: "https://hackmd.io/@lfs/rJMz6s0os",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72c885e8-f244-4211-998e-af850163ddae",
+  },
+  {
+    name: "From Test-Cases to Properties",
+    date: "Jan 27",
+    notesLink: "https://hackmd.io/@lfs/SJX6Or-2i",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4dfc8183-c365-498e-9821-af850163ddee",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/test_jan27_hypothesis.py",
+  },
+  {
+    name: "Intro to Modeling Systems (1)",
+    date: "Jan 30",
+    notesLink: "https://hackmd.io/@lfs/HJu2XHr2o",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0638390-2a9f-4136-a7f5-af850163de09",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/jan30_ttt.frg",
+  },
+  {
+    name: "Intro to Modeling Systems (2), Using GPT-3 in 1710",
+    date: "Feb 01",
+    notesLink: "https://hackmd.io/@lfs/HJcvwQunj",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
+  },
+  {
+    name: "Intro to Modeling Systems (3): Traces, Examples",
+    date: "Feb 03",
+    notesLink: "https://hackmd.io/@lfs/rkXCRYq2i",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=454dc37b-ac45-47f1-a208-af850163de3c",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb03_ttt.frg",
+    otherLinks: [
       {
-        name: "What is LfS?",
-        date: "Jan 25",
-        notesLink: "https://hackmd.io/@lfs/rJMz6s0os",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72c885e8-f244-4211-998e-af850163ddae",
-        // liveCodeLink: "https://www.google.com",
+        name: "Viz Script",
+        link: process.env.PUBLIC_URL + "/livecode/feb03_ttt.js",
       },
       {
-        name: "From Test-Cases to Properties",
-        date: "Jan 27",
-        notesLink: "https://hackmd.io/@lfs/SJX6Or-2i",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4dfc8183-c365-498e-9821-af850163ddee",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/test_jan27_hypothesis.py",
+        name: "Tests",
+        link: process.env.PUBLIC_URL + "/livecode/feb03_ttt.tests.frg",
       },
     ],
   },
   {
-    name: "Week 2",
-    dailyLectures: [
+    name: "Testing Models",
+    date: "Feb 06",
+    notesLink: "https://hackmd.io/@lfs/rkboXnp2o",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e51c6a5-8fb3-4ae9-8af9-af850163de50",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb06_ttt.frg",
+    otherLinks: [
       {
-        name: "Intro to Modeling Systems (1)",
-        date: "Jan 30",
-        notesLink: "https://hackmd.io/@lfs/HJu2XHr2o",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0638390-2a9f-4136-a7f5-af850163de09",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/jan30_ttt.frg",
-      },
-      {
-        name: "Intro to Modeling Systems (2), Using GPT-3 in 1710",
-        date: "Feb 01",
-        notesLink: "https://hackmd.io/@lfs/HJcvwQunj",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54210906-5067-4705-929d-af850163de26",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb01_ttt.frg",
-      },
-      {
-        name: "Intro to Modeling Systems (3): Traces, Examples",
-        date: "Feb 03",
-        notesLink: "https://hackmd.io/@lfs/rkXCRYq2i",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=454dc37b-ac45-47f1-a208-af850163de3c",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb03_ttt.frg",
-        otherLinks: [
-          {
-            name: "Viz Script",
-            link: process.env.PUBLIC_URL + "/livecode/feb03_ttt.js",
-          },
-          {
-            name: "Tests",
-            link: process.env.PUBLIC_URL + "/livecode/feb03_ttt.tests.frg",
-          },
-        ],
+        name: "Tests",
+        link: process.env.PUBLIC_URL + "/livecode/feb06_ttt.tests.frg",
       },
     ],
   },
   {
-    name: "Week 3",
-    dailyLectures: [
+    name: "Frequent Questions, Modeling with Traces",
+    date: "Feb 08",
+    notesLink: "https://hackmd.io/@lfs/BJZZPX-Ts",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=279ddca0-4628-4aeb-bd88-af850163de69",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb08_ttt.frg",
+  },
+  {
+    name: "Wheats, Doing Nothing (Productively)",
+    date: "Feb 10",
+    notesLink: "https://hackmd.io/@lfs/SJDRo3Qpj",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e309483-7c40-4585-879f-af850163de7e",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb10_ttt.frg",
+  },
+  {
+    name: "Forge 1, and the Problem with Traces",
+    date: "Feb 13",
+    notesLink: "https://hackmd.io/@lfs/BymP9hv6o",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b548aae3-b80d-4654-bddf-af850163de94",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb13_ttt.frg",
+  },
+  {
+    name: "Counterexamples to Induction",
+    date: "Feb 15",
+    notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0c6888d-502a-44ee-ab14-af850163deaa",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+  },
+  {
+    name: "Counterexamples to Induction (Part 2)",
+    date: "Feb 17",
+    notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
+    otherLinks: [
       {
-        name: "Testing Models",
-        date: "Feb 06",
-        notesLink: "https://hackmd.io/@lfs/rkboXnp2o",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e51c6a5-8fb3-4ae9-8af9-af850163de50",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb06_ttt.frg",
-        otherLinks: [
-          {
-            name: "Tests",
-            link: process.env.PUBLIC_URL + "/livecode/feb06_ttt.tests.frg",
-          },
-        ],
-      },
-      {
-        name: "Frequent Questions, Modeling with Traces",
-        date: "Feb 08",
-        notesLink: "https://hackmd.io/@lfs/BJZZPX-Ts",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=279ddca0-4628-4aeb-bd88-af850163de69",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb08_ttt.frg",
-      },
-      {
-        name: "Wheats, Doing Nothing (Productively)",
-        date: "Feb 10",
-        notesLink: "https://hackmd.io/@lfs/SJDRo3Qpj",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e309483-7c40-4585-879f-af850163de7e",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb10_ttt.frg",
+        name: "Completed Exercise",
+        link:
+          process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
       },
     ],
   },
   {
-    name: "Week 4",
-    dailyLectures: [
+    name: "Forge 2 Review, Modeling Boolean Logic (syntax), inst",
+    date: "Feb 22",
+    notesLink: "https://hackmd.io/@lfs/BJOLSiXRs",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=157bce7f-f82a-45e7-a90d-af850163deed",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+  },
+  {
+    name: "Modeling Boolean Logic (semantics)",
+    date: "Feb 24",
+    notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=446878ef-b312-462d-8ca9-af850163df07",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+    // otherLinks: [
+    //   {
+    //     name: "Completed Exercise",
+    //     link:
+    //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Sets in Forge: Reachability",
+    date: "Feb 27",
+    notesLink: "https://hackmd.io/@lfs/S1fkYQcRs",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3563ed68-aceb-401d-8fb3-af850163df1f",
+    //liveCodeLink:
+    //  process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+    // otherLinks: [
+    otherLinks: [
       {
-        name: "Forge 1, and the Problem with Traces",
-        date: "Feb 13",
-        notesLink: "https://hackmd.io/@lfs/BymP9hv6o",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b548aae3-b80d-4654-bddf-af850163de94",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb13_ttt.frg",
-      },
-      {
-        name: "Counterexamples to Induction",
-        date: "Feb 15",
-        notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0c6888d-502a-44ee-ab14-af850163deaa",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
-      },
-      {
-        name: "Counterexamples to Induction (Part 2)",
-        date: "Feb 17",
-        notesLink: "https://hackmd.io/@lfs/rJECSSqaj",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41b96408-8caf-43ee-b35b-af850163dec1",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/feb15_feb17_binarysearch.frg",
-        otherLinks: [
-          {
-            name: "Completed Exercise",
-            link:
-              process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-          },
-        ],
+        name: "Starter",
+        link: process.env.PUBLIC_URL + "/livecode/feb27_starter.frg",
       },
     ],
   },
   {
-    name: "Week 5",
-    dailyLectures: [
+    name: "More Sets: Modeling Mutexes",
+    date: "Mar 1",
+    notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
+    // otherLinks: [
+    //   {
+    //     name: "Completed Exercise",
+    //     link:
+    //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Beyond Assertions and Preservation",
+    date: "Mar 3",
+    notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
+    //  liveCodeLink:
+    //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+    // otherLinks: [
+    //   {
+    //     name: "Completed Exercise",
+    //     link:
+    //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Join and Liveness",
+    date: "Mar 06",
+    notesLink: "https://hackmd.io/@lfs/HJ42ID712",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/mar6_mutex_liveness.frg",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2ffa862-3ff8-4431-b097-af850163df82",
+    otherLinks: [
       {
-        name: "Forge 2 Review, Modeling Boolean Logic (syntax), inst",
-        date: "Feb 22",
-        notesLink: "https://hackmd.io/@lfs/BJOLSiXRs",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=157bce7f-f82a-45e7-a90d-af850163deed",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
+        name: "Join Example (Social Network)",
+        link: process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
       },
       {
-        name: "Modeling Boolean Logic (semantics)",
-        date: "Feb 24",
-        notesLink: "https://hackmd.io/@lfs/ByBHeVU0s",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=446878ef-b312-462d-8ca9-af850163df07",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
-        // otherLinks: [
-        //   {
-        //     name: "Completed Exercise",
-        //     link:
-        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-        //   },
-        // ],
+        name: "Join Example (Weighted Graph)",
+        link: process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
       },
     ],
   },
   {
-    name: "Week 6",
-    dailyLectures: [
+    name: "Temporal Forge",
+    date: "Mar 08",
+    notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
+    otherLinks: [
       {
-        name: "Sets in Forge: Reachability",
-        date: "Feb 27",
-        notesLink: "https://hackmd.io/@lfs/S1fkYQcRs",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3563ed68-aceb-401d-8fb3-af850163df1f",
-        //liveCodeLink:
-        //  process.env.PUBLIC_URL + "/livecode/feb22_boolean.frg",
-        // otherLinks: [
-        otherLinks: [
-          {
-            name: "Starter",
-            link: process.env.PUBLIC_URL + "/livecode/feb27_starter.frg",
-          },
-        ],
-      },
-      {
-        name: "More Sets: Modeling Mutexes",
-        date: "Mar 1",
-        notesLink: "https://hackmd.io/@lfs/H1tPxRhRi",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d013bd9-a216-42e5-ad70-af850163df4c",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar1_mutex.frg",
-        // otherLinks: [
-        //   {
-        //     name: "Completed Exercise",
-        //     link:
-        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-        //   },
-        // ],
-      },
-      {
-        name: "Beyond Assertions and Preservation",
-        date: "Mar 3",
-        notesLink: "https://hackmd.io/@lfs/H1C5TdyJ2",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3140b78e-8bba-4e31-aae8-af850163df66",
-        //  liveCodeLink:
-        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
-        // otherLinks: [
-        //   {
-        //     name: "Completed Exercise",
-        //     link:
-        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-        //   },
-        // ],
+        name: "Counter Example",
+        link: process.env.PUBLIC_URL + "/livecode/mar8_counter.frg",
       },
     ],
   },
   {
-    name: "Week 7",
-    dailyLectures: [
+    name: "More Temporal Forge",
+    date: "Mar 10",
+    notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
+    //  liveCodeLink:
+    //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
+    // otherLinks: [
+    //   {
+    //     name: "Completed Exercise",
+    //     link:
+    //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Lassos and Obligations",
+    date: "Mar 13",
+    notesLink: "https://hackmd.io/@lfs/S1Tezch1h",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/mar13_mutex_donothing.frg",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=238f04c6-0d29-4a3c-947e-af850163e005",
+    otherLinks: [
       {
-        name: "Join and Liveness",
-        date: "Mar 06",
-        notesLink: "https://hackmd.io/@lfs/HJ42ID712",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar6_mutex_liveness.frg",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2ffa862-3ff8-4431-b097-af850163df82",
-        otherLinks: [
-          {
-            name: "Join Example (Social Network)",
-            link: process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
-          },
-          {
-            name: "Join Example (Weighted Graph)",
-            link: process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
-          },
-        ],
+        name: "Join Example (Social Network)",
+        link: process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
       },
       {
-        name: "Temporal Forge",
-        date: "Mar 08",
-        notesLink: "https://hackmd.io/@lfs/Sy4EOv712",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e942e45-2009-4a12-9a95-af850163df9b",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar8_mutex_temporal.frg",
-        otherLinks: [
-          {
-            name: "Counter Example",
-            link: process.env.PUBLIC_URL + "/livecode/mar8_counter.frg",
-          },
-        ],
-      },
-      {
-        name: "More Temporal Forge",
-        date: "Mar 10",
-        notesLink: "https://hackmd.io/@lfs/BkgeZpdy2",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bd182f4b-680f-4058-9773-af850163dfe4",
-        //  liveCodeLink:
-        //    process.env.PUBLIC_URL + "/livecode/feb24_boolean.frg",
-        // otherLinks: [
-        //   {
-        //     name: "Completed Exercise",
-        //     link:
-        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-        //   },
-        // ],
+        name: "Join Example (Weighted Graph)",
+        link: process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
       },
     ],
   },
   {
-    name: "Week 8",
-    dailyLectures: [
+    name: "Testing vs. the Model or System, Temporal Debugging",
+    date: "Mar 15",
+    // notesLink: "",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fff477ea-f2bb-4031-b91b-af850163e022",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/mar15_mutex_testing.frg",
+  },
+  {
+    name: "Peterson Lock, Fairness",
+    date: "Mar 17",
+    notesLink: "https://hackmd.io/@lfs/BJgN-kGg3",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14e36d7d-9f27-4a44-8526-af850163e03d",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/mar17_peterson_fairness.frg",
+    // otherLinks: [
+    //   {
+    //     name: "Completed Exercise",
+    //     link:
+    //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Bounds and Booleans: How Forge Works",
+    date: "Mar 20",
+    notesLink: "https://hackmd.io/@lfs/BJw6v0Be3",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63beb6c0-c3cb-4a66-91a4-af850163e059",
+    otherLinks: [
       {
-        name: "Lassos and Obligations",
-        date: "Mar 13",
-        notesLink: "https://hackmd.io/@lfs/S1Tezch1h",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar13_mutex_donothing.frg",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=238f04c6-0d29-4a3c-947e-af850163e005",
-        otherLinks: [
-          {
-            name: "Join Example (Social Network)",
-            link: process.env.PUBLIC_URL + "/livecode/mar6_join.frg",
-          },
-          {
-            name: "Join Example (Weighted Graph)",
-            link: process.env.PUBLIC_URL + "/livecode/mar6_nodes.frg",
-          },
-        ],
-      },
-      {
-        name: "Testing vs. the Model or System, Temporal Debugging",
-        date: "Mar 15",
-        // notesLink: "",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fff477ea-f2bb-4031-b91b-af850163e022",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar15_mutex_testing.frg",
-      },
-      {
-        name: "Peterson Lock, Fairness",
-        date: "Mar 17",
-        notesLink: "https://hackmd.io/@lfs/BJgN-kGg3",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14e36d7d-9f27-4a44-8526-af850163e03d",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/mar17_peterson_fairness.frg",
-        // otherLinks: [
-        //   {
-        //     name: "Completed Exercise",
-        //     link:
-        //       process.env.PUBLIC_URL + "/livecode/feb17_bsearch_inclass.frg",
-        //   },
-        // ],
+        name: "DIMACS CNF for 4 queens",
+        link: process.env.PUBLIC_URL + "/livecode/4queens.cnf",
       },
     ],
   },
   {
-    name: "Week 9",
-    dailyLectures: [
-      {
-        name: "Bounds and Booleans: How Forge Works",
-        date: "Mar 20",
-        notesLink: "https://hackmd.io/@lfs/BJw6v0Be3",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/mar20_variables.frg",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63beb6c0-c3cb-4a66-91a4-af850163e059",
-        otherLinks: [
-          {
-            name: "DIMACS CNF for 4 queens",
-            link: process.env.PUBLIC_URL + "/livecode/4queens.cnf",
-          },
-        ],
-      },
-      {
-        name: "Case-Study Reviews (No Class)",
-        date: "Mar 22",
-      },
-      {
-        name: "Case-Study Reviews (No Class)",
-        date: "Mar 24",
-      },
-    ],
+    name: "Case-Study Reviews (No Class)",
+    date: "Mar 22",
   },
   {
-    name: "Week 10",
-    dailyLectures: [
-      {
-        name: "Solving Boolean Satisfiability (1)",
-        date: "Apr 03",
-        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91b11a3-fca8-4eb0-96fd-af850163e0ef",
-        // otherLinks: [
-        //   {
-        //     name: "DIMACS CNF for 4 queens",
-        //     link: process.env.PUBLIC_URL + "/livecode/4queens.cnf",
-        //   },
-        // ],
-      },
-      {
-        name: "Solving Boolean Satisfiability (2)",
-        date: "Apr 05",
-        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d03dc083-7ca9-4560-87cf-af850163e105",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/dpll.txt",
-      },
-      {
-        name: "DPLL (3), Project Q&A",
-        date: "Apr 07",
-        notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12e55d4b-d9cd-4ad2-a7d2-af850163e128",
-      },
-    ],
+    name: "Case-Study Reviews (No Class)",
+    date: "Mar 24",
   },
   {
-    name: "Week 11",
-    dailyLectures: [
-      {
-        name: "Satisfiability Modulo Theories (1)",
-        date: "Apr 10",
-        notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
-        liveCodeLink:
-          process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.py",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ddb2b5-99de-48c8-903b-af850163e148",
-      },
-      {
-        name: "Satisfiability Modulo Theories (2)",
-        date: "Apr 12",
-        notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ad2d051f-a0b4-43b0-bba6-af850163e168",
-      },
-      {
-        name: "CEGIS and Synthesis",
-        date: "Apr 14",
-        notesLink: "https://hackmd.io/@lfs/HJ_UwaIfh",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a86931f9-f826-49e5-9c0a-af850163e1c5",
-      },
-    ],
+    name: "Solving Boolean Satisfiability (1)",
+    date: "Apr 03",
+    notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91b11a3-fca8-4eb0-96fd-af850163e0ef",
+    // otherLinks: [
+    //   {
+    //     name: "DIMACS CNF for 4 queens",
+    //     link: process.env.PUBLIC_URL + "/livecode/4queens.cnf",
+    //   },
+    // ],
   },
   {
-    name: "Week 12",
-    dailyLectures: [
-      {
-        name: "Optional: The Future of 1710, Project Q&A",
-        date: "Apr 17",
-        // notesLink: "",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04b16b03-0fd9-4dd6-a076-af850163e1e0",
-      },
-      {
-        name: "Resolution (1)",
-        date: "Apr 19",
-        notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
-        liveCodeLink: process.env.PUBLIC_URL + "/livecode/apr19_cores.frg",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cb86332-f28e-488c-806d-af850163e1fc",
-      },
-      {
-        name: "Resolution (2)",
-        date: "Apr 21",
-        notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a79b681-4784-409c-850d-af850163e219",
-      },
-    ],
+    name: "Solving Boolean Satisfiability (2)",
+    date: "Apr 05",
+    notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d03dc083-7ca9-4560-87cf-af850163e105",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/dpll.txt",
   },
   {
-    name: "Week 13 (Prospective)",
-    dailyLectures: [
-      {
-        name: "Guest Lecture: Alexa VanHattum (Wellesley)",
-        date: "Apr 24",
-        // notesLink: "",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d1850bd-ec54-4921-9491-af850163e244",
-      },
-      {
-        name: "Guest Lecture: Conrad Zimmerman",
-        date: "Apr 26",
-        // notesLink: "",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9442816f-1a34-4bab-8323-af850163e268",
-      },
-      {
-        name: "Guest Lecture: Megan Frisella",
-        date: "Apr 28",
-        // notesLink: "",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b87f10ae-0b5d-48e0-b56a-af850163e28c",
-      },
-    ],
+    name: "DPLL (3), Project Q&A",
+    date: "Apr 07",
+    notesLink: "https://hackmd.io/@lfs/r1EPsVdb3",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12e55d4b-d9cd-4ad2-a7d2-af850163e128",
   },
   {
-    name: "Week 14 (Prospective)",
-    dailyLectures: [
-      {
-        name: "Guest Lecture: Anjali Pal (U. Washington)",
-        date: "May 01",
-        // notesLink: "",
-        recordingLink:
-          "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b932ea69-5245-4ac2-a174-af850163e2af",
-      },
-      {
-        name: "No Class (reading period)",
-        date: "May 03",
-        // notesLink: "",
-        // recordingLink:
-        // "",
-      },
-      {
-        name: "No Class (reading period)",
-        date: "May 05",
-        // notesLink: "",
-        // recordingLink:
-        // "",
-      },
-    ],
+    name: "Satisfiability Modulo Theories (1)",
+    date: "Apr 10",
+    notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
+    liveCodeLink:
+      process.env.PUBLIC_URL + "/livecode/apr10_smt_inclass.py",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ddb2b5-99de-48c8-903b-af850163e148",
+  },
+  {
+    name: "Satisfiability Modulo Theories (2)",
+    date: "Apr 12",
+    notesLink: "https://hackmd.io/@lfs/rynK3wZMh",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ad2d051f-a0b4-43b0-bba6-af850163e168",
+  },
+  {
+    name: "CEGIS and Synthesis",
+    date: "Apr 14",
+    notesLink: "https://hackmd.io/@lfs/HJ_UwaIfh",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a86931f9-f826-49e5-9c0a-af850163e1c5",
+  },
+  {
+    name: "Optional: The Future of 1710, Project Q&A",
+    date: "Apr 17",
+    // notesLink: "",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04b16b03-0fd9-4dd6-a076-af850163e1e0",
+  },
+  {
+    name: "Resolution (1)",
+    date: "Apr 19",
+    notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
+    liveCodeLink: process.env.PUBLIC_URL + "/livecode/apr19_cores.frg",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cb86332-f28e-488c-806d-af850163e1fc",
+  },
+  {
+    name: "Resolution (2)",
+    date: "Apr 21",
+    notesLink: "https://hackmd.io/@lfs/Sk9ajkvzh",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a79b681-4784-409c-850d-af850163e219",
+  },
+  {
+    name: "Guest Lecture: Alexa VanHattum (Wellesley)",
+    date: "Apr 24",
+    // notesLink: "",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d1850bd-ec54-4921-9491-af850163e244",
+  },
+  {
+    name: "Guest Lecture: Conrad Zimmerman",
+    date: "Apr 26",
+    // notesLink: "",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9442816f-1a34-4bab-8323-af850163e268",
+  },
+  {
+    name: "Guest Lecture: Megan Frisella",
+    date: "Apr 28",
+    // notesLink: "",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b87f10ae-0b5d-48e0-b56a-af850163e28c",
+  },
+  {
+    name: "Guest Lecture: Anjali Pal (U. Washington)",
+    date: "May 01",
+    // notesLink: "",
+    recordingLink:
+      "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b932ea69-5245-4ac2-a174-af850163e2af",
+  },
+  {
+    name: "No Class (reading period)",
+    date: "May 03",
+    // notesLink: "",
+    // recordingLink:
+    // "",
+  },
+  {
+    name: "No Class (reading period)",
+    date: "May 05",
+    // notesLink: "",
+    // recordingLink:
+    // "",
   },
 ];
 
@@ -666,25 +595,6 @@ export const projectAssignments: Assignment[] = [
   {
     name: "Final Project",
     dateRange: "Apr 11 → May 12, 2023",
-  },
-];
-
-export const casestudyAssignments: Assignment[] = [
-  {
-    name: "Hotel Locking Chckpt. 1",
-    dateRange: "Feb 22 → Feb 27, 2023",
-    href: "https://docs.google.com/document/d/e/2PACX-1vRjdgtYkh5e34baOBn_OVlcLgYapaxNaoH8ax1sFXJTm6rfXEoJtBsS7VU8ojdGN7TJoyehBD2ObXch/pub",
-  },
-  {
-    name: "Hotel Locking Chckpt. 2",
-    dateRange: "Mar 3 → Mar 9, 2023",
-    href: "https://docs.google.com/document/d/e/2PACX-1vTdztZUbNhvzwfaB9ZxOsZd6gsRfAwPgKkrn-Mv9HjTtHK4ukK0NRJ9zYiQGSkAOfE_RzoaOwM-QFVX/pub",
-  },
-  {
-    name: "Hotel Locking Chckpt. 3",
-    dateRange: "Mar 10 → Mar 16",
-    href: "https://docs.google.com/document/d/e/2PACX-1vSiR6Y-8MG-3-J4YdRArTMLJax5jnB_ifUCuc_LACDhTLm3C3v42cZqwYRFWWJDvEb1VGTjxcUHivww/pub",
-    autoReleaseDate: "Mar 10, 2023 11:00:00 EST",
   },
 ];
 
@@ -877,10 +787,10 @@ export type Lecture = {
   otherLinks?: { name: string; link: string }[]; // NOTE: Nothing preventing name conflict between notes/recording/livecode name
 };
 
-export type LectureWeek = {
-  name: string; // week X
-  dailyLectures: Lecture[];
-};
+// export type LectureWeek = {
+//   name: string; // week X
+//   dailyLectures: Lecture[];
+// };
 
 export type Assignment = {
   name: string;

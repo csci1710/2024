@@ -59,7 +59,7 @@ export default function AssignmentTable(props: AssignmentTableProps) {
                       <td>
                         <a
                           href={assignment.href}
-                          className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline text-primary-500 sm:pl-6"
+                          className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
                         >
                           {assignment.name}
                         </a>

@@ -10,8 +10,7 @@ module.exports = {
         primary: colors.lime,
       },
       fontFamily: {
-        title: ["Acme", "sans-serif"],
-        subtitle: ["Neucha", "sans-serif"],
+        sans: ['Sanchez', 'sans-serif']
       },
     },
   },

@@ -80,7 +80,7 @@ function StaffSection(props: { staff: staffMember[] }) {
                       <div className="text-sm text-gray-500">
                         <p className="font-light">
                           Favorite Amphibian:{" "}
-                          <span className="font-bold text-primary-600">
+                          <span className="font-bold" style={{ color: '#2c7d39'}}>
                             {member.favorite_amphibian}
                           </span>
                         </p>

@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Sanchez', sans-serif;
+}
+
+a {
+  color: #2c7d39; /* Or use the class name: text-custom-green */
+}

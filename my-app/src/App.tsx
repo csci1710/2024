@@ -1,4 +1,5 @@
-// import froggy from process.env.PUBLIC_URL+ "../public/froggy.png";
+import CS1710_Logo from './assets/images/CS1710_logo.svg';
+import LFS_FROG from './assets/images/LFS_FROG.png';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import HeroDivider from "./components/divider-images/hero-divider/HeroDivider";
@@ -8,8 +9,7 @@ import {
   homeworkAssignments,
   labAssignments,
   projectAssignments,
-  casestudyAssignments,
-  lectureWeeks,
+  lectures,
   FAQLink,
   PUB,
   calendarLink,
@@ -79,119 +79,112 @@ function App() {
       <header className="fixed top-0 z-50 w-full">
         <Navbar inView={inViewSection} />
       </header>
-      <main>
+      <main className="mt-[14rem]">
         <body className="">
-          {/* <p>asdasdasda</p> */}
-          <section
-            id="intro"
-            className="herobackground flex flex-col h-[30rem] items-center justify-center bg-[#0B391B] text-neutral-50 "
-          >
-            <div className="backdrop-blur-md bg-neutral-800/30 rounded-2xl">
-              <h1 className="blackstroke-lg font-title text-6xl lg:text-8xl px-4 py-4 text-center ">
-                LOGIC FOR SYSTEMS
-              </h1>
-              <h3 className="blackstroke-sm font-title text-5xl pb-4 text-center">
-                CSCI 1710
-              </h3>
-            </div>
-          </section>
+        <section
+          id="intro"
+          className="flex flex-col h-[30rem] items-center justify-center text-neutral-50"
+        >
+          <img src={CS1710_Logo} alt="CS1710 Logo" className="max-w-full h-auto" />
+          <img src={LFS_FROG} alt="Cute lil froggy" className="max-w-full h-auto" />
+        </section>
 
-          <HeroDivider />
+        <br/><br/><br/><br/>
+        <div className="w-full h-24" style={{ backgroundColor: '#606b54' }}></div>
 
-          <section
-            id="about"
-            ref={aboutRef}
-            className="text-center flex flex-col items-center justify-center "
-          >
-            <h2 className="text-6xl font-title">About</h2>
+        <section
+          id="about"
+          ref={aboutRef}
+          className="text-center flex flex-col items-center justify-center pt-20"
+          style={{ color: '#966f51' }}
+        >
+          <h2 className="text-6xl font-title font-bold">About</h2>
 
-            <div className="p-4" />
-            <h4 className="font-bold pb-6 text-2xl">“What do you want?” </h4>
-            <div className=" w-5/6 lg:w-3/4 text-lg">
-              <p>
-                This question is perilous, yet indispensable in life. And it
-                remains vital in designing, understanding, and building systems.
-                How will you check that you’ve achieved your goal? What is the
-                cost, and which assumptions are you making along the way? Do you
-                really want what you think you do, and will your code (or other
-                artifact) actually work?
-              </p>
-              <div className="p-3" />
-              <p>
-                These questions matter, whether you’re crafting a new data
-                structure, finishing up a programming assignment, designing a
-                processor, or arguing over the rules of Monopoly with your
-                family. In this course, you’ll use concrete software tools
-                (e.g., model checkers and SAT solvers) to bring the power of
-                automated reasoning to bear on these and other quandaries in,
-                and outside of, computer science.
-              </p>
-              <div className="p-3" />
-              <p className="flex flex-col items-center justify-center font-semibold">
-                Logic for Systems is built on three broad learning categories:
-                <ul className="list-disc pt-2 font-normal w-fit text-md flex flex-col text-left items-center justify-center">
-                  <li className="w-3/4">
-                    Modeling systems and making good abstraction choices;
-                  </li>
-                  <li className="w-3/4">
-                    Reasoning about systems automatically using logic; and
-                  </li>
-                  <li className="w-3/4">
-                    The foundational algorithms behind the tools used both in
-                    this class and in industry.
-                  </li>
-                </ul>
-              </p>
-              <div className="p-3" />
-              <p>
-                The course culminates in a student-proposed, staff-mentored
-                project that applies to a real-world system. Past projects have
-                involved everything from distributed hash-tables to baseball
-                games!
-              </p>
-              <div className="p-3" />
-              <p>
-                Prerequisite:{" "}
-                <i>
-                  <b>Any intro sequence!</b>
-                </i>{" "}
-                (CSCI 0160, CSCI 0180, CSCI 0190, or CSCI0200).
-              </p>
-              <div className="p-3" />
-              <p className="italic text-neutral-500">
-                See the "Resources" section for the course syllabus!
-              </p>
-              <div className="p-3" />
-              <p className="">
-                If you're unsure about whether this is the right course for you,
-                check out our{" "}
-                <a
-                  className="text-primary-500 underline font-bold"
-                  href={FAQLink}
-                >
-                  FAQ
-                </a>
-                !
-              </p>
-              <div className="p-3" />
-            </div>
-            {/* add the frog image from the images folder */}
-            <img
-              src={PUB + "/images/froggy.png"}
-              alt="The class froggy logo"
-              className="min-w-40 w-1/6"
-            />
-          </section>
+          <div className="p-4" />
+          <h4 className="font-bold pb-6 text-2xl">“What do you want?” </h4>
+          <div className=" w-5/6 lg:w-3/4 text-lg">
+            <p>
+              This question is perilous, yet indispensable in life. And it
+              remains vital in designing, understanding, and building systems.
+              How will you check that you’ve achieved your goal? What is the
+              cost, and which assumptions are you making along the way? Do you
+              really want what you think you do, and will your code (or other
+              artifact) actually work?
+            </p>
+            <div className="p-3" />
+            <p>
+              These questions matter, whether you’re crafting a new data
+              structure, finishing up a programming assignment, designing a
+              processor, or arguing over the rules of Monopoly with your
+              family. In this course, you’ll use concrete software tools
+              (e.g., model checkers and SAT solvers) to bring the power of
+              automated reasoning to bear on these and other quandaries in,
+              and outside of, computer science.
+            </p>
+            <div className="p-3" />
+            <p className="flex flex-col items-center justify-center font-semibold">
+              Logic for Systems is built on three broad learning categories:
+              <ul className="list-disc pt-2 font-normal w-fit text-md flex flex-col text-left items-center justify-center">
+                <li className="w-3/4">
+                  Modeling systems and making good abstraction choices;
+                </li>
+                <li className="w-3/4">
+                  Reasoning about systems automatically using logic; and
+                </li>
+                <li className="w-3/4">
+                  The foundational algorithms behind the tools used both in
+                  this class and in industry.
+                </li>
+              </ul>
+            </p>
+            <div className="p-3" />
+            <p>
+              The course culminates in a student-proposed, staff-mentored
+              project that applies to a real-world system. Past projects have
+              involved everything from distributed hash-tables to baseball
+              games!
+            </p>
+            <div className="p-3" />
+            <p>
+              Prerequisite:{" "}
+              <i>
+                <b>Any intro sequence!</b>
+              </i>{" "}
+              (CSCI 0160, CSCI 0180, CSCI 0190, or CSCI0200).
+            </p>
+            <div className="p-3" />
+            <p className="italic bold" style={{ color: '#523e2f' }}>
+              See the "Resources" section for the course syllabus!
+            </p>
+            <div className="p-3" />
+            <p className="">
+              If you're unsure about whether this is the right course for you,
+              check out our{" "}
+              <a
+                className="text-primary-500 underline font-bold"
+                href={FAQLink}
+                style={{ color: '#2c7d39' }}
+              >
+                FAQ
+              </a>
+              !
+            </p>
+            <div className="p-3" />
+          </div>
+        </section>
 
           <div className="p-6" />
-          <DividerA />
+
+          <br/><br/>
+          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
 
           <section
             id="assignments"
             ref={assignmentsRef}
-            className="text-center flex flex-col items-center justify-center"
+            className="text-center flex flex-col items-center justify-center pt-16"
+            style={{ color: '#966f51' }}
           >
-            <h2 className="text-6xl font-title">Assignments</h2>
+            <h2 className="text-6xl font-titl font-bold">Assignments</h2>
             <div className="p-4" />
             {/* <p className="italic text-neutral-500">
               (Unreleased assignments shown for more info during shopping
@@ -211,57 +204,61 @@ function App() {
                 tablename="Projects"
                 assignments={projectAssignments}
               />
-              <AssignmentTable
-                tablename="Case Studies"
-                assignments={casestudyAssignments}
-              />
             </div>
           </section>
 
           <div className="p-6" />
-          <DividerA />
+          <br/><br/>
+          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
 
           <section
             id="lectures"
             ref={lecturesRef}
-            className="text-center flex flex-col items-center justify-center"
+            className="text-center flex flex-col items-center justify-center pt-16"
+            style={{ color: '#966f51' }}
           >
-            <h2 className="text-6xl font-title">Lectures</h2>
+            <h2 className="text-6xl font-title font-bold">Lectures</h2>
             <div className="p-4" />
-            {lectureWeeks.length === 0 && (
+            {lectures.length === 0 && (
               <p className="text-neutral-500">
                 Nothing here yet! See you in class :)
               </p>
             )}
-            <LecturesTable weeks={lectureWeeks} />
+            <LecturesTable 
+              lectures={lectures} 
+            />
           </section>
 
           <div className="p-6" />
-          <DividerA />
+          <br/><br/>
+          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
 
           <section
             id="resources"
             ref={resourcesRef}
-            className="text-center flex flex-col items-center justify-center"
+            className="text-center flex flex-col items-center justify-center pt-16"
+            style={{ color: '#966f51' }}
           >
-            <h2 className="text-6xl font-title">Resources</h2>
+            <h2 className="text-6xl font-title font-bold">Resources</h2>
             <div className="p-4" />
             <Resources />
           </section>
 
           <div className="p-6" />
-          <DividerA />
+          <br/><br/>
+          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
 
           <section
             id="calendar"
             ref={calendarRef}
-            className="text-center flex flex-col items-center justify-center"
+            className="text-center flex flex-col items-center justify-center pt-16"
+            style={{ color: '#966f51' }}
           >
-            <h2 className="text-6xl font-title">Calendar</h2>
+            <h2 className="text-6xl font-title font-bold">Calendar</h2>
             <div className="p-4" />
             <a
               href={calendarLink}
-              className="text-primary-500 font-bold underline text-2xl"
+              className="font-bold underline text-2xl"
             >
               Calendar Link (Add to your GCal)
             </a>
@@ -282,25 +279,27 @@ function App() {
             <div className="p-4" />
           </section>
 
-          <DividerA />
+          <br/><br/>
+          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
 
           <section
             id="staff"
             ref={staffRef}
-            className="text-center flex flex-col items-center justify-center"
+            className="text-center flex flex-col items-center justify-center pt-16"
+            style={{ color: '#966f51' }}
           >
-            <h2 className="text-6xl font-title">Staff</h2>
+            <h2 className="text-6xl font-title font-bold">Staff</h2>
             <div className="p-4" />
             <Staff />
           </section>
         </body>
         <p className="text-center p-16">
-          © Spring 2023 cs1710 TA Staff |{" "}
-          <a className="text-primary-500 underline" href="http://cs.brown.edu/">
+          © Spring 2024 cs1710 TA Staff |{" "}
+          <a className="underline" href="http://cs.brown.edu/">
             Computer Science Department
           </a>{" "}
           |{" "}
-          <a className="text-primary-500 underline" href="http://brown.edu/">
+          <a className="underline" href="http://brown.edu/">
             Brown University
           </a>
         </p>

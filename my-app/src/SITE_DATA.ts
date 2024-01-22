@@ -616,7 +616,7 @@ export const utas: staffMember[] = [
    // alt_image: PUB + "/images/staff/yihao_frog.jpeg",
     alt_objectPosition: "center 65%",
     pronouns: "he/him",
-    bio: "Hi everyone! I'm a senior studying CS and IAPA and I'm from Atlanta, GA.",
+    bio: "Hi everyone! I'm a senior studying CS and IAPA and I'm from Atlanta, GA. I love spontaneous trips and listening to music. Can’t wait to meet everyone! :)",
     favorite_amphibian: "Team Frog",
     role: "UTA",
   },

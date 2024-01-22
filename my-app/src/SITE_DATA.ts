@@ -603,7 +603,7 @@ export const htas: staffMember[] = [
     objectPosition: "center 85%",
    // alt_image: PUB + "/images/staff/megan_frog.jpeg",
     pronouns: "he/him",
-    bio: "Hi everyone! I'm a junior studying Math-CS (heavy on the CS part) who likes to run and swim. I also love to consume lots of media, from Taylor Swift to The Hunger Games. I'm excited to meet you all!",
+    bio: "Hi everyone! I'm a junior studying Math-CS (heavy on the CS part) who likes to run and swim. I am also Ethel Cain's #1 fan. I'm excited to meet you all!",
     favorite_amphibian: "Team Frog",
     role: "HTA",
   },

@@ -51,7 +51,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 2",
+    name: "Properties and Testing",
     date: "Jan 26",
     notesLink: "",
     recordingLink:
@@ -60,7 +60,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 3",
+    name: "Intro to Modeling in Froglet (Setup for Lab)",
     date: "Jan 29",
     notesLink: "",
     recordingLink:
@@ -69,7 +69,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 4",
+    name: "Modeling and FM: Industrial Showcase (Setup for Lab, HW)",
     date: "Jan 31",
     notesLink: "",
     recordingLink:
@@ -78,7 +78,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 5",
+    name: "Design-Space Exploration and Constraint Solving",
     date: "Feb 02",
     notesLink: "",
     recordingLink:
@@ -87,7 +87,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 6",
+    name: "Discrete Event Systems",
     date: "Feb 05",
     notesLink: "",
     recordingLink:
@@ -96,7 +96,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 7",
+    name: "An Idea: Preservation (Part 1)",
     date: "Feb 07",
     notesLink: "",
     recordingLink:
@@ -105,7 +105,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 8",
+    name: "An Idea: Preservation (Part 2)",
     date: "Feb 09",
     notesLink: "",
     recordingLink:
@@ -114,7 +114,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 9",
+    name: "Model Validation (in more detail)",
     date: "Feb 12",
     notesLink: "",
     recordingLink:
@@ -123,7 +123,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 10",
+    name: "Finite Traces (Part 1)",
     date: "Feb 14",
     notesLink: "",
     recordingLink:
@@ -132,7 +132,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 11",
+    name: "Finite Traces (Part 2)",
     date: "Feb 16",
     notesLink: "",
     recordingLink:
@@ -141,7 +141,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 12",
+    name: "Relational Forge",
     date: "Feb 21",
     notesLink: "",
     recordingLink:
@@ -150,7 +150,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 13",
+    name: "Relational Operators",
     date: "Feb 23",
     notesLink: "",
     recordingLink:
@@ -159,7 +159,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 14",
+    name: "Join and Reachability",
     date: "Feb 26",
     notesLink: "",
     recordingLink:
@@ -168,7 +168,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 15",
+    name: "Modeling Mutex (Part 1)",
     date: "Feb 28",
     notesLink: "",
     recordingLink:
@@ -177,7 +177,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 16",
+    name: "Modeling Mutex (Part 2)",
     date: "Mar 01",
     notesLink: "",
     recordingLink:
@@ -186,7 +186,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 17",
+    name: "Liveness and Lassos",
     date: "Mar 04",
     notesLink: "",
     recordingLink:
@@ -195,7 +195,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 18",
+    name: "Temporal Forge",
     date: "Mar 06",
     notesLink: "",
     recordingLink:
@@ -204,7 +204,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 19",
+    name: "Modeling Mutex (Part 3)",
     date: "Mar 08",
     notesLink: "",
     recordingLink:
@@ -213,7 +213,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 20",
+    name: "Modeling Mutex (Part 4)",
     date: "Mar 11",
     notesLink: "",
     recordingLink:
@@ -222,7 +222,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 21",
+    name: "Obligations and the Past",
     date: "Mar 13",
     notesLink: "",
     recordingLink:
@@ -231,7 +231,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 22",
+    name: "TBD",
     date: "Mar 15",
     notesLink: "",
     recordingLink:
@@ -240,7 +240,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 23",
+    name: "How Forge Works",
     date: "Mar 18",
     notesLink: "",
     recordingLink:
@@ -249,15 +249,25 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 24",
+    name: "TBD",
     date: "Mar 20",
+    notesLink: "",
+    recordingLink:
+      "",
+    liveCodeLink:
+      "",
   },
   {
-    name: "Lecture 25",
+    name: "TBD",
     date: "Mar 22",
+    notesLink: "",
+    recordingLink:
+      "",
+    liveCodeLink:
+      "",
   },
   {
-    name: "Lecture 26",
+    name: "Solving SAT (DPLL Part 1)",
     date: "Apr 01",
     notesLink: "",
     recordingLink:
@@ -266,7 +276,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 27",
+    name: "Solving SAT (DPLL Part 2)",
     date: "Apr 03",
     notesLink: "",
     recordingLink:
@@ -275,7 +285,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 28",
+    name: "Resolution (Part 1)",
     date: "Apr 05",
     notesLink: "",
     recordingLink:
@@ -284,7 +294,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 29",
+    name: "Resolution (Part 2)",
     date: "Apr 08",
     notesLink: "",
     recordingLink:
@@ -293,7 +303,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 30",
+    name: "Resolution (Part 3)",
     date: "Apr 10",
     notesLink: "",
     recordingLink:
@@ -302,7 +312,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 31",
+    name: "(Optional) Future of 1710",
     date: "Apr 12",
     notesLink: "",
     recordingLink:
@@ -311,7 +321,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 32",
+    name: "SMT (Whirlwind Tour)",
     date: "Apr 15",
     notesLink: "",
     recordingLink:
@@ -320,7 +330,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 33",
+    name: "SMT (Applications)",
     date: "Apr 17",
     notesLink: "",
     recordingLink:
@@ -329,7 +339,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 34",
+    name: "SMT (Algorithms)",
     date: "Apr 19",
     notesLink: "",
     recordingLink:
@@ -338,7 +348,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 35",
+    name: "SMT (CEGIS and Synthesis)",
     date: "Apr 22",
     notesLink: "",
     recordingLink:
@@ -347,7 +357,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 36",
+    name: "TBD (Topics by Request) or Guest",
     date: "Apr 24",
     notesLink: "",
     recordingLink:
@@ -356,8 +366,44 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Lecture 37",
+    name: "Reading Period (Possible Guest)",
     date: "Apr 26",
+    notesLink: "",
+    recordingLink:
+      "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Reading Period (Possible Guest)",
+    date: "Apr 29",
+    notesLink: "",
+    recordingLink:
+      "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Reading Period (Possible Guest)",
+    date: "May 01",
+    notesLink: "",
+    recordingLink:
+      "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Reading Period (Possible Guest)",
+    date: "May 03",
+    notesLink: "",
+    recordingLink:
+      "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Reading Period (Possible Guest)",
+    date: "May 06",
     notesLink: "",
     recordingLink:
       "",

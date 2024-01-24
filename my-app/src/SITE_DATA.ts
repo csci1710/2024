@@ -442,7 +442,7 @@ export const labAssignments: Assignment[] = [
     name: "(Optional) Async Python",
     dateRange: "Jan 27, 2024",
     href: "https://hackmd.io/@csci1710/By-lPmstT",
-    autoReleaseDate: "Jan 27, 2024 09:45:00 EST",
+    autoReleaseDate: "Jan 23, 2024 09:45:00 EST",
   },
   {
     name: "Tic Tac Toe",

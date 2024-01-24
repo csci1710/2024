@@ -46,14 +46,18 @@ export const lectures: Lecture[] = [
   {
     name: "What is LfS?",
     date: "Jan 24",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/manifesto.html",
     recordingLink:
       "",
+    otherLinks: [{name: "Amazon AWS Zelkova (Whitepaper)", 
+                  link: "https://aws.amazon.com/blogs/security/protect-sensitive-data-in-the-cloud-with-automated-reasoning-zelkova/"}, 
+                 {name: "Some Industrial Applications", 
+                  link: "https://github.com/ligurio/practical-fm"}]
   },
   {
     name: "Properties and Testing",
     date: "Jan 26",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/properties.html",
     recordingLink:
       "",
     liveCodeLink:

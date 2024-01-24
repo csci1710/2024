@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/2024/static/css/main.e8b20666.css",
-    "main.js": "/2024/static/js/main.b2ce4ad3.js",
+    "main.css": "/2024/static/css/main.8248f816.css",
+    "main.js": "/2024/static/js/main.83930a2e.js",
     "static/js/787.2b6f9e78.chunk.js": "/2024/static/js/787.2b6f9e78.chunk.js",
     "static/media/iStock-1249040981.jpg": "/2024/static/media/iStock-1249040981.51d90ea4a80d2d1b09d3.jpg",
-    "static/media/BranchD.svg": "/2024/static/media/BranchD.383126e92b5be22f06a4.svg",
+    "static/media/BranchD.svg": "/2024/static/media/BranchD.e07636d16cbc6d4e7844.svg",
     "static/media/LFS_FROG.png": "/2024/static/media/LFS_FROG.8de0a0795d10898e5fe9.png",
     "static/media/CS1710_logo.svg": "/2024/static/media/CS1710_logo.ed7da6354e82f415b66eca7804416c52.svg",
     "static/media/dividerA.svg": "/2024/static/media/dividerA.a9896475a662d100672c.svg",
     "static/media/new-layered-waves-haikei.svg": "/2024/static/media/new-layered-waves-haikei.6650d32d6fa4a11a57ae.svg",
     "index.html": "/2024/index.html",
-    "main.e8b20666.css.map": "/2024/static/css/main.e8b20666.css.map",
-    "main.b2ce4ad3.js.map": "/2024/static/js/main.b2ce4ad3.js.map",
+    "main.8248f816.css.map": "/2024/static/css/main.8248f816.css.map",
+    "main.83930a2e.js.map": "/2024/static/js/main.83930a2e.js.map",
     "787.2b6f9e78.chunk.js.map": "/2024/static/js/787.2b6f9e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8b20666.css",
-    "static/js/main.b2ce4ad3.js"
+    "static/css/main.8248f816.css",
+    "static/js/main.83930a2e.js"
   ]
 }

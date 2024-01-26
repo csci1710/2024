@@ -477,7 +477,7 @@ export const homeworkAssignments: Assignment[] = [
     name: "Hardest Assignment Ever...",
     dateRange: "Oct 25 → Oct 26, 2009",
     href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
-    autoReleaseDate: "Jan 26, 2024 21:28:59 EST",
+    autoReleaseDate: "Jan 25, 2024 21:28:59 EST",
   },
   // {
   //   name: "...",

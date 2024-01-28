@@ -61,19 +61,19 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/properties/pbt.py",
   },
   {
-    name: "Intro to Modeling in Froglet (Setup for Lab)",
+    name: "Intro to Modeling in Froglet (Part 1)",
     date: "Jan 29",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_1.html",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
   },
   {
-    name: "Modeling and FM: Industrial Showcase (Setup for Lab, HW)",
+    name: "Intro to Modeling (Part 2); Showcase",
     date: "Jan 31",
     notesLink: "",
     recordingLink:

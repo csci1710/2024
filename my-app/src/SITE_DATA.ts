@@ -673,12 +673,12 @@ export const utas: staffMember[] = [
 
   {
     name: "Maya Fleischer",
-    image: PUB + "/images/staff/maya.jpeg",
+    image: PUB + "/images/staff/maya.png",
     objectPosition: "center 15%",
    // alt_image: PUB + "/images/staff/conrad_frog.jpeg",
     alt_objectPosition: "center 25%",
     pronouns: "she/her",
-    bio: "I am a senior studying Computer Science from South Africa. <a nice message about how excited I am>!",
+    bio: "I am a senior from South Africa studying Computer Science. <a nice message about how excited I am>!",
     favorite_amphibian: "Team Frog",
     role: "UTA",
   },

@@ -8,6 +8,7 @@ export default function Staff() {
         <h2 className="mb-2 text-3xl font-bold font-title tracking-tight sm:text-4xl">
           Professor
         </h2>
+        <h4> tim_nelson@brown.edu </h4>
         <StaffSection staff={[professor]} />
       </div>
 
@@ -15,6 +16,8 @@ export default function Staff() {
         <h2 className="mb-2 text-3xl font-bold font-title tracking-tight sm:text-4xl">
           HTAs
         </h2>
+        <h4> 
+        cs1710headtas@lists.brown.edu </h4>
         <StaffSection staff={htas} />
         <h2 className="mb-2 text-3xl font-bold font-title tracking-tight sm:text-4xl">
           UTAs

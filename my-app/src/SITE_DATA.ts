@@ -61,25 +61,25 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "https://csci1710.github.io/book/chapters/properties/pbt.py",
+      "",
   },
   {
-    name: "Intro to Modeling in Froglet (Part 1)",
+    name: "Intro to Modeling in Froglet (Setup for Lab)",
     date: "Jan 29",
-    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_1.html",
+    notesLink: "",
     recordingLink:
       "",
     liveCodeLink:
-      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
+      "",
   },
   {
-    name: "Intro to Modeling (Part 2); Showcase",
+    name: "Modeling and FM: Industrial Showcase (Setup for Lab, HW)",
     date: "Jan 31",
-    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_2.html",
+    notesLink: "",
     recordingLink:
       "",
     liveCodeLink:
-      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_2_inclass.frg",
+      "",
   },
   {
     name: "Design-Space Exploration and Constraint Solving",
@@ -673,12 +673,12 @@ export const utas: staffMember[] = [
 
   {
     name: "Maya Fleischer",
-    image: PUB + "/images/staff/maya.png",
+    image: PUB + "/images/staff/maya.jpeg",
     objectPosition: "center 15%",
    // alt_image: PUB + "/images/staff/conrad_frog.jpeg",
     alt_objectPosition: "center 25%",
     pronouns: "she/her",
-    bio: "I am a senior from South Africa studying Computer Science. <a nice message about how excited I am>!",
+    bio: "I am a senior studying Computer Science from South Africa. <a nice message about how excited I am>!",
     favorite_amphibian: "Team Frog",
     role: "UTA",
   },

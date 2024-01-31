@@ -75,11 +75,11 @@ export const lectures: Lecture[] = [
   {
     name: "Intro to Modeling (Part 2); Showcase",
     date: "Jan 31",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_2.html",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_2_inclass.frg",
   },
   {
     name: "Design-Space Exploration and Constraint Solving",

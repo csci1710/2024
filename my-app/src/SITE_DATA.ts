@@ -59,7 +59,7 @@ export const lectures: Lecture[] = [
     date: "Jan 26",
     notesLink: "https://csci1710.github.io/book/chapters/properties.html",
     recordingLink:
-      "",
+      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
       "https://csci1710.github.io/book/chapters/properties/pbt.py",
   },
@@ -68,7 +68,7 @@ export const lectures: Lecture[] = [
     date: "Jan 29",
     notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_1.html",
     recordingLink:
-      "",
+      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
       "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
   },
@@ -77,7 +77,7 @@ export const lectures: Lecture[] = [
     date: "Jan 31",
     notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_2.html",
     recordingLink:
-      "",
+      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
       "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_2_inclass.frg",
   },
@@ -87,7 +87,7 @@ export const lectures: Lecture[] = [
     date: "Feb 02",
     notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_3.html",
     recordingLink:
-      "",
+      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
       "",
   },

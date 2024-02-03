@@ -64,7 +64,7 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/properties/pbt.py",
   },
   {
-    name: "Intro to Modeling in Froglet (Part 1)",
+    name: "Intro to Modeling in Froglet (Part 1, Basics)",
     date: "Jan 29",
     notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_1.html",
     recordingLink:
@@ -73,7 +73,7 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
   },
   {
-    name: "Intro to Modeling (Part 2); Showcase",
+    name: "Intro to Modeling (Part 2, Transitions); Showcase",
     date: "Jan 31",
     notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_2.html",
     recordingLink:
@@ -82,43 +82,45 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_2_inclass.frg",
   },
   {
-    name: "Design-Space Exploration and Constraint Solving",
+    //name: "Design-Space Exploration and Constraint Solving",
+    name: "Intro to Modeling (Part 3, Traces)",
     date: "Feb 02",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_3.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "Discrete Event Systems",
+    //name: "Discrete Event Systems",
+    name: "Intro to Modeling (Part 4, FAQ)",
     date: "Feb 05",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_4.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "An Idea: Preservation (Part 1)",
+    name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
     date: "Feb 07",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_1.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "An Idea: Preservation (Part 2)",
+    name: "Discrete Events and Traces (Part 2, Preservation)",
     date: "Feb 09",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_2.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "Model Validation (in more detail)",
+    name: "Validation (in more detail)",
     date: "Feb 12",
     notesLink: "",
     recordingLink:
@@ -127,7 +129,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Finite Traces (Part 1)",
+    name: "More Traces (Part 1)",
     date: "Feb 14",
     notesLink: "",
     recordingLink:
@@ -136,7 +138,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "Finite Traces (Part 2)",
+    name: "More Traces (Part 2)",
     date: "Feb 16",
     notesLink: "",
     recordingLink:

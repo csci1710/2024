@@ -434,7 +434,7 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "Physical Keys",
-    dateRange: "Feb 10 → Feb 17, 2024",
+    dateRange: "Feb 9 → Feb 15, 2024",
     href: "https://hackmd.io/@csci1710/ByLnzQstT",
     autoReleaseDate: "Feb 09, 2024 11:00:00 EST",
   },

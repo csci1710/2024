@@ -499,20 +499,20 @@ export const labAssignments: Assignment[] = [
   {
     name: "Tic Tac Toe",
     dateRange: "Jan 31 → Feb 01, 2024",
-    href: "",
-    // href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    autoReleaseDate: "Feb 01, 2024 20:30:00 EST",
   },
   {
     name: "Ring Election",
     dateRange: "Feb 07 → Feb 08, 2024",
-    href: "",
-    // href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    autoReleaseDate: "Feb 08, 2024 20:30:00 EST",
   },
   {
     name: "N Queens",
     dateRange: "Feb 14 → Feb 15, 2024",
-    href: "",
-    // href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    autoReleaseDate: "Feb 15, 2024 20:30:00 EST",
   },
   {
     name: "Curiosity co-lab",
@@ -527,14 +527,14 @@ export const labAssignments: Assignment[] = [
   {
     name: "Hotel Case Study",
     dateRange: "Mar 06 → Mar 07, 2024",
-    href: "",
-   //  href: "https://hackmd.io/@csci1710/B1UdLQjKp",
+    href: "https://hackmd.io/@csci1710/B1UdLQjKp",
+    autoReleaseDate: "Mar 07, 2024 20:30:00 EST",
   },
   {
     name: "Dining Blacksmiths",
     dateRange: "Mar 13 → Mar 14, 2024",
-    href: "",
-    // href: "https://hackmd.io/@csci1710/HkbhU7sta",
+    href: "https://hackmd.io/@csci1710/HkbhU7sta",
+    autoReleaseDate: "Mar 14, 2024 20:30:00 EST",
   },
   {
     name: "Proposal co-lab",

@@ -97,7 +97,7 @@ export const lectures: Lecture[] = [
     date: "Feb 05",
     notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_4.html",
     recordingLink:
-      "",
+      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
       "",
   },
@@ -503,15 +503,15 @@ export const labAssignments: Assignment[] = [
     autoReleaseDate: "Feb 01, 2024 20:30:00 EST",
   },
   {
-    name: "Ring Election",
+    name: "N Queens",
     dateRange: "Feb 07 → Feb 08, 2024",
-    href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    href: "https://hackmd.io/@csci1710/BkYfImjKp",
     autoReleaseDate: "Feb 08, 2024 20:30:00 EST",
   },
   {
-    name: "N Queens",
+    name: "Ring Election",
     dateRange: "Feb 14 → Feb 15, 2024",
-    href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    href: "https://hackmd.io/@csci1710/ryC5S7jt6",
     autoReleaseDate: "Feb 15, 2024 20:30:00 EST",
   },
   {

@@ -442,7 +442,7 @@ export const homeworkAssignments: Assignment[] = [
     name: "Hotel Locking",
     dateRange: "Feb 21 → Feb 27, 2024",
     href: "https://hackmd.io/@csci1710/B1CCmQjKa",
-    autoReleaseDate: "Feb 21, 2023 11:00:00 EST",
+    autoReleaseDate: "Feb 21, 2024 11:00:00 EST",
   },
   {
     name: "Memory Management",
@@ -606,6 +606,10 @@ export const guides: Resource[] = [
   {
     name: "Forge Documentation",
     href: "https://csci1710.github.io/forge-documentation/",
+  },
+  {
+    name: "Toadus Ponens Guide",
+    href: "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
   },
   {
     // Goes live later in semester

@@ -439,6 +439,12 @@ export const homeworkAssignments: Assignment[] = [
     autoReleaseDate: "Feb 09, 2024 11:00:00 EST",
   },
   {
+    name: "Hotel Locking",
+    dateRange: "Feb 21 → Feb 27, 2024",
+    href: "https://hackmd.io/@csci1710/B1CCmQjKa",
+    autoReleaseDate: "Feb 21, 2023 11:00:00 EST",
+  },
+  {
     name: "Memory Management",
     dateRange: "Mar 1 → Mar 7, 2024",
     href: "https://hackmd.io/@csci1710/S1xVNmiK6",
@@ -474,19 +480,14 @@ export const homeworkAssignments: Assignment[] = [
     href: "https://hackmd.io/@csci1710/rkzzBmoYa",
     autoReleaseDate: "Apr 19, 2024 11:00:00 EST",
   },
-  {
-    // Rickroll ;)
-    name: "Hardest Assignment Ever...",
-    dateRange: "Oct 25 → Oct 26, 2009",
-    href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
-    autoReleaseDate: "Jan 25, 2024 21:28:59 EST",
-  },
   // {
-  //   name: "...",
-  //   dateRange: "...",
-  //   autoReleaseDate: "Jan 26, 2023 23:59:59 EST",
+  //   // Rickroll ;)
+  //   name: "Hardest Assignment Ever...",
+  //   dateRange: "Oct 25 → Oct 26, 2009",
+  //   href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+  //   autoReleaseDate: "Jan 25, 2024 21:28:59 EST",
   // },
-  // // ...
+  // ...
 ];
 
 export const labAssignments: Assignment[] = [

@@ -601,7 +601,7 @@ export const importantLinks: Resource[] = [
 export const guides: Resource[] = [
   {
     name: "Setup & Installation",
-    href: "https://docs.google.com/document/d/e/2PACX-1vQkqQ3vjwNYIn3A4WOlkjx7zw9269nfIrs9NmN_jlMFBmGItEYp-X0g6OjTgOUU0LBW4WNtAZbhR834/pub",
+    href: "https://hackmd.io/@csci1710/r1rZAWeo6",
   },
   {
     name: "Forge Documentation",

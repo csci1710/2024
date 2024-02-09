@@ -89,7 +89,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
-      "",
+    "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_3_inclass.frg",
   },
   {
     //name: "Discrete Event Systems",
@@ -99,7 +99,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "https://canvas.brown.edu/courses/1094402/external_tools/33943",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_4_inclass.frg",
   },
   {
     name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
@@ -108,7 +108,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
   },
   {
     name: "Discrete Events and Traces (Part 2, Preservation)",
@@ -117,7 +117,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
   },
   {
     name: "Validation (in more detail)",

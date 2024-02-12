@@ -120,25 +120,25 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
   },
   {
-    name: "Validation (in more detail)",
+    name: "Inductive Verification: Binary Search (Part 1)",
     date: "Feb 12",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_3.html",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
   },
   {
-    name: "More Traces (Part 1)",
+    name: "Inductive Verification: Binary Search (Part 2)",
     date: "Feb 14",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_3.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "More Traces (Part 2)",
+    name: "Inductive Verification: Binary Search, More Validation",
     date: "Feb 16",
     notesLink: "",
     recordingLink:

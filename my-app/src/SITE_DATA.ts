@@ -135,7 +135,12 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
+    otherLinks: [
+      {name: "Testing reachable", 
+       link: "https://csci1710.github.io/book/chapters/finite_and_inductive/testing_reachable.frg"}
+    ]
+    
   },
   {
     name: "Inductive Verification: Binary Search, More Validation",

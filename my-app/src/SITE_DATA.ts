@@ -557,9 +557,9 @@ export const labAssignments: Assignment[] = [
 export const projectAssignments: Assignment[] = [
   {
     name: "Curiosity Modeling",
-    dateRange: "Feb 21 → Feb 29, 2024",
+    dateRange: "Feb 16 → Feb 29, 2024",
     href: "https://hackmd.io/@csci1710/rJm6XmjKT",
-    autoReleaseDate: "Feb 21, 2024 11:00:00 EST",
+    autoReleaseDate: "Feb 16, 2024 11:00:00 EST",
   },
   {
     name: "Final Project (Proposal)",

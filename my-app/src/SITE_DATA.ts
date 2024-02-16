@@ -143,13 +143,13 @@ export const lectures: Lecture[] = [
     
   },
   {
-    name: "Inductive Verification: Binary Search, More Validation",
+    name: "Inductive Verification: Binary Search (Part 3)",
     date: "Feb 16",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_3.html",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_inclass.frg",
   },
   {
     name: "Relational Forge",

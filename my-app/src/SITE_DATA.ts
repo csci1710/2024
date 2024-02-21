@@ -167,7 +167,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/booleans-inclass-1.frg",
   },
   {
     name: "Join and Reachability",

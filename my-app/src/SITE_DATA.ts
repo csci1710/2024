@@ -152,18 +152,18 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_inclass.frg",
   },
   {
-    name: "Relational Forge",
+    name: "Modeling syntax, semantics, and sets: Relational Forge",
     date: "Feb 21",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/modeling-booleans-1.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "Relational Operators",
+    name: "Modeling syntax, semantics, and sets: Relational Forge",
     date: "Feb 23",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/modeling-booleans-1.html",
     recordingLink:
       "",
     liveCodeLink:

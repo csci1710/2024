@@ -172,16 +172,16 @@ export const lectures: Lecture[] = [
   {
     name: "Join and Reachability",
     date: "Feb 26",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/reachability.md",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/reach.frg",
   },
   {
     name: "Modeling Mutex (Part 1)",
     date: "Feb 28",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/sets-induction-mutex.md",
     recordingLink:
       "",
     liveCodeLink:

@@ -185,7 +185,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
   },
   {
     name: "Modeling Mutex (Part 2)",

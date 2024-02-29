@@ -190,7 +190,7 @@ export const lectures: Lecture[] = [
   {
     name: "Modeling Mutex (Part 2)",
     date: "Mar 01",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/sets-beyond-assertions.html",
     recordingLink:
       "",
     liveCodeLink:

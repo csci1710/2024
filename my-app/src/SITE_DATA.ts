@@ -525,10 +525,10 @@ export const labAssignments: Assignment[] = [
     dateRange: "Feb 21 → Feb 22, 2024",
   },
   {
-    name: "Memory Management",
+    name: "Reference Counting",
     dateRange: "Feb 28 → Feb 29, 2024",
-    href: "",
-    // href: "https://docs.google.com/document/d/e/2PACX-1vQo6ctFWibVmsgME5zHF_lH3T1w8vGtcarTQHntoerscwll4t6k8k0RhE96mS2SDC8ipbCXjdFn2ms5/pub",
+    href: "https://hackmd.io/@csci1710/S1LXKW2t6",
+    autoReleaseDate: "Feb 29, 2024 20:30:00 EST",
   },
   {
     name: "Hotel Case Study",

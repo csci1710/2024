@@ -199,7 +199,7 @@ export const lectures: Lecture[] = [
   {
     name: "Liveness and Lassos",
     date: "Mar 04",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
     recordingLink:
       "",
     liveCodeLink:
@@ -208,16 +208,16 @@ export const lectures: Lecture[] = [
   {
     name: "Temporal Forge",
     date: "Mar 06",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "Modeling Mutex (Part 3)",
+    name: "Modeling Mutex (Part 3, Temporally)",
     date: "Mar 08",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
     recordingLink:
       "",
     liveCodeLink:

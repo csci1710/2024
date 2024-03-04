@@ -462,6 +462,12 @@ export const homeworkAssignments: Assignment[] = [
     autoReleaseDate: "Mar 08, 2024 11:00:00 EST",
   },
   {
+    name: "Hotel Locking (Lab Portion)",
+    dateRange: "Mar 07 → Mar 10, 2024",
+    href: "https://hackmd.io/@csci1710/B1UdLQjKp",
+    autoReleaseDate: "Mar 07, 2024 20:30:00 EST",
+  },
+  {
     name: "Elevator Critique",
     dateRange: "Mar 15 → Mar 21, 2024",
     href: "https://hackmd.io/@csci1710/rJ3YVQoFT",
@@ -523,6 +529,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Curiosity co-lab",
     dateRange: "Feb 21 → Feb 22, 2024",
+    href: "https://hackmd.io/@csci1710/rJm6XmjKT",
   },
   {
     name: "Reference Counting",
@@ -548,7 +555,7 @@ export const labAssignments: Assignment[] = [
     // href: "https://www.google.com",
   },
   {
-    name: "SMT co-lab",
+    name: "SAT 2 co-lab",
     dateRange: "Apr 17 → Apr 18, 2024",
     // href: "https://www.google.com",
   },

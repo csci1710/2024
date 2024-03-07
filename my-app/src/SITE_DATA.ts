@@ -194,7 +194,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
   },
   {
     name: "Liveness and Lassos",
@@ -203,7 +203,7 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/temporal/mutex.frg",
   },
   {
     name: "Temporal Forge",
@@ -212,7 +212,11 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
+    otherLinks: [
+        {name: "Integer counter model", 
+         link: "https://csci1710.github.io/book/chapters/temporal/counter.frg"}
+      ]
   },
   {
     name: "Modeling Mutex (Part 3, Temporally)",
@@ -221,7 +225,8 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
+    
   },
   {
     name: "Modeling Mutex (Part 4)",

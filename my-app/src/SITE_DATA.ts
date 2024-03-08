@@ -545,7 +545,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Hotel Case Study",
     dateRange: "Mar 06 → Mar 07, 2024",
-    href: "https://hackmd.io/@csci1710/B1UdLQjKp",
+    href: "https://drive.google.com/file/d/1R6Lt2wQkR3hz1G6CDnE-tP9wkwJK8qT2/view?usp=sharing",
     autoReleaseDate: "Mar 07, 2024 20:30:00 EST",
   },
   {

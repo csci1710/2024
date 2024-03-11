@@ -235,7 +235,11 @@ export const lectures: Lecture[] = [
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
+    otherLinks: [
+        {name: "Traffic lights model", 
+         link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg"}
+    ]
   },
   {
     name: "Obligations and the Past",

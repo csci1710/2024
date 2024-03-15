@@ -229,9 +229,9 @@ export const lectures: Lecture[] = [
     
   },
   {
-    name: "Modeling Mutex (Part 4)",
+    name: "Obligations and the Past",
     date: "Mar 11",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
     recordingLink:
       "",
     liveCodeLink:
@@ -242,25 +242,25 @@ export const lectures: Lecture[] = [
     ]
   },
   {
-    name: "Obligations and the Past",
+    name: "MST, Temporally",
     date: "Mar 13",
     notesLink: "",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
   },
   {
-    name: "TBD",
+    name: "Peterson's Lock (Part 1)",
     date: "Mar 15",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
   },
   {
-    name: "How Forge Works",
+    name: "Peterson's Lock (Part 2)",
     date: "Mar 18",
     notesLink: "",
     recordingLink:
@@ -269,7 +269,7 @@ export const lectures: Lecture[] = [
       "",
   },
   {
-    name: "TBD",
+    name: "How Forge Works (Part 1)",
     date: "Mar 20",
     notesLink: "",
     recordingLink:

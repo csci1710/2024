@@ -579,12 +579,14 @@ export const projectAssignments: Assignment[] = [
   },
   {
     name: "Final Project (Proposal)",
-    dateRange: "Apr 05, 2024",
+    dateRange: "Apr 04, 2024",
     href: "",
   },
   {
     name: "Final Project",
     dateRange: "Apr 14 → May 11, 2024",
+    href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
+    autoReleaseDate: "Apr 14, 2024 11:00:00 EST",
   },
 ];
 

@@ -260,25 +260,29 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
   },
   {
-    name: "Peterson's Lock (Part 2)",
+    name: "Peterson's Lock (Part 2), What was the problem in Prim's?",
     date: "Mar 18",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink:
       "",
     liveCodeLink:
-      "",
+      "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
+    otherLinks: [
+        {name: "Prim's algorithm model", 
+         link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg"}
+    ]
   },
   {
     name: "How Forge Works (Part 1)",
     date: "Mar 20",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink:
       "",
     liveCodeLink:
       "",
   },
   {
-    name: "TBD",
+    name: "Q&A (No notes)",
     date: "Mar 22",
     notesLink: "",
     recordingLink:
@@ -289,7 +293,7 @@ export const lectures: Lecture[] = [
   {
     name: "Solving SAT (DPLL Part 1)",
     date: "Apr 01",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink:
       "",
     liveCodeLink:
@@ -298,7 +302,7 @@ export const lectures: Lecture[] = [
   {
     name: "Solving SAT (DPLL Part 2)",
     date: "Apr 03",
-    notesLink: "",
+    notesLink: "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink:
       "",
     liveCodeLink:

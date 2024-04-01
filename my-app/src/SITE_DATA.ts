@@ -584,7 +584,7 @@ export const projectAssignments: Assignment[] = [
   {
     name: "Final Project (Proposal)",
     dateRange: "Apr 04, 2024",
-    href: "",
+    href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
   },
   {
     name: "Final Project",

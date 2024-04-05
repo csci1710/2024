@@ -44,12 +44,12 @@ export default function LecturesTable(props: LectureTableProps) {
                   >
                     Book/Notes
                   </th>
-                  <th
+                  {/* <th
                     scope="col"
                     className="py-3.5 pl-4 pr-3 text-center text-sm font-semibold text-gray-900 sm:pl-6"
                   >
                     Recording
-                  </th>
+                  </th> */}
                   <th
                     scope="col"
                     className="py-3.5 pl-4 pr-3 text-center text-sm font-semibold text-gray-900 sm:pl-6"
@@ -85,7 +85,7 @@ export default function LecturesTable(props: LectureTableProps) {
                     ) : (
                       <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">-</td>                
                     )}  
-                    {lecture.recordingLink ? (
+                    {/* {lecture.recordingLink ? (
                       <td>
                         <a 
                           href={lecture.recordingLink}
@@ -96,7 +96,7 @@ export default function LecturesTable(props: LectureTableProps) {
                       </td>
                     ) : (
                       <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">-</td>
-                    )}  
+                    )}   */}
                     {lecture.liveCodeLink ? (
                       <td>
                         <a 

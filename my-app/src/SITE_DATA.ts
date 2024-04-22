@@ -502,7 +502,7 @@ export const homeworkAssignments: Assignment[] = [
     name: "SMT",
     dateRange: "Apr 22 → Apr 28, 2024",
     href: "https://hackmd.io/@csci1710/rkzzBmoYa",
-    autoReleaseDate: "Apr 22, 2024 11:00:00 EST",
+    // autoReleaseDate: "Apr 22, 2024 11:00:00 EST",
   },
   // {
   //   // Rickroll ;)
